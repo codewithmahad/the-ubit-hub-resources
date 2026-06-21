@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>The UBIT Hub Resources</h1>
+  <h1>🏛️ The UBIT Hub Resources</h1>
   <strong>Centralized Academic Archive for the University of Karachi</strong>
 </div>
 
@@ -63,6 +63,10 @@ The repository is structured strictly by course name. Each directory contains it
   </tbody>
 </table>
 
+<br>
+
+> 💡 **Note:** More courses and study materials are actively being compiled. Star the repository to stay updated as new resources are added!
+
 ---
 
 ## Usage Guidelines
@@ -105,4 +109,22 @@ This archive depends on students sharing their work. If you have clear, readable
       </td>
     </tr>
   </table>
+</div>
+
+<br>
+
+<div align="center">
+  <h3>Support the Archive</h3>
+  <p>If these resources helped you prepare for your exams or clear a difficult concept, consider supporting the repository!</p>
+  
+  <a href="https://github.com/codewithmahad">
+    <img src="https://img.shields.io/github/followers/codewithmahad?label=Follow%20%40codewithmahad&style=for-the-badge&color=28a745" alt="GitHub Followers" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/codewithmahad/the-ubit-hub-resources/stargazers">
+    <img src="https://img.shields.io/github/stars/codewithmahad/the-ubit-hub-resources?style=for-the-badge&color=ffdd00" alt="Star Repository" />
+  </a>
+  
+  <br><br>
+  <i>⭐ Don't forget to drop a star! ⭐</i>
 </div>
