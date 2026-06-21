@@ -1,102 +1,108 @@
 <div align="center">
+  <h1>The UBIT Hub Resources</h1>
+  <strong>Centralized Academic Archive for the University of Karachi</strong>
+</div>
 
-# 🏛️ The UBIT Hub Resources
-
-**Your Ultimate Academic Archive for UBIT Students**
+<div align="center">
+  <br>
+  <a href="https://github.com/codewithmahad"><img src="https://img.shields.io/badge/Maintainer-Shaikh_Mahad-0366d6?style=for-the-badge&logo=github" alt="Maintainer"></a>
+  <img src="https://img.shields.io/badge/Status-Active-28a745?style=for-the-badge" alt="Status">
+</div>
 
 <br>
 
-[![Maintained By: Shaikh Mahad](https://img.shields.io/badge/Maintainer-Shaikh_Mahad-0366d6?style=for-the-badge&logo=github)](https://github.com/codewithmahad)
-[![Open Source](https://img.shields.io/badge/Open_Source-Yes-28a745?style=for-the-badge)](#)
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-ff69b4?style=for-the-badge)](#-contributing-to-the-hub)
-
-<br>
-
-<p align="center">
-  A highly curated, meticulously organized, and constantly growing collection of notes, solved assignments, and study guides—specifically compiled for the students of the University of Karachi (UBIT).
-</p>
-
+<div align="center">
+  <i>A public repository of course materials, assignments, and notes to help UBIT students prepare for exams without relying on scattered WhatsApp groups.</i>
 </div>
 
 <br>
 
 ---
 
-## 🌟 The Vision
+## The Motive
 
-Navigating through semesters often means endless WhatsApp messages asking for "any notes for this course?" or digging through scattered, disorganized PDFs right before an exam. 
+Every semester, students generate high-quality notes and solve complex assignments. Once the finals end, that material is usually lost in old group chats. The next batch starts from scratch. 
 
-**The UBIT Hub Resources** solves this problem by providing a centralized academic vault.
-
-Our core objectives are simple:
-1. **Preserve Knowledge**: Stop losing valuable study materials at the end of every semester.
-2. **Centralized Access**: Provide a single, reliable source of truth where any student can find exactly what they need instantly.
-3. **Pay It Forward**: Help current and future batches prepare more effectively without having to reinvent the wheel.
+I created this repository to stop that cycle. This is a persistent, central directory where UBIT students can access structured course materials. The goal is simple: make exam preparation efficient and preserve academic work across semesters.
 
 ---
 
-## 📚 Course Directory
+## Course Directory
 
-Materials are cleanly organized by course. Each folder acts as its own mini-repository containing a specialized guide to help you navigate its specific contents.
+The repository is structured strictly by course name. Each directory contains its own documentation explaining exactly what files are available.
 
-| Course Code & Name | Description | Key Contents |
-| :--- | :--- | :--- |
-| 📘 **[`/software-requirement-engineering`](./software-requirement-engineering)** | Comprehensive SRE materials. Theory, Elicitation, Modeling. | Handwritten notes, textbook extracts, course outline. |
-| 📙 **[`/digital-logic-design`](./digital-logic-design)** | Complete DLD preparation. Logic Gates, Circuits, K-Maps. | Handwritten notes, MCQ banks, Floyd textbook extracts. |
-| 📗 **[`/linear-algebra`](./linear-algebra)** | LA resources. Taught by Miss Fozia Hanif. | Full semester notes, solved assignments, lecture questions. |
-| 📕 **[`/communication-and-presentation-skills`](./communication-and-presentation-skills)** | CPS resources. | *(Expanding soon)* |
-
-> 💡 *More courses are being actively compiled. Star (⭐) the repository to stay updated!*
+<table>
+  <thead>
+    <tr>
+      <th align="left">Course Name</th>
+      <th align="left">Directory Path</th>
+      <th align="left">Available Material</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Software Requirement Engineering</strong></td>
+      <td><a href="./software-requirement-engineering"><code>/software-requirement-engineering</code></a></td>
+      <td>Class notes, textbook chapter extracts, course outline.</td>
+    </tr>
+    <tr>
+      <td><strong>Digital Logic Design</strong></td>
+      <td><a href="./digital-logic-design"><code>/digital-logic-design</code></a></td>
+      <td>K-Map guides, logic gate materials, textbook extracts, MCQ banks.</td>
+    </tr>
+    <tr>
+      <td><strong>Linear Algebra</strong></td>
+      <td><a href="./linear-algebra"><code>/linear-algebra</code></a></td>
+      <td>Complete semester notes (Miss Fozia Hanif), lecture questions.</td>
+    </tr>
+    <tr>
+      <td><strong>Communication & Presentation Skills</strong></td>
+      <td><a href="./communication-and-presentation-skills"><code>/communication-and-presentation-skills</code></a></td>
+      <td>Currently expanding.</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-## 🚀 Quick Start Guide
+## Usage Guidelines
 
-Getting the absolute most out of this archive is straightforward:
-
-- **Browse**: Click into any of the course directories listed above.
-- **Read the Guide**: Every populated course folder has its own `README.md`. Read it first! It explains exactly what is inside and offers a recommended study flow.
-- **Download/View**: You can read PDFs directly on GitHub or download the specific files you need locally.
+1. **Check Before Asking**: Before requesting notes from seniors or classmates, check the corresponding course folder here.
+2. **Read the Course README**: Open the specific course directory first. There is a guide inside each folder detailing how to navigate the provided PDFs.
+3. **Download**: You can view the PDFs natively on GitHub or clone the repository to your local machine.
 
 ---
 
-## 🤝 Contributing to The Hub
+## Contribution Rules
 
-This repository thrives on community effort. If you have high-quality notes or perfect assignment solutions, please contribute to the archive!
+This archive depends on students sharing their work. If you have clear, readable notes or accurate assignment solutions, add them here.
 
-**How to contribute:**
-1. **Fork** this repository.
-2. **Upload** your well-named, organized PDF/Markdown files into the correct course directory.
-3. **Submit a Pull Request (PR)** with a clear description of what you are adding. 
+**Steps to contribute:**
+1. Fork the repository.
+2. Ensure your files are named clearly (e.g., <code>CourseName_HandwrittenNotes_YourName.pdf</code>).
+3. Place them in the correct directory.
+4. Open a Pull Request.
 
-*(Note: Please ensure all submissions are academically honest, readable, and properly labeled).*
+**Note:** Do not upload unverified, messy, or academically restricted materials. Keep it focused on study guides, notes, and textbook extracts.
 
 ---
 
-## 👨‍💻 About the Maintainer
+## About the Maintainer
 
-<div align="center">
-  <a href="https://github.com/codewithmahad">
-    <img src="https://github.com/codewithmahad.png" width="100px" style="border-radius: 50%;" alt="Shaikh Mahad">
-  </a>
-  <br>
-  <strong>Shaikh Mahad Ud Din</strong>
-</div>
-
-<br>
-
-I'm a **Backend Developer & Student at UBIT**, specializing in **Java, Spring Boot, REST APIs, PostgreSQL**, and **Data Structures & Algorithms (C++)**. I started this repository to streamline the learning process for myself and my peers. 
-
-If you find these resources helpful, let's connect and grow together!
-
-<div align="center">
-  <br>
-  <a href="https://github.com/codewithmahad">
-    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" alt="GitHub Profile" />
-  </a>
-  <a href="https://github.com/codewithmahad">
-    <img src="https://img.shields.io/github/followers/codewithmahad?label=Follow%20Me&style=social" alt="GitHub Followers" />
-  </a>
-  <br><br>
-  <i>If this repository helped you score better, don't forget to give it a ⭐!</i>
+<div align="left">
+  <table>
+    <tr>
+      <td align="center" width="120">
+        <a href="https://github.com/codewithmahad">
+          <img src="https://github.com/codewithmahad.png" width="100" style="border-radius: 5px;" alt="Shaikh Mahad">
+        </a>
+      </td>
+      <td>
+        <strong>Shaikh Mahad Ud Din</strong><br>
+        Backend Developer & Student at UBIT.<br>
+        Stack: Java, Spring Boot, REST APIs, PostgreSQL, C++.<br><br>
+        <a href="https://github.com/codewithmahad">Follow on GitHub</a>
+      </td>
+    </tr>
+  </table>
 </div>
