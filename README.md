@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  A highly curated, meticulously organized, and constantly growing collection of notes, solved assignments, past papers, and study guides—specifically compiled for the students of the University of Karachi (UBIT).
+  A highly curated, meticulously organized, and constantly growing collection of notes, solved assignments, and study guides—specifically compiled for the students of the University of Karachi (UBIT).
 </p>
 
 </div>
@@ -62,7 +62,7 @@ Getting the absolute most out of this archive is straightforward:
 
 ## 🤝 Contributing to The Hub
 
-This repository thrives on community effort. If you have high-quality notes, perfect assignment solutions, or rare past papers, please contribute to the archive!
+This repository thrives on community effort. If you have high-quality notes or perfect assignment solutions, please contribute to the archive!
 
 **How to contribute:**
 1. **Fork** this repository.
