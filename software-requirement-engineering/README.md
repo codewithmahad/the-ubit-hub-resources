@@ -1,22 +1,33 @@
 <div align="center">
-  <h1>Software Requirement Engineering</h1>
-  <strong>Course Code: SE453</strong>
+  <h1>Software Requirement Engineering (SRE)</h1>
+  <strong>Comprehensive Learning & Revision Repository</strong>
 </div>
 
 ---
 
-> **Software Requirement Engineering (SE453)** focuses on the principles, methods, and tools used to elicit, analyze, specify, validate, and manage software requirements. This repository centralizes all required reading materials, structured notes, and official documentation to streamline exam preparation and coursework.
+> **Software Requirement Engineering** focuses on the principles, methods, and tools used to elicit, analyze, specify, validate, and manage software requirements. This repository centralizes required reading materials, structured notes, and official documentation to streamline learning and exam preparation for any student exploring SRE, regardless of their specific degree program (CS, SE, AI) or semester.
+
+## Core Topics Covered
+
+Based on the standard SRE curriculum, the materials in this repository cover:
+- **Foundations**: Introduction to Requirements Engineering, requirement classification, and processes.
+- **Elicitation & Analysis**: Techniques and sources for requirement elicitation, trade-off analysis, and analyzing quality requirements.
+- **Specification & Documentation**: Writing effective requirement specifications and documentation standards.
+- **Validation & Management**: Requirement validation techniques, requirement evolution, traceability, prioritization, and risk/impact analysis.
+- **Advanced Contexts**: Requirements in systems engineering, interaction with architecture, and agile methods.
+
+---
 
 ## Repository Architecture
 
-This directory is logically organized to separate official course outlines, student-curated notes, and heavy reference materials. 
+This directory is logically organized to separate official outlines, student-curated notes, and heavy reference materials. 
 
 ### Core Documents
 
 | Resource | Description | Type |
 |----------|-------------|------|
-| **[Course Outline](./SE453_SRE_Course_Outline.pdf)** | Official syllabus, grading scheme, and topic breakdown. | `Official` |
-| **[Comprehensive Notes](./SE453_SRE_Comprehensive_Notes_ShaikhMahad.pdf)** | Detailed typed notes covering the entirety of the course curriculum. | `Curated` |
+| **[Course Outline](./SE453_SRE_Course_Outline.pdf)** | Official syllabus, weekly teaching plan, and topic breakdown. | `Official` |
+| **[Comprehensive Notes](./SE453_SRE_Comprehensive_Notes_ShaikhMahad.pdf)** | Detailed typed notes covering the entirety of the SRE curriculum. | `Curated` |
 | **[General Notes](./SRE%20Notes.pdf)** | Additional high-level summaries for quick reference. | `Curated` |
 
 ---
@@ -26,7 +37,7 @@ This directory is logically organized to separate official course outlines, stud
 ### Handwritten Notes
 Scanned, complete physical notes taken during lectures, offering detailed examples and in-class problem-solving.
 
-* **[SE453 Complete Handwritten Notes (Shaikh Mahad)](./handwritten-notes/SE453_SRE_Handwritten_Notes_ShaikhMahad_Complete.pdf)**
+* **[Complete Handwritten Notes (Shaikh Mahad)](./handwritten-notes/SE453_SRE_Handwritten_Notes_ShaikhMahad_Complete.pdf)**
 
 ### Standard Reference Textbooks
 The official recommended textbooks for deep-dives into specific topics.
@@ -68,5 +79,5 @@ To avoid navigating massive textbook PDFs during revision, core chapters have be
 
 ---
 <div align="center">
-  <i>Maintained for SE453 Students</i>
+  <i>Open Resource for Software Requirement Engineering Students</i>
 </div>
