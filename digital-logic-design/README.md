@@ -21,10 +21,11 @@ Based on the standard DLD curriculum, the materials in this repository cover:
 
 This directory is logically organized to separate practice material, student-curated notes, and heavy reference textbooks. 
 
-### Core Practice Material
+### Exam Preparation Material
 
 | Resource | Description | Type |
 |----------|-------------|------|
+| **[Final Exam Target Guide](./DLD_Final_Exam_Target_Guide.pdf)** | A highly curated study roadmap and exam pattern breakdown based on the teachings and past trends of **Sir Bari**. Covers expected diagrammatic questions, theory questions, and a priority study checklist. | `Roadmap` |
 | **[DLD MCQs Bank](./DLD_MCQs_Bank.pdf)** | A comprehensive collection of Multiple Choice Questions for quick testing and exam preparation. | `Practice` |
 
 ---
