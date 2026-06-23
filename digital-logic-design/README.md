@@ -1,98 +1,153 @@
 <div align="center">
-  <h1>Digital Logic Design (DLD)</h1>
-  <strong>Comprehensive Learning & Revision Repository</strong>
+
+# Digital Logic Design
+
+**DLD — Study Archive**
+
 </div>
 
 ---
 
-> **Digital Logic Design** is the foundational course for understanding how computers and digital systems operate at the hardware level. It covers everything from basic binary number systems and logic gates to the design of complex combinational and sequential circuits. This repository centralizes all the necessary reading materials, structured notes, and practice resources to streamline learning and exam preparation.
-
-## Core Topics Covered
-
-Based on the standard DLD curriculum, the materials in this repository cover:
-- **Foundations**: Number Systems, Operations, and Codes.
-- **Basic Logic**: Logic Gates, Boolean Algebra, and Logic Simplification (K-Maps).
-- **Combinational Logic**: Combinational Logic Analysis and Functions of Combinational Logic (Adders, Multiplexers, Decoders).
-- **Sequential Logic**: Latches, Flip-Flops, Timers, Shift Registers, and Counters.
+> **Digital Logic Design (DLD)** is the foundational hardware course that teaches how computers and digital systems work at the gate level. It covers number systems, Boolean algebra, combinational circuits, and sequential circuits. This folder contains every resource used during the DLD course — organized so any student can pick it up and prepare efficiently, whether they are weeks into the semester or three days before finals.
 
 ---
 
-## Repository Architecture
+## What's in This Folder
 
-This directory is logically organized to separate practice material, student-curated notes, and heavy reference textbooks. 
-
-### Exam Preparation Material
-
-| Resource | Description | Type |
-|----------|-------------|------|
-| **[Final Exam Target Guide](./DLD_Final_Exam_Target_Guide.pdf)** | A highly curated study roadmap and exam pattern breakdown based on the teachings and past trends of **Sir Bari**. Covers expected diagrammatic questions, theory questions, and a priority study checklist. | `Roadmap` |
-| **[DLD MCQs Bank](./DLD_MCQs_Bank.pdf)** | A comprehensive collection of Multiple Choice Questions for quick testing and exam preparation. | `Practice` |
+```
+digital-logic-design/
+│
+├── DLD_Final_Exam_Target_Guide.pdf           ← Read before your exam.
+├── DLD_MCQs_Bank.pdf                         ← For daily practice and test prep.
+│
+├── handwritten-notes/
+│   ├── DLD_Handwritten_Notes_ShaikhMahad.pdf
+│   └── DLD_Handwritten_Notes_Classmate.pdf
+│
+├── assets/
+│   └── logic_gates_cheatsheet.png
+│
+└── reference-books/
+    ├── Digital_Electronics_Floyd.pdf
+    └── extracted-chapters/
+        ├── Floyd_Chapter_02_Number_Systems_and_Codes.pdf
+        ├── Floyd_Chapter_03_Logic_Gates.pdf
+        ├── Floyd_Chapter_04_Boolean_Algebra.pdf
+        ├── Floyd_Chapter_05_Combinational_Logic.pdf
+        ├── Floyd_Chapter_06_Functions_of_Combinational_Logic.pdf
+        ├── Floyd_Chapter_07_Latches_and_FlipFlops.pdf
+        ├── Floyd_Chapter_08_Shift_Registers.pdf
+        └── Floyd_Chapter_09_Counters.pdf
+```
 
 ---
 
-## Study Materials
+## Exam Preparation
 
-### Handwritten Notes
-Scanned, complete physical notes taken during lectures, offering detailed examples, K-map simplifications, and in-class problem-solving.
+The two most important files for anyone preparing for a DLD exam.
 
-* **[DLD Handwritten Notes (Shaikh Mahad)](./handwritten-notes/DLD_Handwritten_Notes_ShaikhMahad.pdf)**
-* **[DLD Handwritten Notes (Classmate)](./handwritten-notes/DLD_Handwritten_Notes_Classmate.pdf)**
-
-### Standard Reference Textbooks
-The official recommended textbook for deep-dives into specific topics.
-
-| Title | Author | File |
-|-------|--------|------|
-| **Digital Fundamentals** | Thomas L. Floyd | [`View PDF`](./reference-books/Digital_Electronics_Floyd.pdf) |
+| File | What It Is |
+|------|-----------|
+| [DLD_Final_Exam_Target_Guide.pdf](./DLD_Final_Exam_Target_Guide.pdf) | A focused exam roadmap compiled based on Sir Bari's teaching pattern and exam trends. Identifies high-probability topics, diagrammatic questions, and a priority checklist. **Read this before your final.** |
+| [DLD_MCQs_Bank.pdf](./DLD_MCQs_Bank.pdf) | A bank of Multiple Choice Questions covering all major DLD topics. Use it for daily testing and to reinforce retention. |
 
 ---
 
-## Extracted Chapters (Quick Revision)
+## Handwritten Notes
 
-To avoid navigating massive textbook PDFs during revision, core chapters from Floyd's *Digital Fundamentals* have been extracted for focused reading.
+<table>
+  <tr>
+    <th align="left">File</th>
+    <th align="left">Description</th>
+  </tr>
+  <tr>
+    <td><a href="./handwritten-notes/DLD_Handwritten_Notes_ShaikhMahad.pdf">DLD_Handwritten_Notes_ShaikhMahad.pdf</a></td>
+    <td>Complete lecture notes with circuit diagrams, K-map examples, truth tables, and in-class problem-solving steps.</td>
+  </tr>
+  <tr>
+    <td><a href="./handwritten-notes/DLD_Handwritten_Notes_Classmate.pdf">DLD_Handwritten_Notes_Classmate.pdf</a></td>
+    <td>A second set of handwritten notes from a different perspective — useful for cross-checking diagrams and explanations.</td>
+  </tr>
+</table>
+
+---
+
+## Reference Textbook
+
+| Title | Author | Edition | Access |
+|-------|--------|---------|--------|
+| Digital Fundamentals | Thomas L. Floyd | Standard | [Open PDF](./reference-books/Digital_Electronics_Floyd.pdf) |
+
+---
+
+## Extracted Chapters
+
+Individual chapters from Floyd's *Digital Fundamentals* so you can study a specific topic without loading the full 900-page textbook.
 
 <details>
-<summary><b>Click to view available chapter extracts</b></summary>
+<summary><strong>Floyd — Digital Fundamentals (all available chapters)</strong></summary>
 <br>
 
-**Thomas L. Floyd:**
-- **[Chapter 02: Number Systems, Operations, and Codes](./reference-books/extracted-chapters/Floyd_Chapter_02_Number_Systems_and_Codes.pdf)**
-- **[Chapter 03: Logic Gates](./reference-books/extracted-chapters/Floyd_Chapter_03_Logic_Gates.pdf)**
-- **[Chapter 04: Boolean Algebra and Logic Simplification](./reference-books/extracted-chapters/Floyd_Chapter_04_Boolean_Algebra.pdf)**
-- **[Chapter 05: Combinational Logic Analysis](./reference-books/extracted-chapters/Floyd_Chapter_05_Combinational_Logic.pdf)**
-- **[Chapter 06: Functions of Combinational Logic](./reference-books/extracted-chapters/Floyd_Chapter_06_Functions_of_Combinational_Logic.pdf)**
-- **[Chapter 07: Latches, Flip-Flops, and Timers](./reference-books/extracted-chapters/Floyd_Chapter_07_Latches_and_FlipFlops.pdf)**
-- **[Chapter 08: Shift Registers](./reference-books/extracted-chapters/Floyd_Chapter_08_Shift_Registers.pdf)**
-- **[Chapter 09: Counters](./reference-books/extracted-chapters/Floyd_Chapter_09_Counters.pdf)**
+| Chapter | Topic | File |
+|---------|-------|------|
+| Chapter 2 | Number Systems, Operations & Codes | [Open](./reference-books/extracted-chapters/Floyd_Chapter_02_Number_Systems_and_Codes.pdf) |
+| Chapter 3 | Logic Gates | [Open](./reference-books/extracted-chapters/Floyd_Chapter_03_Logic_Gates.pdf) |
+| Chapter 4 | Boolean Algebra & Logic Simplification | [Open](./reference-books/extracted-chapters/Floyd_Chapter_04_Boolean_Algebra.pdf) |
+| Chapter 5 | Combinational Logic Analysis | [Open](./reference-books/extracted-chapters/Floyd_Chapter_05_Combinational_Logic.pdf) |
+| Chapter 6 | Functions of Combinational Logic | [Open](./reference-books/extracted-chapters/Floyd_Chapter_06_Functions_of_Combinational_Logic.pdf) |
+| Chapter 7 | Latches, Flip-Flops & Timers | [Open](./reference-books/extracted-chapters/Floyd_Chapter_07_Latches_and_FlipFlops.pdf) |
+| Chapter 8 | Shift Registers | [Open](./reference-books/extracted-chapters/Floyd_Chapter_08_Shift_Registers.pdf) |
+| Chapter 9 | Counters | [Open](./reference-books/extracted-chapters/Floyd_Chapter_09_Counters.pdf) |
 
 </details>
 
 ---
 
-## Cheatsheets & Visual Guides
+## Topics Covered
 
-A quick reference for standard logic gates and their corresponding truth tables.
+| Area | Topics |
+|------|--------|
+| **Number Systems** | Binary, octal, hex conversions · BCD · Gray code · Arithmetic operations |
+| **Logic Gates** | AND, OR, NOT, NAND, NOR, XOR, XNOR · Universal gates · Truth tables |
+| **Boolean Algebra** | Laws & theorems · De Morgan's theorem · Logic simplification |
+| **K-Maps** | 2/3/4-variable maps · SOP & POS simplification · Don't-care conditions |
+| **Combinational Circuits** | Half/full adders · Subtractors · Multiplexers · Demultiplexers · Encoders · Decoders |
+| **Sequential Circuits** | Latches · SR/JK/D/T Flip-Flops · Excitation tables · Timing diagrams |
+| **Registers & Counters** | Shift registers · Ripple counters · Synchronous counters · Ring counters |
+
+---
+
+## Logic Gates Quick Reference
+
+All basic gates, their symbols, and truth tables in one place.
 
 <div align="center">
-  <img src="./assets/logic_gates_cheatsheet.png" alt="Logic Gates and Truth Tables" width="80%">
+  <img src="./assets/logic_gates_cheatsheet.png" alt="Logic Gates and Truth Tables" width="82%">
 </div>
 
 ---
 
-## Useful Links & Tools
+## Useful Tools
 
-* **[Karnaugh Map Solver](https://karnaughmapsolver.com/)**: An excellent interactive tool for practicing K-map groupings and verifying your Sum of Products (SOP) or Product of Sums (POS) simplifications.
+| Tool | What it's for |
+|------|--------------|
+| [karnaughmapsolver.com](https://karnaughmapsolver.com/) | Interactive K-map simplifier. Enter your truth table, get SOP/POS expressions instantly. Use it to check your work — not skip it. |
+
+---
+
+## How to Study Using This Folder
+
+```
+Step 1 → Open the Target Guide. Know what Sir Bari focuses on.
+Step 2 → Study chapter by chapter using the Handwritten Notes.
+Step 3 → When a topic needs more depth, open the matching Floyd Extracted Chapter.
+Step 4 → Drill truth tables and K-maps using karnaughmapsolver.com.
+Step 5 → Run through the MCQ Bank. Do it timed. Identify weak topics.
+Step 6 → Cross-check your diagrams against the Logic Gates Cheatsheet before the exam.
+```
 
 ---
 
-## Recommended Study Flow
-
-1. **Primary Learning:** Use the `Handwritten Notes` as your baseline. They condense complex circuit designs into understandable steps.
-2. **Cross-Reference:** When a concept (like a specific K-map grouping or Flip-Flop excitation table) feels unclear, consult the specific `Extracted Chapter` for the foundational theory.
-3. **Deep Dive:** Only open the full `Reference Books` when you need further context or end-of-chapter problems outside of the extracted chapters.
-4. **Test Yourself:** Run through the `MCQs Bank` to validate your understanding before exams.
-
----
 <div align="center">
-  <i>Open Resource for Digital Logic Design Students</i>
+  <sub>Part of <a href="../README.md">The UBIT Hub Resources</a> — maintained by <a href="https://github.com/codewithmahad">Shaikh Mahad</a></sub>
 </div>

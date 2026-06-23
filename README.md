@@ -1,139 +1,130 @@
 <div align="center">
-  <h1>🏛️ The UBIT Hub Resources</h1>
-  <strong>Centralized Academic Archive for the University of Karachi</strong>
-</div>
 
-<div align="center">
-  <br>
-  <a href="https://github.com/codewithmahad"><img src="https://img.shields.io/badge/Maintainer-Shaikh_Mahad-0366d6?style=for-the-badge&logo=github" alt="Maintainer"></a>
-  <img src="https://img.shields.io/badge/Status-Active-28a745?style=for-the-badge" alt="Status">
-</div>
+# 🏛️ The UBIT Hub Resources
+
+**The central academic archive for University of Karachi (UBIT) students.**
 
 <br>
 
-<div align="center">
-  <i>A public repository of course materials, assignments, and notes to help UBIT students prepare for exams without relying on scattered WhatsApp groups.</i>
+<a href="https://github.com/codewithmahad"><img src="https://img.shields.io/badge/Maintainer-Shaikh_Mahad-0366d6?style=for-the-badge&logo=github" alt="Maintainer"></a>
+<img src="https://img.shields.io/badge/Status-Actively_Updated-28a745?style=for-the-badge" alt="Status">
+<a href="https://github.com/codewithmahad/the-ubit-hub-resources/stargazers"><img src="https://img.shields.io/github/stars/codewithmahad/the-ubit-hub-resources?style=for-the-badge&color=f0c040" alt="Stars"></a>
+
 </div>
 
+---
+
+## Why This Exists
+
+Every semester, students produce great notes and solve difficult assignments. The moment finals end, most of that material disappears into old WhatsApp groups and never resurfaces. The next batch starts from zero and repeats the same cycle.
+
+This repository breaks that cycle. It is a permanent, structured archive where any UBIT student can find exactly what they need — organized by course, labeled clearly, and maintained consistently. The long-term goal is to cover every major course across semesters so that no student has to scramble for resources before an exam again.
+
+---
+
+## Courses Available
+
+Each course folder has its own `README.md` — open it first. It maps out every file inside and tells you exactly how to study using the available resources.
+
 <br>
-
----
-
-## The Motive
-
-Every semester, students generate high-quality notes and solve complex assignments. Once the finals end, that material is usually lost in old group chats. The next batch starts from scratch. 
-
-I created this repository to stop that cycle. This is a persistent, central directory where UBIT students can access structured course materials. The goal is simple: make exam preparation efficient and preserve academic work across semesters.
-
----
-
-## Course Directory
-
-The repository is structured strictly by course name. Each directory contains its own documentation explaining exactly what files are available.
 
 <table>
   <thead>
     <tr>
-      <th align="left">Course Name</th>
-      <th align="left">Directory Path</th>
-      <th align="left">Available Material</th>
+      <th align="left" width="260">Course</th>
+      <th align="left">What's Inside</th>
+      <th align="center" width="90">Status</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>Software Requirement Engineering</strong></td>
-      <td><a href="./software-requirement-engineering"><code>/software-requirement-engineering</code></a></td>
-      <td>Class notes, textbook chapter extracts, course outline.</td>
+      <td><strong><a href="./software-requirement-engineering">Software Requirement Engineering</a></strong><br><sub><code>/software-requirement-engineering</code></sub></td>
+      <td>Typed notes · Handwritten notes · Course outline · 3 reference textbooks · 4 extracted chapters</td>
+      <td align="center"><img src="https://img.shields.io/badge/-Active-28a745?style=flat-square" alt="Active"></td>
     </tr>
     <tr>
-      <td><strong>Digital Logic Design</strong></td>
-      <td><a href="./digital-logic-design"><code>/digital-logic-design</code></a></td>
-      <td>K-Map guides, logic gate materials, textbook extracts, MCQ banks.</td>
+      <td><strong><a href="./digital-logic-design">Digital Logic Design</a></strong><br><sub><code>/digital-logic-design</code></sub></td>
+      <td>Handwritten notes · MCQ bank · Final exam target guide · Floyd textbook · 8 extracted chapters</td>
+      <td align="center"><img src="https://img.shields.io/badge/-Active-28a745?style=flat-square" alt="Active"></td>
     </tr>
     <tr>
-      <td><strong>Linear Algebra</strong></td>
-      <td><a href="./linear-algebra"><code>/linear-algebra</code></a></td>
-      <td>Complete semester notes (Miss Fozia Hanif), lecture questions.</td>
+      <td><strong><a href="./linear-algebra">Linear Algebra</a></strong><br><sub><code>/linear-algebra</code></sub></td>
+      <td>Semester notes (Miss Fozia Hanif) · Lecture questions</td>
+      <td align="center"><img src="https://img.shields.io/badge/-Active-28a745?style=flat-square" alt="Active"></td>
     </tr>
     <tr>
-      <td><strong>Communication & Presentation Skills</strong></td>
-      <td><a href="./communication-and-presentation-skills"><code>/communication-and-presentation-skills</code></a></td>
-      <td>Currently expanding.</td>
+      <td><strong><a href="./communication-and-presentation-skills">Communication & Presentation Skills</a></strong><br><sub><code>/communication-and-presentation-skills</code></sub></td>
+      <td>Resources being compiled.</td>
+      <td align="center"><img src="https://img.shields.io/badge/-Soon-aaaaaa?style=flat-square" alt="Soon"></td>
     </tr>
   </tbody>
 </table>
 
 <br>
 
-> 💡 **Note:** More courses and study materials are actively being compiled. Star the repository to stay updated as new resources are added!
+> More courses will be added as they are covered. Star the repository to stay updated.
 
 ---
 
-## Usage Guidelines & Troubleshooting
+## How to Use This Repository
 
-1. **Check Before Asking**: Before requesting notes from seniors or classmates, check the corresponding course folder here.
-2. **Read the Course README**: Open the specific course directory first. There is a guide inside each folder detailing how to navigate the provided PDFs.
+```
+1. Pick your course from the table above and click into its folder.
+2. Open the README.md inside that folder — read it before anything else.
+3. Start with the notes, cross-reference with extracted chapters when needed.
+4. Use the full textbooks only for deep dives or end-of-chapter problems.
+```
 
-### ⚠️ Important: "Unable to render code block" Error
+### ⚠️ Downloading PDFs — Read This First
 
-GitHub is primarily a code-hosting platform, which means it sometimes struggles to display very large PDF files (like textbooks) directly in the browser. 
+GitHub is a code platform. It cannot preview large PDF files in the browser. If you open a PDF and see a red **"Unable to render code block"** banner — **the file is not broken.** 
 
-If you click on a PDF and see the red **"Unable to render code block"** error, **do not get confused—the file is not broken!** You simply need to click the small **Download** icon (📥) in the top right corner of the file viewer to save and open the PDF on your device.
+Click the **Download** button (↓) in the top-right corner of the file viewer to save it to your device.
 
 <div align="center">
-  <img src="./assets/github_pdf_error.png" alt="GitHub PDF Render Error" width="85%">
+  <img src="./assets/github_pdf_error.png" alt="GitHub PDF render error — click Download to resolve" width="85%">
+  <br>
+  <sub>When you see this error, simply click the download icon highlighted above.</sub>
 </div>
 
 ---
 
-## Contribution Rules
+## Contributing
 
-This archive depends on students sharing their work. If you have clear, readable notes or accurate assignment solutions, add them here.
+If you have high-quality notes or solved assignments that would benefit other students, contributions are welcome.
 
-**Steps to contribute:**
-1. Fork the repository.
-2. Ensure your files are named clearly (e.g., <code>CourseName_HandwrittenNotes_YourName.pdf</code>).
-3. Place them in the correct directory.
-4. Open a Pull Request.
-
-**Note:** Do not upload unverified, messy, or academically restricted materials. Keep it focused on study guides, notes, and textbook extracts.
+| Rule | Detail |
+|------|--------|
+| **File Naming** | Use the format: `CourseName_ResourceType_YourName.pdf` |
+| **Quality** | Only upload clean, readable, and complete material. |
+| **Scope** | Notes and study guides only. No academically restricted material. |
+| **Process** | Fork → Add your files → Open a Pull Request with a clear description. |
 
 ---
 
 ## About the Maintainer
 
-<div align="left">
-  <table>
-    <tr>
-      <td align="center" width="120">
-        <a href="https://github.com/codewithmahad">
-          <img src="https://github.com/codewithmahad.png" width="100" style="border-radius: 5px;" alt="Shaikh Mahad">
-        </a>
-      </td>
-      <td>
-        <strong>Shaikh Mahad Ud Din</strong><br>
-        Backend Developer & Student at UBIT.<br>
-        Stack: Java, Spring Boot, REST APIs, PostgreSQL, C++.<br><br>
-        <a href="https://github.com/codewithmahad">Follow on GitHub</a>
-      </td>
-    </tr>
-  </table>
-</div>
+<table>
+  <tr>
+    <td align="center" width="110">
+      <a href="https://github.com/codewithmahad">
+        <img src="https://github.com/codewithmahad.png" width="90" alt="Shaikh Mahad">
+      </a>
+    </td>
+    <td>
+      <strong>Shaikh Mahad Ud Din</strong> — Backend Developer & UBIT Student<br>
+      <sub>Java · Spring Boot · REST APIs · PostgreSQL · C++ / DSA</sub><br><br>
+      <a href="https://github.com/codewithmahad"><img src="https://img.shields.io/badge/GitHub-codewithmahad-181717?style=flat-square&logo=github" alt="GitHub"></a>
+      <a href="https://github.com/codewithmahad"><img src="https://img.shields.io/github/followers/codewithmahad?label=Follow&style=flat-square&color=0366d6" alt="Follow"></a>
+    </td>
+  </tr>
+</table>
 
 <br>
 
 <div align="center">
-  <h3>Support the Archive</h3>
-  <p>If these resources helped you prepare for your exams or clear a difficult concept, consider supporting the repository!</p>
-  
-  <a href="https://github.com/codewithmahad">
-    <img src="https://img.shields.io/github/followers/codewithmahad?label=Follow%20%40codewithmahad&style=for-the-badge&color=28a745" alt="GitHub Followers" />
-  </a>
-  &nbsp;&nbsp;
+  <sub>If this repository saved you time before an exam, a ⭐ on the repo goes a long way.</sub><br><br>
   <a href="https://github.com/codewithmahad/the-ubit-hub-resources/stargazers">
-    <img src="https://img.shields.io/github/stars/codewithmahad/the-ubit-hub-resources?style=for-the-badge&color=ffdd00" alt="Star Repository" />
+    <img src="https://img.shields.io/github/stars/codewithmahad/the-ubit-hub-resources?style=for-the-badge&color=f0c040" alt="Star this repo">
   </a>
-  
-  <br><br>
-  <i>⭐ Don't forget to drop a star! ⭐</i>
 </div>
