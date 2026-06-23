@@ -69,11 +69,20 @@ The repository is structured strictly by course name. Each directory contains it
 
 ---
 
-## Usage Guidelines
+## Usage Guidelines & Troubleshooting
 
 1. **Check Before Asking**: Before requesting notes from seniors or classmates, check the corresponding course folder here.
 2. **Read the Course README**: Open the specific course directory first. There is a guide inside each folder detailing how to navigate the provided PDFs.
-3. **Download**: You can view the PDFs natively on GitHub or clone the repository to your local machine.
+
+### ⚠️ Important: "Unable to render code block" Error
+
+GitHub is primarily a code-hosting platform, which means it sometimes struggles to display very large PDF files (like textbooks) directly in the browser. 
+
+If you click on a PDF and see the red **"Unable to render code block"** error, **do not get confused—the file is not broken!** You simply need to click the small **Download** icon (📥) in the top right corner of the file viewer to save and open the PDF on your device.
+
+<div align="center">
+  <img src="./assets/github_pdf_error.png" alt="GitHub PDF Render Error" width="85%">
+</div>
 
 ---
 
