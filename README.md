@@ -54,8 +54,8 @@ Each course folder has its own `README.md` — open it first. It maps out every 
     </tr>
     <tr>
       <td><strong><a href="./communication-and-presentation-skills">Communication & Presentation Skills</a></strong><br><sub><code>/communication-and-presentation-skills</code></sub></td>
-      <td>Resources being compiled.</td>
-      <td align="center"><img src="https://img.shields.io/badge/-Soon-aaaaaa?style=flat-square" alt="Soon"></td>
+      <td>Complete course notes · 2 reference textbooks (Murphy &amp; Guffey)</td>
+      <td align="center"><img src="https://img.shields.io/badge/-Active-28a745?style=flat-square" alt="Active"></td>
     </tr>
   </tbody>
 </table>
@@ -127,4 +127,13 @@ If you have high-quality notes or solved assignments that would benefit other st
   <a href="https://github.com/codewithmahad/the-ubit-hub-resources/stargazers">
     <img src="https://img.shields.io/github/stars/codewithmahad/the-ubit-hub-resources?style=for-the-badge&color=f0c040" alt="Star this repo">
   </a>
+</div>
+
+---
+
+<div align="center">
+  <sub>
+    <a href="./CONTRIBUTING.md">Contributing Guidelines</a> &nbsp;·&nbsp;
+    <a href="./LICENSE">MIT License</a>
+  </sub>
 </div>
