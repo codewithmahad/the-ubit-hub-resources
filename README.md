@@ -57,6 +57,11 @@ Each course folder has its own `README.md` — open it first. It maps out every 
       <td>Complete course notes · 2 reference textbooks (Murphy &amp; Guffey)</td>
       <td align="center"><img src="https://img.shields.io/badge/-Active-28a745?style=flat-square" alt="Active"></td>
     </tr>
+    <tr>
+      <td><strong><a href="./urdu">Urdu</a></strong><br><sub><code>/urdu</code></sub></td>
+      <td>Comprehensive notes · Poetry & Ghazals PDF · Selected Prose Chapters PDF</td>
+      <td align="center"><img src="https://img.shields.io/badge/-Active-28a745?style=flat-square" alt="Active"></td>
+    </tr>
   </tbody>
 </table>
 
