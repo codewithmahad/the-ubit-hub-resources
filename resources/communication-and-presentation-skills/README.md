@@ -8,7 +8,7 @@
 
 ---
 
-> **Communication & Presentation Skills (CPS)** is a core professional development course that focuses on effective written and verbal communication in business and academic contexts. It covers everything from email etiquette and report writing to presentation delivery and interpersonal communication. This folder contains structured notes and standard reference textbooks used during the course.
+**Course notes for business writing, presentations, and communication.** Start with the complete notes, then practise drafting and speaking rather than only reading the examples. Compare the topics with your current course outline.
 
 ---
 
@@ -19,32 +19,16 @@ communication-and-presentation-skills/
 │
 ├── notes/
 │   └── CPS_Complete_Notes.pdf           ← Primary study resource. Start here.
-│
-└── reference-books/
-    ├── Business_Communication_Murphy.pdf
-    └── Essentials_of_Business_Communication_Guffey.pdf
+└── README.md
 ```
 
 ---
 
 ## Course Notes
 
-| File | What It Is |
-|------|-----------|
-| [CPS_Complete_Notes.pdf](./notes/CPS_Complete_Notes.pdf) | Comprehensive typed notes covering the full CPS curriculum. Includes communication theory, business writing principles, presentation techniques, and interpersonal skills. Your main study document for this course. |
+**[Open the complete course notes →](./notes/CPS_Complete_Notes.pdf)**
 
----
-
-## Reference Textbooks
-
-Two standard business communication textbooks used as the academic backbone of this course.
-
-| Title | Author | Access |
-|-------|--------|--------|
-| Effective Business Communication | Herta A. Murphy | [Open PDF](./reference-books/Business_Communication_Murphy.pdf) |
-| Essentials of Business Communication | Mary Ellen Guffey | [Open PDF](./reference-books/Essentials_of_Business_Communication_Guffey.pdf) |
-
-> **Note:** Both textbooks are large files. If GitHub shows "Unable to render code block," use the **Download** button (↓) in the top-right of the file viewer.
+Typed notes on communication theory, business writing, presentation techniques, and interpersonal skills. Start here, then use the topics below to plan practice.
 
 ---
 
@@ -62,13 +46,11 @@ Two standard business communication textbooks used as the academic backbone of t
 
 ## How to Study Using This Folder
 
-```
-Step 1 → Begin with the Complete Notes — they cover the full curriculum concisely.
-Step 2 → When a topic needs more depth or examples, consult the matching chapter
-          in Guffey (more practical) or Murphy (more theoretical).
-Step 3 → For presentations and verbal topics, focus on the Guffey textbook —
-          it has excellent structured examples.
-```
+1. Read the complete notes topic by topic and check the coverage against your outline.
+2. Draft your own emails, letters, and short reports. Review their structure, tone, and clarity using the notes.
+3. Prepare a short presentation and rehearse it aloud, including answers to likely questions.
+
+For additional textbook examples, use your library or an authorized copy of your course’s recommended reference. Book PDFs are not provided here.
 
 ---
 

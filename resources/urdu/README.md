@@ -8,7 +8,7 @@
 
 ---
 
-> **Urdu** is the compulsory language course that covers various literary genres including prose, poetry, and ghazals. It encompasses famous chapters from classical literature and ghazals from renowned poets. This folder contains all the necessary materials and notes for the Urdu course to help you prepare efficiently for your exams.
+**Study notes covering literary genres, poetry explanations, prose summaries, and poet reviews.** Use the notes alongside the texts assigned by your teacher, and check your current syllabus before planning revision.
 
 ---
 
@@ -20,10 +20,6 @@ urdu/
 ├── notes/
 │   └── Urdu_Comprehensive_Notes_ShaikhMahad.pdf   ← Complete syllabus notes and explanations
 │
-├── book/
-│   ├── Urdu_Ghazals.pdf                           ← All the ghazals from the syllabus
-│   └── Urdu_Selected_Chapters.pdf                 ← Only 4 chapters: Jani Dushman, Kafan, Ser Doosre Dervaish Ki, Overcoat
-│
 └── README.md
 ```
 
@@ -31,25 +27,15 @@ urdu/
 
 ## Comprehensive Notes
 
-<table>
-  <tr>
-    <th align="left">File</th>
-    <th align="left">Description</th>
-  </tr>
-  <tr>
-    <td><a href="./notes/Urdu_Comprehensive_Notes_ShaikhMahad.pdf">Urdu_Comprehensive_Notes_ShaikhMahad.pdf</a></td>
-    <td>Complete course notes covering Literary Genres, Ghazal explanations, Prose chapter summaries, short questions, and poet reviews.</td>
-  </tr>
-</table>
+**[Open the comprehensive notes →](./notes/Urdu_Comprehensive_Notes_ShaikhMahad.pdf)**
+
+Notes by Shaikh Mahad covering literary genres, ghazal explanations, prose summaries, short questions, and poet reviews.
 
 ---
 
-## Book PDFs
+## Reading the Assigned Texts
 
-| File | What It Is |
-|------|-----------|
-| [Urdu_Ghazals.pdf](./book/Urdu_Ghazals.pdf) | Contains the poetry and ghazals section of the syllabus, including works by Mir Taqi Mir, Ghalib, Iqbal, Faiz Ahmed Faiz, and more. |
-| [Urdu_Selected_Chapters.pdf](./book/Urdu_Selected_Chapters.pdf) | Contains the 4 selected prose chapters: Sair Doosre Dervish Ki, Kafan, Overcoat, and Jani Dushman. |
+Use your library or an authorized copy of the assigned book for the poems and prose themselves. This folder provides study notes; scanned book pages are not included.
 
 ---
 

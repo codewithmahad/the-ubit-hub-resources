@@ -8,7 +8,7 @@
 
 ---
 
-> **Digital Logic Design (DLD)** is the foundational hardware course that teaches how computers and digital systems work at the gate level. It covers number systems, Boolean algebra, combinational circuits, and sequential circuits. This folder contains every resource used during the DLD course — organized so any student can pick it up and prepare efficiently, whether they are weeks into the semester or three days before finals.
+**Lecture notes, an exam guide, MCQ practice, and a logic-gates reference.** Use the target guide to plan revision, then practise the circuits and calculations yourself. Check your current outline before relying on an earlier exam pattern.
 
 ---
 
@@ -26,18 +26,7 @@ digital-logic-design/
 │
 ├── assets/
 │   └── logic_gates_cheatsheet.png
-│
-└── reference-books/
-    ├── Digital_Electronics_Floyd.pdf
-    └── extracted-chapters/
-        ├── Floyd_Chapter_02_Number_Systems_and_Codes.pdf
-        ├── Floyd_Chapter_03_Logic_Gates.pdf
-        ├── Floyd_Chapter_04_Boolean_Algebra.pdf
-        ├── Floyd_Chapter_05_Combinational_Logic.pdf
-        ├── Floyd_Chapter_06_Functions_of_Combinational_Logic.pdf
-        ├── Floyd_Chapter_07_Latches_and_FlipFlops.pdf
-        ├── Floyd_Chapter_08_Shift_Registers.pdf
-        └── Floyd_Chapter_09_Counters.pdf
+└── README.md
 ```
 
 ---
@@ -48,8 +37,8 @@ The two most important files for anyone preparing for a DLD exam.
 
 | File | What It Is |
 |------|-----------|
-| [DLD_Final_Exam_Target_Guide.pdf](./DLD_Final_Exam_Target_Guide.pdf) | A focused exam roadmap compiled based on Sir Bari's teaching pattern and exam trends. Identifies high-probability topics, diagrammatic questions, and a priority checklist. **Read this before your final.** |
-| [DLD_MCQs_Bank.pdf](./DLD_MCQs_Bank.pdf) | A bank of Multiple Choice Questions covering all major DLD topics. Use it for daily testing and to reinforce retention. |
+| [Final Exam Target Guide](./DLD_Final_Exam_Target_Guide.pdf) | Revision priorities and a checklist based on Sir Bari’s course. Compare it with your current outline; it is a study aid, not a prediction of your exam. |
+| [MCQ bank](./DLD_MCQs_Bank.pdf) | Multiple-choice practice for reviewing DLD topics and identifying gaps. |
 
 ---
 
@@ -61,45 +50,14 @@ The two most important files for anyone preparing for a DLD exam.
     <th align="left">Description</th>
   </tr>
   <tr>
-    <td><a href="./handwritten-notes/DLD_Handwritten_Notes_ShaikhMahad.pdf">DLD_Handwritten_Notes_ShaikhMahad.pdf</a></td>
+    <td><a href="./handwritten-notes/DLD_Handwritten_Notes_ShaikhMahad.pdf">Mahad’s notes</a></td>
     <td>Complete lecture notes with circuit diagrams, K-map examples, truth tables, and in-class problem-solving steps.</td>
   </tr>
   <tr>
-    <td><a href="./handwritten-notes/DLD_Handwritten_Notes_Classmate.pdf">DLD_Handwritten_Notes_Classmate.pdf</a></td>
+    <td><a href="./handwritten-notes/DLD_Handwritten_Notes_Classmate.pdf">Classmate’s notes</a></td>
     <td>A second set of handwritten notes from a different perspective — useful for cross-checking diagrams and explanations.</td>
   </tr>
 </table>
-
----
-
-## Reference Textbook
-
-| Title | Author | Edition | Access |
-|-------|--------|---------|--------|
-| Digital Fundamentals | Thomas L. Floyd | Standard | [Open PDF](./reference-books/Digital_Electronics_Floyd.pdf) |
-
----
-
-## Extracted Chapters
-
-Individual chapters from Floyd's *Digital Fundamentals* so you can study a specific topic without loading the full 900-page textbook.
-
-<details>
-<summary><strong>Floyd — Digital Fundamentals (all available chapters)</strong></summary>
-<br>
-
-| Chapter | Topic | File |
-|---------|-------|------|
-| Chapter 2 | Number Systems, Operations & Codes | [Open](./reference-books/extracted-chapters/Floyd_Chapter_02_Number_Systems_and_Codes.pdf) |
-| Chapter 3 | Logic Gates | [Open](./reference-books/extracted-chapters/Floyd_Chapter_03_Logic_Gates.pdf) |
-| Chapter 4 | Boolean Algebra & Logic Simplification | [Open](./reference-books/extracted-chapters/Floyd_Chapter_04_Boolean_Algebra.pdf) |
-| Chapter 5 | Combinational Logic Analysis | [Open](./reference-books/extracted-chapters/Floyd_Chapter_05_Combinational_Logic.pdf) |
-| Chapter 6 | Functions of Combinational Logic | [Open](./reference-books/extracted-chapters/Floyd_Chapter_06_Functions_of_Combinational_Logic.pdf) |
-| Chapter 7 | Latches, Flip-Flops & Timers | [Open](./reference-books/extracted-chapters/Floyd_Chapter_07_Latches_and_FlipFlops.pdf) |
-| Chapter 8 | Shift Registers | [Open](./reference-books/extracted-chapters/Floyd_Chapter_08_Shift_Registers.pdf) |
-| Chapter 9 | Counters | [Open](./reference-books/extracted-chapters/Floyd_Chapter_09_Counters.pdf) |
-
-</details>
 
 ---
 
@@ -137,14 +95,12 @@ All basic gates, their symbols, and truth tables in one place.
 
 ## How to Study Using This Folder
 
-```
-Step 1 → Open the Target Guide. Know what Sir Bari focuses on.
-Step 2 → Study chapter by chapter using the Handwritten Notes.
-Step 3 → When a topic needs more depth, open the matching Floyd Extracted Chapter.
-Step 4 → Drill truth tables and K-maps using karnaughmapsolver.com.
-Step 5 → Run through the MCQ Bank. Do it timed. Identify weak topics.
-Step 6 → Cross-check your diagrams against the Logic Gates Cheatsheet before the exam.
-```
+1. Compare the target guide with your current course outline and plan your revision.
+2. Study the handwritten notes, drawing each circuit and solving each example yourself.
+3. Practise truth tables and K-maps. Use the solver to check your answers after attempting them.
+4. Work through the MCQ bank and revisit weak topics. Check gate symbols against the reference sheet.
+
+For deeper textbook reading, use your library or an authorized copy of your course’s recommended reference. Book PDFs and chapter scans are not provided here.
 
 ---
 

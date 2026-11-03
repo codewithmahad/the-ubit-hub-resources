@@ -10,7 +10,7 @@
 
 **Study resources for UBIT students at the University of Karachi.**
 
-Good material often gets buried in old class chats. This library keeps it organized by course: **handwritten and typed notes, revision guides, MCQ practice, and textbook chapters**. Each subject guide explains what is available and where to start.
+Good material often gets buried in old class chats. This library keeps it organized by course: **handwritten and typed notes, revision guides, MCQ practice, and learning roadmaps**. Each subject guide explains what is available and where to start.
 
 As part of **The UBIT Hub**, I organize these resources for students across batches and degree programs. Useful material should stay easy to find after the semester ends.
 
@@ -25,22 +25,22 @@ As part of **The UBIT Hub**, I organize these resources for students across batc
 
 ## Find your course
 
-**6 subjects · 32 PDFs · 1 logic-gates reference sheet.** Open a subject guide for the full file list, or choose a starting document below.
+**6 subjects · 12 PDFs · 1 logic-gates reference sheet.** Open a subject guide for the full file list, or choose a starting document below.
 
 **[Software Requirement Engineering](./resources/software-requirement-engineering/)** &nbsp;·&nbsp; [Course outline](./resources/software-requirement-engineering/SE453_SRE_Course_Outline.pdf) → [Comprehensive notes](./resources/software-requirement-engineering/SE453_SRE_Comprehensive_Notes_ShaikhMahad.pdf)<br>
-Typed & handwritten notes · outlines · reference chapters
+Typed & handwritten notes · course outline
 
 **[Digital Logic Design](./resources/digital-logic-design/)** &nbsp;·&nbsp; [Final Exam Target Guide](./resources/digital-logic-design/DLD_Final_Exam_Target_Guide.pdf)<br>
-Exam guide · handwritten notes · MCQs · Floyd chapters
+Exam guide · handwritten notes · MCQs · logic-gates reference
 
 **[Linear Algebra](./resources/linear-algebra/)** &nbsp;·&nbsp; [Miss Fozia Hanif’s notes](./resources/linear-algebra/linear-algebra-complete-notes-Miss-Fozia-Hanif.pdf)<br>
 Complete semester lecture notes
 
 **[Communication & Presentation Skills](./resources/communication-and-presentation-skills/)** &nbsp;·&nbsp; [Complete course notes](./resources/communication-and-presentation-skills/notes/CPS_Complete_Notes.pdf)<br>
-Course notes · Murphy & Guffey references
+Course notes · business writing · presentation skills
 
 **[Urdu](./resources/urdu/)** &nbsp;·&nbsp; [Comprehensive notes](./resources/urdu/notes/Urdu_Comprehensive_Notes_ShaikhMahad.pdf)<br>
-Comprehensive notes · ghazals · selected prose
+Comprehensive notes · poetry explanations · prose summaries
 
 **[Data Structures & Algorithms](./resources/data-structures-and-algorithms/)** &nbsp;·&nbsp; [The DSA Blueprint](./resources/data-structures-and-algorithms/roadmaps/The-DSA-Blueprint-Roadmap.pdf)<br>
 Learning roadmap · practice links · printable study tracker
@@ -116,7 +116,7 @@ I built **UBIT Results** so students can check available results, view their GPA
 
 1. **Check your scope.** Read the course guide and compare the material with your current outline and your teacher’s instructions.
 2. **Work through the notes.** Start with the main notes. Try examples, diagrams, or practice questions yourself before checking the explanations.
-3. **Fill the gaps.** Use extracted chapters for specific topics and the full reference books for more detail or practice.
+3. **Fill the gaps.** Review difficult topics with your teacher or a classmate. For textbook reading, use your library or an authorized copy; this repository does not host unlicensed books or chapter scans.
 
 <details>
 <summary>A PDF will not preview on GitHub?</summary>
@@ -131,7 +131,7 @@ Use the **download button** in the file viewer and open the PDF locally. A faile
 
 A clearer set of notes, a missing topic, or a corrected description can make a course folder much more useful.
 
-- **Share material:** follow the [contributing guide](./CONTRIBUTING.md). Add a readable file and a short description to the course README, including its author or source.
+- **Share material:** follow the [contributing guide](./CONTRIBUTING.md). Share your own work or material you have permission to redistribute, with its author, source, and permission or license details.
 - **Report a problem:** [open an issue](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new) with the course, filename, and what needs attention. You can also suggest a course or resource that is missing.
 
 Keep additions clearly named, credited, and free of duplicates. A new course should come with its own guide so the next student knows where to begin.
@@ -144,6 +144,6 @@ If this library saves you time, **[give it a star](https://github.com/codewithma
 
 ## Credits & contact
 
-The material here includes work by students, teachers, and published authors. Check the course guides and source documents for attribution and usage information. For a missing credit or a removal request, [email me](mailto:codewithmahad@gmail.com).
+The notes and guides include work by students and teachers. Attribution does not grant redistribution permission, and the repository’s MIT license does not relicense third-party material. Check each resource’s source and terms before reuse. For a missing credit, permission concern, or removal request, [email me](mailto:codewithmahad@gmail.com).
 
 <p><sub>Maintained by <a href="https://github.com/codewithmahad">Shaikh Mahad Ud Din</a> &nbsp;·&nbsp; <a href="./LICENSE">Repository license</a> &nbsp;·&nbsp; <a href="#top">Back to top ↑</a></sub></p>

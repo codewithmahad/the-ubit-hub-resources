@@ -14,14 +14,14 @@ Verified from the repository files on 4 November 2026:
 
 | Course | PDFs | Existing starting resource |
 | :--- | ---: | :--- |
-| Software Requirement Engineering | 11 | Course outline, then comprehensive notes |
-| Digital Logic Design | 13 | Final Exam Target Guide |
+| Software Requirement Engineering | 4 | Course outline, then comprehensive notes |
+| Digital Logic Design | 4 | Final Exam Target Guide |
 | Linear Algebra | 1 | Complete semester notes |
-| Communication & Presentation Skills | 3 | Complete notes |
-| Urdu | 3 | Comprehensive notes |
+| Communication & Presentation Skills | 1 | Complete notes |
+| Urdu | 1 | Comprehensive notes |
 | Data Structures & Algorithms | 1 | The DSA Blueprint roadmap |
 
-There are 32 PDFs across six subject folders inside `resources/`, plus a DLD logic-gates reference image. The DSA subject currently contains a roadmap and its study guide, rather than a full set of course notes. Do not describe the library as covering the whole curriculum or imply university endorsement.
+There are 12 PDFs across six subject folders inside `resources/`, plus a DLD logic-gates reference image. The DSA subject currently contains a roadmap and its study guide, rather than a full set of course notes. Do not describe the library as covering the whole curriculum or imply university endorsement.
 
 ## Implemented reading order
 
@@ -49,7 +49,7 @@ The old repository README claimed 29 pages; the actual supplied PDF contains 31 
 - Use a small transparent title with light/dark and compact phone variants. Place the department-building illustration in the right-hand opening space.
 - Keep body copy as real Markdown. Use visuals for identity or useful context, and keep tables short enough to scan.
 - Avoid large banners, decorative cards, badge rows, generic gradients, and repeated explanations.
-- Preserve existing course files and course READMEs. Keep the contribution guide's index references and resource-count instructions consistent with the redesigned root README.
+- Preserve course notes and guides while applying the distribution cleanup below. Keep the contribution guide's index references and resource-count instructions consistent with the redesigned root README.
 - Use a small original book illustration beside the workflow and a compact export of the existing university emblem beside the community section.
 
 ## Verification
@@ -65,3 +65,11 @@ All six subject folders are now grouped under `resources/`. The three tracked ro
 The root README keeps its course index, DSA roadmap, and Results website visible. Beginner instructions, the repository tree, and PDF-preview help use native `details` disclosures. The primary student actions remain available without expanding anything. Results and community copy have been shortened to remove repeated purpose statements. Star and follow links are a brief invitation after the community description, with no counters or claims of guaranteed engagement.
 
 Run `node docs/maintenance/check-resources.mjs` to check all local Markdown references, inventory totals, subject-guide presence, and PDF placement. For this migration, compare every non-Markdown resource against the pre-move SHA-256 manifest. Visual QA should cover both themes, narrow screens, and expanded disclosures.
+
+## Distribution cleanup
+
+On 4 November 2026, the user instructed removal of books they do not have permission to redistribute. Removed 20 PDFs: two CPS textbooks, one DLD textbook and eight extracted chapters, three SRE reference books and four extracted chapters, and two Urdu book-scan collections. Updated all affected course guides, catalogs, study instructions, and counts.
+
+Retained notes, guides, the course outline, and the original DSA roadmap unchanged. This cleanup does not establish redistribution permission for the remaining teacher, classmate, or compiled materials. New contributions must document authorship or redistribution permission; attribution alone is insufficient. The repository license does not relicense third-party content.
+
+These deletions remove the files from the current working tree. Copies in earlier Git commits remain until a separately authorized history cleanup is performed.

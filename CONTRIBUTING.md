@@ -10,9 +10,19 @@ Thank you for considering a contribution. This repository exists to make academi
 |------------|----------------|
 | Handwritten notes (clean, complete, readable) | Incomplete or unclear notes |
 | Typed/compiled study guides | Academically restricted material (solved exam papers, etc.) |
-| Textbook chapter extracts | Unverified or inaccurate content |
+| Material with documented redistribution permission | Books, book scans, or chapter extracts without redistribution permission |
 | MCQ banks and practice material | Files with no clear label or context |
 | Course outlines and syllabi | Duplicate files that already exist |
+
+Every upload must be your own work or material you are allowed to redistribute. The categories above do not override this requirement.
+
+## Permission and Attribution
+
+- **Your own work:** confirm in the pull request that you created it and have the rights to share its contents. Credit any sources used.
+- **Someone else’s work:** include the original source, author, and a license or permission statement that allows redistribution. Keep the required notices with the file and record the permission details in the subject README.
+- **Books and extracts:** do not upload a full book, scanned pages, or extracted chapters without documented redistribution permission. For other books, link to an official publisher or library page instead of uploading a copy or linking to an unauthorized download.
+
+Credit, educational use, and a freely available download are not substitutes for permission. The repository’s MIT license does not grant rights to third-party content. The same checks apply to teacher and classmate notes, course outlines, and compiled practice questions.
 
 ---
 
@@ -48,7 +58,7 @@ No spaces. No special characters. No vague names like `notes.pdf` or `final.pdf`
 If you are adding resources for a course that doesn't have a folder yet:
 
 1. Create a folder inside `resources/` with a lowercase, hyphen-separated name, such as `resources/object-oriented-programming/`. Keep new subjects out of the repository root.
-2. Inside, create sub-folders as needed: `handwritten-notes/`, `reference-books/`, `reference-books/extracted-chapters/`
+2. Inside, create sub-folders as needed: `notes/`, `handwritten-notes/`, `practice/`, or `roadmaps/`.
 3. Create a `README.md` for the course following the same format as the existing course READMEs (SRE or DLD are good references).
 4. Add the subject to the main `README.md` course index and `resources/README.md`, including a recommended starting document. Refresh the root README's subject and PDF counts.
 
