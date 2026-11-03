@@ -1,83 +1,83 @@
-<p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="The UBIT Hub Resources. A shelf for notes worth keeping.">
+<h1 id="top">
+  <img src="assets/readme/department-building.webp" align="right" width="30%" alt="Illustration of the UBIT department building, with its dome, columned entrance, and cream facade.">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/readme/intro-title-compact-dark.svg">
+    <source media="(max-width: 600px)" srcset="assets/readme/intro-title-compact-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/readme/intro-title-dark.svg">
+    <img src="assets/readme/intro-title-light.svg" width="62%" height="42" align="texttop" alt="The UBIT Hub Resources">
+  </picture>
+</h1>
+
+**Study resources for UBIT students at the University of Karachi.**
+
+Good material often gets buried in old class chats. This library keeps it organized by course: **handwritten and typed notes, revision guides, MCQ practice, and textbook chapters**. Each course README explains what is available and where to start.
+
+As part of **The UBIT Hub**, I maintain this library for students across batches and degree programs. The aim is to keep useful material available beyond a single semester, with clear descriptions and credit for the people behind it.
+
+<p>
+  <a href="#find-your-course">Courses</a>&nbsp;·
+  <a href="#ubit-results-portal">Results&nbsp;&amp;&nbsp;GPA</a>&nbsp;·
+  <a href="#how-to-use-the-material">Study&nbsp;guide</a>&nbsp;·
+  <a href="#help-improve-the-library">Contribute</a>&nbsp;·
+  <a href="#the-ubit-hub">Community</a>
 </p>
 
-<p align="center">
-  <a href="#the-shelves">Browse the shelves</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#a-better-way-to-use-the-archive">How to use it</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#add-to-the-shelf">Contribute</a>
+## Find your course
+
+**5 courses · 31 PDFs · 1 logic-gates reference sheet.** Choose a course for its full guide, or open the suggested starting document.
+
+| Course & available material | Start here |
+| :--- | :--- |
+| **[Software Requirement Engineering](./software-requirement-engineering/)**<br><sub>Typed & handwritten notes · outlines · reference chapters</sub> | [Course outline](./software-requirement-engineering/SE453_SRE_Course_Outline.pdf), then [comprehensive notes](./software-requirement-engineering/SE453_SRE_Comprehensive_Notes_ShaikhMahad.pdf) |
+| **[Digital Logic Design](./digital-logic-design/)**<br><sub>Exam guide · handwritten notes · MCQs · Floyd chapters</sub> | [Final Exam Target Guide](./digital-logic-design/DLD_Final_Exam_Target_Guide.pdf) |
+| **[Linear Algebra](./linear-algebra/)**<br><sub>Complete semester lecture notes</sub> | [Miss Fozia Hanif’s notes](./linear-algebra/linear-algebra-complete-notes-Miss-Fozia-Hanif.pdf) |
+| **[Communication & Presentation Skills](./communication-and-presentation-skills/)**<br><sub>Course notes · Murphy & Guffey references</sub> | [Complete course notes](./communication-and-presentation-skills/notes/CPS_Complete_Notes.pdf) |
+| **[Urdu](./urdu/)**<br><sub>Comprehensive notes · ghazals · selected prose</sub> | [Comprehensive notes](./urdu/notes/Urdu_Comprehensive_Notes_ShaikhMahad.pdf) |
+
+## UBIT Results Portal
+
+**Another project I’m building for our university community.**
+
+Alongside this library, I built **UBIT Results** for students to check available results, view their GPA, and use a GPA calculator. It is part of the same effort behind The UBIT Hub: making useful resources and tools easier for our students to access.
+
+**Still in development.** I’m continuing to work on the portal and improve it alongside this library.
+
+<p>
+  <a href="https://ubit-results.vercel.app/"><img src="assets/readme/ubit-results-button.svg" width="210" height="44" alt="UBIT Results — open the results and GPA website"></a>
 </p>
 
-> **A good set of notes should outlive the semester.**
+## How to use the material
 
-Finals finish, groups go quiet, and useful material gets buried in old chats and unnamed drives. Then the next batch starts searching for the same things again.
+<img src="assets/readme/study-notes.svg" align="right" width="16%" alt="">
 
-This is the shelf I wanted to exist: course material kept in one place, named clearly, and explained before you open the first PDF. Start with the README inside the course folder. It tells you what the files are, where to begin, and when a textbook chapter is worth your time.
-
-<br>
-
-## The shelves
-
-<img src="./assets/readme/archive-card.svg" align="right" width="31%" alt="A card catalogue for notes, guides, and chapters.">
-
-There are **5 course folders**, **31 PDFs**, and one DLD logic-gates reference sheet here so far. Each shelf has its own map. The archive will grow course by course, only when material can be labeled well enough for someone else to use it without guessing.
-
-| Course | Start here | On the shelf |
-| :-- | :-- | :-- |
-| **[Software Requirement Engineering](./software-requirement-engineering/)** | Course outline, then the comprehensive notes | 11 PDFs: typed and handwritten notes, three references, and focused chapters |
-| **[Digital Logic Design](./digital-logic-design/)** | Final Exam Target Guide | 13 PDFs: notes, MCQ bank, Floyd chapters, and a logic-gates sheet |
-| **[Linear Algebra](./linear-algebra/)** | Complete semester notes | 1 complete set of lecture notes by Miss Fozia Hanif |
-| **[Communication & Presentation Skills](./communication-and-presentation-skills/)** | Complete notes | 3 PDFs: course notes plus Murphy and Guffey references |
-| **[Urdu](./urdu/)** | Comprehensive notes | 3 PDFs: notes, ghazals, and selected prose chapters |
-
-<br clear="right">
-
-## A better way to use the archive
-
-<table>
-  <tr>
-    <td width="33%" valign="top"><strong>01 · Orient yourself</strong><br><sub>Open the course README first. It is the map, not decoration.</sub></td>
-    <td width="33%" valign="top"><strong>02 · Learn from the primary notes</strong><br><sub>Use the compiled or handwritten notes for the first proper pass.</sub></td>
-    <td width="33%" valign="top"><strong>03 · Reach for depth on purpose</strong><br><sub>Open extracts and full textbooks only when a topic needs more explanation or practice.</sub></td>
-  </tr>
-</table>
-
-That order keeps a 900-page book from becoming your first obstacle. It also makes the archive useful whether you are revising early, catching up mid-semester, or trying to make the final week less chaotic.
+1. **Check your scope.** Read the course guide and compare the material with your current outline and your teacher’s instructions.
+2. **Work through the notes.** Start with the main notes. Try examples, diagrams, or practice questions yourself before checking the explanations.
+3. **Fill the gaps.** Use extracted chapters for specific topics and the full reference books for more detail or practice.
 
 <details>
-<summary><strong>A PDF will not preview on GitHub?</strong></summary>
+<summary>A PDF will not preview on GitHub?</summary>
 
-Some larger PDFs trigger GitHub's red “Unable to render code block” message. The file is still there. Use the download button in the file viewer to save it locally.
+Use the **download button** in the file viewer and open the PDF locally. A failed preview does not necessarily mean the file is missing or damaged.
 
-<p align="center">
-  <img src="./assets/github_pdf_error.png" width="82%" alt="GitHub's PDF viewer with the Download button highlighted.">
-</p>
+<img src="assets/github_pdf_error.png" width="90%" alt="GitHub’s PDF viewer showing a failed preview, with the download button in the file toolbar.">
 
 </details>
 
-## Add to the shelf
+## Help improve the library
 
-If you have notes, an assignment guide, a clean MCQ bank, or a resource that helped you understand a course, it may save the next person the same late-night search.
+A clearer set of notes, a missing topic, or a corrected description can make a course folder much more useful.
 
-Before opening a pull request, keep it simple:
+- **Share material:** follow the [contributing guide](./CONTRIBUTING.md). Add a readable file and a short description to the course README, including its author or source.
+- **Report a problem:** [open an issue](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new) with the course, filename, and what needs attention. You can also suggest a course or resource that is missing.
 
-- Put the file in the right course folder and give it a clear, searchable name.
-- Add it to that course’s README with one honest sentence about what it contains.
-- Share clean, complete material that students can actually study from.
-- Do not add restricted exam material, mystery files, or duplicates.
+Keep additions clearly named, credited, and free of duplicates. A new course should come with its own guide so the next student knows where to begin.
 
-The full process, naming examples, and rules are in [CONTRIBUTING.md](./CONTRIBUTING.md).
+<h2 id="the-ubit-hub"><img src="assets/readme/ubit-emblem.webp" align="right" width="12%" alt="Department of Computer Science, UBIT, University of Karachi emblem.">The UBIT Hub</h2>
 
-## Keep the shelf useful
+**The UBIT Hub** is the WhatsApp community I founded for course updates, academic discussions, shared resources, and peer support. The community, this library, and the results portal are connected parts of my work for UBIT students.
 
-This archive is not trying to be a dump of every PDF ever forwarded in a class group. The useful parts are the context, the course maps, and the decision to keep the next student from starting at zero.
+## Credits & contact
 
-If one of these folders saves you time before an exam, a [star](https://github.com/codewithmahad/the-ubit-hub-resources/stargazers) is a quiet way to say the next shelf is worth building. You can follow [codewithmahad](https://github.com/codewithmahad) to see it grow.
+The material here includes work by students, teachers, and published authors. Check the course guides and source documents for attribution and usage information. For a missing credit or a removal request, [email me](mailto:codewithmahad@gmail.com).
 
-<p align="center">
-  <img src="./assets/readme/closing-mark.svg" width="100%" alt="">
-  <br>
-  <sub>Maintained by <a href="https://github.com/codewithmahad">Shaikh Mahad Ud Din</a> · <a href="./CONTRIBUTING.md">Contributing guide</a> · <a href="./LICENSE">MIT License</a></sub>
-</p>
+<p><sub>Maintained by <a href="https://github.com/codewithmahad">Shaikh Mahad Ud Din</a> &nbsp;·&nbsp; <a href="./LICENSE">Repository license</a> &nbsp;·&nbsp; <a href="#top">Back to top ↑</a></sub></p>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="152" viewBox="0 0 176 152" role="img" aria-labelledby="title desc">
+  <title id="title">Notes worth coming back to</title>
+  <desc id="desc">An open book with handwritten lines, a burgundy bookmark, and a pencil.</desc>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15 44c24-9 48-6 72 7 24-13 48-16 74-7v83c-26-8-50-5-74 8-24-13-48-16-72-8Z" fill="#8F141B" stroke="#8F141B" stroke-width="3"/>
+    <path d="M20 36c23-7 45-3 67 9v82c-22-12-44-16-67-9Z" fill="#FBF7EF" stroke="#6D5350" stroke-width="1.6"/>
+    <path d="M87 45c22-12 44-16 68-9v82c-24-7-46-3-68 9Z" fill="#F2EADB" stroke="#6D5350" stroke-width="1.6"/>
+    <path d="M87 47v77" fill="none" stroke="#BDAAA0" stroke-width="1.5"/>
+    <path d="M34 52c12-1 25 2 38 8M34 64c12-1 25 2 38 8M34 76c12-1 25 2 38 8M34 88c10-1 20 1 29 5" fill="none" stroke="#89766C" stroke-width="2"/>
+    <path d="M102 60c10-5 23-8 38-8M102 72c10-5 23-8 38-8M102 84c10-5 23-8 38-8M102 96c9-4 17-6 27-7" fill="none" stroke="#89766C" stroke-width="2"/>
+    <path d="M117 34c6-1 12-2 18-1v30l-9-5-9 7Z" fill="#8F141B"/>
+    <path d="m41 107 25 8" fill="none" stroke="#BC2831" stroke-width="3"/>
+    <g transform="translate(145 12) rotate(24)">
+      <path d="M0 7h9v68l-4.5 12L0 75Z" fill="#BC2831" stroke="#64131A" stroke-width="1.4"/>
+      <path d="M0 7V3a4.5 4.5 0 0 1 9 0v4" fill="#F2EADB" stroke="#64131A" stroke-width="1.4"/>
+      <path d="M0 75h9l-4.5 12Z" fill="#E8D0AB"/>
+      <path d="m3 83 1.5 4L6 83Z" fill="#443536"/>
+      <path d="M4.5 13v56" stroke="#E28589" stroke-width="1.2"/>
+    </g>
+  </g>
+</svg>
