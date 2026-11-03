@@ -72,7 +72,15 @@ I wrote **The DSA Blueprint** for students who know programming basics but aren�
 
 ## UBIT Results Portal
 
-I’m also working on **UBIT Results**, where students can check available results, view their GPA, and use a GPA calculator. **It’s still in development.**
+**Results, GPA, and transcripts for UBIT students.**
+
+I built **UBIT Results** for other UBIT students, alongside this library. It gives you one place to check the results available for your batch and keep track of your progress across semesters.
+
+- **Results and transcripts:** view your course grades and open a printable transcript.
+- **GPA and class standings:** check your semester GPA, CGPA, and rankings.
+- **GPA calculator:** enter marks and credit hours to see how different scores affect your GPA.
+
+**I’m still working on it.** If something is missing or looks wrong, [let me know](mailto:codewithmahad@gmail.com) so I can check it.
 
 <p>
   <a href="https://ubit-results.vercel.app/"><img src="assets/readme/ubit-results-button.svg" width="210" height="44" alt="UBIT Results: open the results and GPA website"></a>
