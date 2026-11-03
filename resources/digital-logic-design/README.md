@@ -2,7 +2,7 @@
 
 # Digital Logic Design
 
-**DLD — Study Archive**
+**DLD study notes**
 
 </div>
 
@@ -55,7 +55,7 @@ The two most important files for anyone preparing for a DLD exam.
   </tr>
   <tr>
     <td><a href="./handwritten-notes/DLD_Handwritten_Notes_Classmate.pdf">Classmate’s notes</a></td>
-    <td>A second set of handwritten notes from a different perspective — useful for cross-checking diagrams and explanations.</td>
+    <td>A classmate’s lecture notes for comparing diagrams and explanations.</td>
   </tr>
 </table>
 
@@ -89,7 +89,7 @@ All basic gates, their symbols, and truth tables in one place.
 
 | Tool | What it's for |
 |------|--------------|
-| [karnaughmapsolver.com](https://karnaughmapsolver.com/) | Interactive K-map simplifier. Enter your truth table, get SOP/POS expressions instantly. Use it to check your work — not skip it. |
+| [karnaughmapsolver.com](https://karnaughmapsolver.com/) | Check a K-map result after you have tried the simplification yourself. |
 
 ---
 
@@ -105,5 +105,5 @@ For deeper textbook reading, use your library or an authorized copy of your cour
 ---
 
 <div align="center">
-  <sub>Part of <a href="../../README.md">The UBIT Hub Resources</a> — maintained by <a href="https://github.com/codewithmahad">Shaikh Mahad</a></sub>
+  <sub>Part of <a href="../../README.md">The UBIT Hub Resources</a> · maintained by <a href="https://github.com/codewithmahad">Shaikh Mahad</a></sub>
 </div>

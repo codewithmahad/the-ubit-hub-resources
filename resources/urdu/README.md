@@ -2,7 +2,7 @@
 
 # Urdu
 
-**Urdu — Study Archive**
+**Urdu study notes**
 
 </div>
 
@@ -59,5 +59,5 @@ Use your library or an authorized copy of the assigned book for the poems and pr
 ---
 
 <div align="center">
-  <sub>Part of <a href="../../README.md">The UBIT Hub Resources</a> — maintained by <a href="https://github.com/codewithmahad">Shaikh Mahad</a></sub>
+  <sub>Part of <a href="../../README.md">The UBIT Hub Resources</a> · maintained by <a href="https://github.com/codewithmahad">Shaikh Mahad</a></sub>
 </div>

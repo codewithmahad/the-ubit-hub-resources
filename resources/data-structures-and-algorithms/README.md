@@ -1,18 +1,18 @@
 # Data Structures & Algorithms
 
-Start with **The DSA Blueprint — Part 1: The Strategy & Roadmap**, written by **Shaikh Mahad (codewithmahad)** for students who know programming basics and want a structured path into DSA.
+Start with **The DSA Blueprint, Part 1: The Strategy & Roadmap**. I wrote it for students who know programming basics and want a plan for learning DSA.
 
 **[Open the roadmap PDF →](./roadmaps/The-DSA-Blueprint-Roadmap.pdf)**<br>
 31 pages · Version 1.0 · Includes a 16-week printable tracker
 
 ## What the roadmap covers
 
-- **Phase 0 — Prerequisites:** loops, functions, memory, OOP, and language-specific checks.
-- **Phase 1 — Foundations:** complexity, arrays, strings, number theory, and sorting.
-- **Phase 2 — Logic patterns:** hashing, two pointers, sliding windows, and binary search.
-- **Phase 3 — Linear structures:** linked lists, stacks, and queues.
-- **Phase 4 — Non-linear structures:** recursion, backtracking, trees, BSTs, and heaps.
-- **Phase 5 — Further algorithms:** graphs, greedy algorithms, and dynamic programming.
+- **Phase 0: Prerequisites.** Loops, functions, memory, OOP, and language-specific checks.
+- **Phase 1: Foundations.** Complexity, arrays, strings, number theory, and sorting.
+- **Phase 2: Logic patterns.** Hashing, two pointers, sliding windows, and binary search.
+- **Phase 3: Linear structures.** Linked lists, stacks, and queues.
+- **Phase 4: Non-linear structures.** Recursion, backtracking, trees, BSTs, and heaps.
+- **Phase 5: Further algorithms.** Graphs, greedy algorithms, and dynamic programming.
 
 The guide also includes practice-problem links, learning resources, revision advice, and a printable weekly tracker. It is a roadmap with short explanations and practice suggestions; the comprehensive Part 2 learning notes mentioned in the PDF are not included here.
 

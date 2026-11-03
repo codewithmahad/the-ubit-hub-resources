@@ -8,53 +8,82 @@
   </picture>
 </h1>
 
-**Study resources for UBIT students at the University of Karachi.**
+**Notes and study guides for UBIT students at the University of Karachi.**
 
-Good material often gets buried in old class chats. This library keeps it organized by course: **handwritten and typed notes, revision guides, MCQ practice, and learning roadmaps**. Each subject guide explains what is available and where to start.
+Useful notes get buried in class chats. I keep them here, sorted by subject, so you can find a file without asking around for it. There are **lecture notes, revision guides, MCQ practice, and my DSA roadmap**.
 
-As part of **The UBIT Hub**, I organize these resources for students across batches and degree programs. Useful material should stay easy to find after the semester ends.
+This is part of **The UBIT Hub**. Students from any UBIT batch or degree program can use it and contribute.
 
 <p>
   <a href="#find-your-course">Courses</a>&nbsp;·
+  <a href="#how-to-use-this-repo">How&nbsp;to&nbsp;use</a>&nbsp;·
   <a href="#the-dsa-blueprint">DSA&nbsp;Blueprint</a>&nbsp;·
   <a href="#ubit-results-portal">Results&nbsp;&amp;&nbsp;GPA</a>&nbsp;·
-  <a href="#how-to-use-the-material">Study&nbsp;guide</a>&nbsp;·
   <a href="#help-improve-the-library">Contribute</a>&nbsp;·
   <a href="#the-ubit-hub">Community</a>
 </p>
 
 ## Find your course
 
-**6 subjects · 12 PDFs · 1 logic-gates reference sheet.** Open a subject guide for the full file list, or choose a starting document below.
-
-**[Software Requirement Engineering](./resources/software-requirement-engineering/)** &nbsp;·&nbsp; [Course outline](./resources/software-requirement-engineering/SE453_SRE_Course_Outline.pdf) → [Comprehensive notes](./resources/software-requirement-engineering/SE453_SRE_Comprehensive_Notes_ShaikhMahad.pdf)<br>
-Typed & handwritten notes · course outline
-
-**[Digital Logic Design](./resources/digital-logic-design/)** &nbsp;·&nbsp; [Final Exam Target Guide](./resources/digital-logic-design/DLD_Final_Exam_Target_Guide.pdf)<br>
-Exam guide · handwritten notes · MCQs · logic-gates reference
-
-**[Linear Algebra](./resources/linear-algebra/)** &nbsp;·&nbsp; [Miss Fozia Hanif’s notes](./resources/linear-algebra/linear-algebra-complete-notes-Miss-Fozia-Hanif.pdf)<br>
-Complete semester lecture notes
-
-**[Communication & Presentation Skills](./resources/communication-and-presentation-skills/)** &nbsp;·&nbsp; [Complete course notes](./resources/communication-and-presentation-skills/notes/CPS_Complete_Notes.pdf)<br>
-Course notes · business writing · presentation skills
-
-**[Urdu](./resources/urdu/)** &nbsp;·&nbsp; [Comprehensive notes](./resources/urdu/notes/Urdu_Comprehensive_Notes_ShaikhMahad.pdf)<br>
-Comprehensive notes · poetry explanations · prose summaries
-
-**[Data Structures & Algorithms](./resources/data-structures-and-algorithms/)** &nbsp;·&nbsp; [The DSA Blueprint](./resources/data-structures-and-algorithms/roadmaps/The-DSA-Blueprint-Roadmap.pdf)<br>
-Learning roadmap · practice links · printable study tracker
+**6 subjects · 12 PDFs · 1 logic-gates reference sheet.** Open the list below to find your course and a PDF to start with. You can also [browse the subject folders](./resources/).
 
 <details>
-<summary><strong>New here? How to find and download material</strong></summary>
+<summary><strong>Browse courses and notes</strong></summary>
 
-1. Open a **subject name** above for its guide and complete file list.
-2. Open a **starting document** beside it to go straight to a recommended PDF.
-3. Read it in your browser, or use the file viewer’s **download button** to save it.
+- **[Communication & Presentation Skills](./resources/communication-and-presentation-skills/)**: [Complete course notes](./resources/communication-and-presentation-skills/notes/CPS_Complete_Notes.pdf).
+- **[Data Structures & Algorithms](./resources/data-structures-and-algorithms/)**: [The DSA Blueprint](./resources/data-structures-and-algorithms/roadmaps/The-DSA-Blueprint-Roadmap.pdf).
+- **[Digital Logic Design](./resources/digital-logic-design/)**: [Final Exam Target Guide](./resources/digital-logic-design/DLD_Final_Exam_Target_Guide.pdf).
+- **[Linear Algebra](./resources/linear-algebra/)**: [Miss Fozia Hanif’s notes](./resources/linear-algebra/linear-algebra-complete-notes-Miss-Fozia-Hanif.pdf).
+- **[Software Requirement Engineering](./resources/software-requirement-engineering/)**: [Course outline](./resources/software-requirement-engineering/SE453_SRE_Course_Outline.pdf), then [comprehensive notes](./resources/software-requirement-engineering/SE453_SRE_Comprehensive_Notes_ShaikhMahad.pdf).
+- **[Urdu](./resources/urdu/)**: [Comprehensive notes](./resources/urdu/notes/Urdu_Comprehensive_Notes_ShaikhMahad.pdf).
 
-You do not need to clone the repository or install programming tools to use the material. Check your current course outline before planning revision.
+The **course name** opens its guide and full file list. The link beside it opens the suggested PDF. If your course is missing, it hasn’t been added yet. You can [request it here](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new).
 
 </details>
+
+## How to use this repo
+
+<img src="assets/readme/study-notes.svg" align="right" width="16%" alt="">
+
+1. **Pick your course.** Open its guide for the file list, or use a PDF link above to start reading.
+2. **Read or download.** Read the PDF on GitHub, or use the file viewer’s download button to save it. You don’t need to clone the repo or install anything.
+
+Check the notes against your current outline and your teacher’s instructions. A course can change between batches.
+
+<details>
+<summary>PDF not opening?</summary>
+
+Try the download button in the file viewer and open the saved file. If it still fails, [report the filename](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new) so I can check it.
+
+</details>
+
+## The DSA Blueprint
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/dsa-tree-dark.svg">
+  <img src="assets/readme/dsa-tree-light.svg" align="right" width="18%" alt="A binary search tree with the path from 8 to 4 to 6 highlighted.">
+</picture>
+
+I wrote **The DSA Blueprint** for students who know programming basics but aren’t sure what to learn next. It gives you an order to follow and practice problems to try along the way.
+
+**31 pages · 6 phases · practice links · 16-week printable tracker**
+
+**[Read the roadmap →](./resources/data-structures-and-algorithms/roadmaps/The-DSA-Blueprint-Roadmap.pdf)** &nbsp;·&nbsp; [See the study guide](./resources/data-structures-and-algorithms/)
+
+## UBIT Results Portal
+
+I’m also working on **UBIT Results**, where students can check available results, view their GPA, and use a GPA calculator. **It’s still in development.**
+
+<p>
+  <a href="https://ubit-results.vercel.app/"><img src="assets/readme/ubit-results-button.svg" width="210" height="44" alt="UBIT Results: open the results and GPA website"></a>
+</p>
+
+## Help improve the library
+
+Have notes that helped you, or spotted a mistake in a file? I’d like to hear from you.
+
+- **Add notes:** follow the [contributing guide](./CONTRIBUTING.md). Include the course, author, and what the file covers. Share only work you own or have permission to redistribute.
+- **Request or fix something:** [open an issue](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new). Tell me the course, filename if there is one, and what’s missing or wrong.
 
 <details>
 <summary><strong>Repository structure</strong></summary>
@@ -65,8 +94,6 @@ You do not need to clone the repository or install programming tools to use the 
 │   ├── README.md
 │   ├── communication-and-presentation-skills/
 │   ├── data-structures-and-algorithms/
-│   │   └── roadmaps/
-│   │       └── The-DSA-Blueprint-Roadmap.pdf
 │   ├── digital-logic-design/
 │   ├── linear-algebra/
 │   ├── software-requirement-engineering/
@@ -79,71 +106,26 @@ You do not need to clone the repository or install programming tools to use the 
 └── README.md
 ```
 
-This is a folder overview. Open the [subject directory](./resources/) or a subject’s README for its complete file list. New subjects belong inside `resources/`, keeping the repository root compact.
+Put new subjects inside `resources/` and include a guide with each one. The [subject directory](./resources/) links to all the course folders.
 
 </details>
 
-## The DSA Blueprint
+<h2 id="the-ubit-hub"><img src="assets/readme/ubit-emblem.webp" align="right" width="12%" alt="Department of Computer Science, UBIT, University of Karachi emblem.">From our batch to yours</h2>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/dsa-tree-dark.svg">
-  <img src="assets/readme/dsa-tree-light.svg" align="right" width="18%" alt="A binary search tree with the path from 8 to 4 to 6 highlighted.">
-</picture>
+I’m **Shaikh Mahad Ud Din**. We spent a lot of time finding notes and working through these courses. I keep that work here so juniors, especially those studying with the same teachers, have something to start with.
 
-**A starting point for students learning Data Structures & Algorithms.**
+**The UBIT Hub** is the WhatsApp community I founded for course updates, questions, and student support. This repo and the Results Portal are part of that work.
 
-I wrote **The DSA Blueprint** to give students a clear order to follow after learning programming basics. It moves through problem-solving patterns and data structures, from arrays and linked lists to trees, graphs, and dynamic programming.
-
-The **31-page roadmap** includes six phases, linked practice problems, resource recommendations, and a **16-week printable tracker**.
-
-**[Read the roadmap →](./resources/data-structures-and-algorithms/roadmaps/The-DSA-Blueprint-Roadmap.pdf)** &nbsp;·&nbsp; [See the study guide](./resources/data-structures-and-algorithms/)
-
-## UBIT Results Portal
-
-**A results and GPA website I’m building for UBIT students.**
-
-I built **UBIT Results** so students can check available results, view their GPA, and use a GPA calculator in one place.
-
-**Still in development.** I’m continuing to improve the portal and the experience for students.
+If this helped, **[star the repo](https://github.com/codewithmahad/the-ubit-hub-resources)** and pass the course link on. Follow me for more notes, guides, and projects I’m building for students.
 
 <p>
-  <a href="https://ubit-results.vercel.app/"><img src="assets/readme/ubit-results-button.svg" width="210" height="44" alt="UBIT Results — open the results and GPA website"></a>
+  <a href="https://github.com/codewithmahad"><img src="assets/readme/follow-github.svg" width="184" height="40" alt="Follow Shaikh Mahad on GitHub"></a>
+  <a href="https://shaikhmahad.vercel.app/"><img src="assets/readme/portfolio-button.svg" width="146" height="40" alt="mahad.dev: visit my portfolio"></a>
+  <a href="mailto:codewithmahad@gmail.com"><img src="assets/readme/email-button.svg" width="96" height="40" alt="Email Shaikh Mahad"></a>
 </p>
 
-## How to use the material
+## Credits & permissions
 
-<img src="assets/readme/study-notes.svg" align="right" width="16%" alt="">
-
-1. **Check your scope.** Read the course guide and compare the material with your current outline and your teacher’s instructions.
-2. **Work through the notes.** Start with the main notes. Try examples, diagrams, or practice questions yourself before checking the explanations.
-3. **Fill the gaps.** Review difficult topics with your teacher or a classmate. For textbook reading, use your library or an authorized copy; this repository does not host unlicensed books or chapter scans.
-
-<details>
-<summary>A PDF will not preview on GitHub?</summary>
-
-Use the **download button** in the file viewer and open the PDF locally. A failed preview does not necessarily mean the file is missing or damaged.
-
-<img src="assets/github_pdf_error.png" width="90%" alt="GitHub’s PDF viewer showing a failed preview, with the download button in the file toolbar.">
-
-</details>
-
-## Help improve the library
-
-A clearer set of notes, a missing topic, or a corrected description can make a course folder much more useful.
-
-- **Share material:** follow the [contributing guide](./CONTRIBUTING.md). Share your own work or material you have permission to redistribute, with its author, source, and permission or license details.
-- **Report a problem:** [open an issue](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new) with the course, filename, and what needs attention. You can also suggest a course or resource that is missing.
-
-Keep additions clearly named, credited, and free of duplicates. A new course should come with its own guide so the next student knows where to begin.
-
-<h2 id="the-ubit-hub"><img src="assets/readme/ubit-emblem.webp" align="right" width="12%" alt="Department of Computer Science, UBIT, University of Karachi emblem.">The UBIT Hub</h2>
-
-**The UBIT Hub** is the WhatsApp community I founded for course updates, academic discussions, shared resources, and peer support. This library and the results portal grew out of that work.
-
-If this library saves you time, **[give it a star](https://github.com/codewithmahad/the-ubit-hub-resources)** and share the subject link with a classmate. **[Follow my work](https://github.com/codewithmahad)** for more resources and student projects.
-
-## Credits & contact
-
-The notes and guides include work by students and teachers. Attribution does not grant redistribution permission, and the repository’s MIT license does not relicense third-party material. Check each resource’s source and terms before reuse. For a missing credit, permission concern, or removal request, [email me](mailto:codewithmahad@gmail.com).
+Keep the author’s credit and check the terms before reusing a file. This repo’s [MIT license](./LICENSE) doesn’t give permission to redistribute someone else’s work. For a missing credit or a removal request, [email me](mailto:codewithmahad@gmail.com).
 
 <p><sub>Maintained by <a href="https://github.com/codewithmahad">Shaikh Mahad Ud Din</a> &nbsp;·&nbsp; <a href="./LICENSE">Repository license</a> &nbsp;·&nbsp; <a href="#top">Back to top ↑</a></sub></p>

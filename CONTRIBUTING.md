@@ -1,6 +1,6 @@
 # Contributing to The UBIT Hub Resources
 
-Thank you for considering a contribution. This repository exists to make academic preparation better for UBIT students — every well-documented addition makes a real difference.
+If you have notes that helped you through a course, you can share them here for the next batch. Please include enough context for another student to know what they’re opening.
 
 ---
 
@@ -60,7 +60,8 @@ If you are adding resources for a course that doesn't have a folder yet:
 1. Create a folder inside `resources/` with a lowercase, hyphen-separated name, such as `resources/object-oriented-programming/`. Keep new subjects out of the repository root.
 2. Inside, create sub-folders as needed: `notes/`, `handwritten-notes/`, `practice/`, or `roadmaps/`.
 3. Create a `README.md` for the course following the same format as the existing course READMEs (SRE or DLD are good references).
-4. Add the subject to the main `README.md` course index and `resources/README.md`, including a recommended starting document. Refresh the root README's subject and PDF counts.
+4. Add the subject to the main `README.md` course index and `resources/README.md` in alphabetical order, including a recommended starting document. Refresh the root README's subject and PDF counts.
+5. Record the course code, teacher, degree program, and term/year when known. Explain which course offering the material came from so later batches can judge its relevance. Leave unknown details unstated rather than guessing.
 
 ---
 
@@ -82,4 +83,4 @@ This checks local Markdown links, subject and PDF counts, and that study PDFs st
 
 If you're unsure about anything before submitting, open an Issue and describe what you want to add. Happy to guide from there.
 
-— [Shaikh Mahad](https://github.com/codewithmahad)
+[Shaikh Mahad](https://github.com/codewithmahad)

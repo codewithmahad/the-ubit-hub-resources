@@ -26,15 +26,15 @@ There are 12 PDFs across six subject folders inside `resources/`, plus a DLD log
 ## Implemented reading order
 
 1. **Introduction.** Identify the audience, useful material, course guides, and purpose in three short paragraphs. The user's department-building photograph is now represented by a compact transparent architectural illustration at the right. Use the two-line phone title to preserve readable lettering.
-2. **Find your course.** Borderless entries with a course link, direct starting documents, and a normal-size description. Put navigation before background. Add collapsed beginner instructions and a repository tree, leaving the subject links visible.
-3. **The DSA Blueprint.** Introduce the user's community roadmap, its six phases, practice links, and printable tracker. Link to the local PDF and the DSA study guide, beside a binary-search-tree visual.
-4. **UBIT Results Portal.** Give the user's companion project a prominent section after the study resources. Explain results and GPA, its purpose for the university community, and that it is still in development. Link through the branded emblem-and-wordmark button.
-5. **How to use the material.** A brief sequence from primary notes to practice and deeper references. Include a collapsed PDF-download tip if needed.
-6. **Help improve the library.** Invite useful additions, corrections, and missing-resource reports. Link to `CONTRIBUTING.md` for the full process rather than repeating it.
-7. **About The UBIT Hub.** Explain the community connection and the relationship between the WhatsApp community, resource library, and results portal. The introduction carries the longer-term vision; avoid repeating it here. Include only user-confirmed community links or figures. End with a concise invitation to star the repository, share a subject link, and follow the maintainer’s work.
-8. **Credits & contact.** A quiet footer for maintenance, source attribution, and correction/contact links. Keep source permissions distinct from the repository's license.
+2. **Find your course.** Keep current counts and a short instruction visible. Put the six course links and their starting PDFs inside one clearly labeled, closed-by-default "Browse courses and notes" disclosure, sorted alphabetically to match the subject directory. Include an always-visible link to `resources/` as another way to browse. Explain inside the list that missing courses have not been added yet, with a request link.
+3. **How to use this repo.** Put opening and downloading instructions immediately after the course list. Remind students to compare the material with their current outline. Keep failed-preview help in a short disclosure, without an oversized historical screenshot.
+4. **The DSA Blueprint.** Explain who the roadmap helps, followed by a compact facts line and PDF/study-guide links. Keep the binary-search-tree visual.
+5. **UBIT Results Portal.** Briefly explain the user’s results and GPA project and its ongoing development. Link through the branded emblem-and-wordmark button.
+6. **Help improve the library.** Invite notes, corrections, and missing-resource reports. Link to `CONTRIBUTING.md` for the full process. Put the repository tree in a disclosure here, alongside the contributor instructions.
+7. **From our batch to yours.** Explain why the maintainer keeps the material: juniors studying the same courses and teachers can start with the work already done. Keep The UBIT Hub context and a short star/share invitation, followed by GitHub, portfolio, and email buttons. Use the existing community anchor.
+8. **Credits & permissions.** A quiet footer for source terms and correction/contact links. Keep source permissions distinct from the repository's license.
 
-The course index uses native text and links, with a line break before each description. This removes GitHub's forced table grid, striped rows, and small subtext, while allowing natural wrapping on phones. GitHub sanitizes inline CSS, so the custom borderless table in the design reference cannot be recreated by adding styles to a Markdown table. Course descriptions are drawn from the actual course guides and files. Community details are drawn from the user's profile; omit changing membership counts and unprovided WhatsApp invite links.
+The course list uses a compact native Markdown list inside `details`, so it can grow without extending the closed README. GitHub sanitizes inline CSS; use supported Markdown and HTML rather than custom table styles. Course links come from the actual files and guides. Community details come from the user’s profile; omit changing membership counts and unprovided WhatsApp invite links.
 
 ## DSA migration
 
@@ -49,6 +49,7 @@ The old repository README claimed 29 pages; the actual supplied PDF contains 31 
 - Use a small transparent title with light/dark and compact phone variants. Place the department-building illustration in the right-hand opening space.
 - Keep body copy as real Markdown. Use visuals for identity or useful context, and keep tables short enough to scan.
 - Avoid large banners, decorative cards, badge rows, generic gradients, and repeated explanations.
+- Write in the maintainer’s first person, as a student helping another student. Use short, direct sentences and ordinary words. Do not use Unicode dash punctuation in repository prose. Preserve supplied PDFs and third-party license notices unchanged.
 - Preserve course notes and guides while applying the distribution cleanup below. Keep the contribution guide's index references and resource-count instructions consistent with the redesigned root README.
 - Use a small original book illustration beside the workflow and a compact export of the existing university emblem beside the community section.
 
@@ -62,7 +63,7 @@ The results-portal URL and ongoing-development status are confirmed by the user.
 
 All six subject folders are now grouped under `resources/`. The three tracked root directories are `resources/`, `assets/`, and `docs/`; adding a subject adds no root-level directory. `resources/README.md` is the directory guide. Subject footer links continue back to the root README, and contribution instructions use the new paths.
 
-The root README keeps its course index, DSA roadmap, and Results website visible. Beginner instructions, the repository tree, and PDF-preview help use native `details` disclosures. The primary student actions remain available without expanding anything. Results and community copy have been shortened to remove repeated purpose statements. Star and follow links are a brief invitation after the community description, with no counters or claims of guaranteed engagement.
+The root README puts course finding and PDF instructions before the DSA and Results projects. Courses, failed-preview help, and the contributor folder tree use native `details` disclosures. Course counts, the folder-directory link, roadmap link, and Results button stay visible. The closing explains the benefit for future juniors and offers three 40-pixel-high contact buttons. Buttons wrap naturally on phones and use the repository’s university red. Removed obsolete artwork from earlier redesign iterations. The Linear Algebra guide now follows the other single-file guides and no longer promises future textbook uploads or predicts exam frequency.
 
 Run `node docs/maintenance/check-resources.mjs` to check all local Markdown references, inventory totals, subject-guide presence, and PDF placement. For this migration, compare every non-Markdown resource against the pre-move SHA-256 manifest. Visual QA should cover both themes, narrow screens, and expanded disclosures.
 

@@ -2,13 +2,13 @@
 
 # Linear Algebra
 
-**LA — Study Archive**
+**Linear Algebra study notes**
 
 </div>
 
 ---
 
-> **Linear Algebra** is a foundational mathematics course covering vector spaces, matrices, linear transformations, determinants, eigenvalues, and systems of linear equations. It underpins machine learning, computer graphics, data science, and virtually every area of engineering and computing. This folder contains complete semester notes compiled during the course taught by **Miss Fozia Hanif**.
+**Semester notes from Miss Fozia Hanif’s Linear Algebra course.** Work through the explanations and examples topic by topic, and compare the coverage with your current course outline.
 
 ---
 
@@ -17,16 +17,17 @@
 ```
 linear-algebra/
 │
-└── linear-algebra-complete-notes-Miss-Fozia-Hanif.pdf   ← Full semester notes.
+├── linear-algebra-complete-notes-Miss-Fozia-Hanif.pdf   ← Semester notes.
+└── README.md
 ```
 
 ---
 
 ## Course Notes
 
-| File | What It Is |
-|------|-----------|
-| [Linear Algebra Complete Notes — Miss Fozia Hanif](./linear-algebra-complete-notes-Miss-Fozia-Hanif.pdf) | Full semester notes compiled from Miss Fozia Hanif's lectures. Covers all major topics across the complete course. Well-structured and directly aligned with the exam syllabus. |
+**[Open the semester notes →](./linear-algebra-complete-notes-Miss-Fozia-Hanif.pdf)**
+
+Notes compiled from Miss Fozia Hanif’s lectures, with explanations and worked examples. Use your current outline to decide which topics to prioritize.
 
 ---
 
@@ -46,20 +47,13 @@ linear-algebra/
 
 ## How to Study Using This Folder
 
-```
-Step 1 → Work through the notes topic by topic, in order.
-Step 2 → For each topic, solve the examples in the notes manually before checking solutions.
-Step 3 → Focus heavily on matrix operations, determinants, and eigenvalues —
-          these are the most frequently examined areas.
-Step 4 → Practice Gaussian elimination by hand until it is automatic.
-```
-
----
-
-> **Note on Resources:** More structured materials (textbooks, solved assignments) will be added as they become available. This folder is actively maintained.
+1. Check the topics against your current course outline and your teacher’s instructions.
+2. Work through the notes in order, solving each example before checking the solution.
+3. Practise Gaussian elimination, matrix operations, and determinant calculations by hand. Write out the steps so you can find mistakes.
+4. Mix questions from earlier topics into your revision and revisit any method you cannot explain.
 
 ---
 
 <div align="center">
-  <sub>Part of <a href="../../README.md">The UBIT Hub Resources</a> — maintained by <a href="https://github.com/codewithmahad">Shaikh Mahad</a></sub>
+  <sub>Part of <a href="../../README.md">The UBIT Hub Resources</a> · maintained by <a href="https://github.com/codewithmahad">Shaikh Mahad</a></sub>
 </div>
