@@ -10,9 +10,9 @@
 
 **Study resources for UBIT students at the University of Karachi.**
 
-Good material often gets buried in old class chats. This library keeps it organized by course: **handwritten and typed notes, revision guides, MCQ practice, and textbook chapters**. Each course README explains what is available and where to start.
+Good material often gets buried in old class chats. This library keeps it organized by course: **handwritten and typed notes, revision guides, MCQ practice, and textbook chapters**. Each subject guide explains what is available and where to start.
 
-As part of **The UBIT Hub**, I maintain this library for students across batches and degree programs. The aim is to keep useful material available beyond a single semester, with clear descriptions and credit for the people behind it.
+As part of **The UBIT Hub**, I organize these resources for students across batches and degree programs. Useful material should stay easy to find after the semester ends.
 
 <p>
   <a href="#find-your-course">Courses</a>&nbsp;·
@@ -25,25 +25,63 @@ As part of **The UBIT Hub**, I maintain this library for students across batches
 
 ## Find your course
 
-**6 subjects · 32 PDFs · 1 logic-gates reference sheet.** Choose a subject for its full guide, or open a starting document below.
+**6 subjects · 32 PDFs · 1 logic-gates reference sheet.** Open a subject guide for the full file list, or choose a starting document below.
 
-**[Software Requirement Engineering](./software-requirement-engineering/)** &nbsp;·&nbsp; [Course outline](./software-requirement-engineering/SE453_SRE_Course_Outline.pdf) → [Comprehensive notes](./software-requirement-engineering/SE453_SRE_Comprehensive_Notes_ShaikhMahad.pdf)<br>
+**[Software Requirement Engineering](./resources/software-requirement-engineering/)** &nbsp;·&nbsp; [Course outline](./resources/software-requirement-engineering/SE453_SRE_Course_Outline.pdf) → [Comprehensive notes](./resources/software-requirement-engineering/SE453_SRE_Comprehensive_Notes_ShaikhMahad.pdf)<br>
 Typed & handwritten notes · outlines · reference chapters
 
-**[Digital Logic Design](./digital-logic-design/)** &nbsp;·&nbsp; [Final Exam Target Guide](./digital-logic-design/DLD_Final_Exam_Target_Guide.pdf)<br>
+**[Digital Logic Design](./resources/digital-logic-design/)** &nbsp;·&nbsp; [Final Exam Target Guide](./resources/digital-logic-design/DLD_Final_Exam_Target_Guide.pdf)<br>
 Exam guide · handwritten notes · MCQs · Floyd chapters
 
-**[Linear Algebra](./linear-algebra/)** &nbsp;·&nbsp; [Miss Fozia Hanif’s notes](./linear-algebra/linear-algebra-complete-notes-Miss-Fozia-Hanif.pdf)<br>
+**[Linear Algebra](./resources/linear-algebra/)** &nbsp;·&nbsp; [Miss Fozia Hanif’s notes](./resources/linear-algebra/linear-algebra-complete-notes-Miss-Fozia-Hanif.pdf)<br>
 Complete semester lecture notes
 
-**[Communication & Presentation Skills](./communication-and-presentation-skills/)** &nbsp;·&nbsp; [Complete course notes](./communication-and-presentation-skills/notes/CPS_Complete_Notes.pdf)<br>
+**[Communication & Presentation Skills](./resources/communication-and-presentation-skills/)** &nbsp;·&nbsp; [Complete course notes](./resources/communication-and-presentation-skills/notes/CPS_Complete_Notes.pdf)<br>
 Course notes · Murphy & Guffey references
 
-**[Urdu](./urdu/)** &nbsp;·&nbsp; [Comprehensive notes](./urdu/notes/Urdu_Comprehensive_Notes_ShaikhMahad.pdf)<br>
+**[Urdu](./resources/urdu/)** &nbsp;·&nbsp; [Comprehensive notes](./resources/urdu/notes/Urdu_Comprehensive_Notes_ShaikhMahad.pdf)<br>
 Comprehensive notes · ghazals · selected prose
 
-**[Data Structures & Algorithms](./data-structures-and-algorithms/)** &nbsp;·&nbsp; [The DSA Blueprint](./data-structures-and-algorithms/roadmaps/The-DSA-Blueprint-Roadmap.pdf)<br>
+**[Data Structures & Algorithms](./resources/data-structures-and-algorithms/)** &nbsp;·&nbsp; [The DSA Blueprint](./resources/data-structures-and-algorithms/roadmaps/The-DSA-Blueprint-Roadmap.pdf)<br>
 Learning roadmap · practice links · printable study tracker
+
+<details>
+<summary><strong>New here? How to find and download material</strong></summary>
+
+1. Open a **subject name** above for its guide and complete file list.
+2. Open a **starting document** beside it to go straight to a recommended PDF.
+3. Read it in your browser, or use the file viewer’s **download button** to save it.
+
+You do not need to clone the repository or install programming tools to use the material. Check your current course outline before planning revision.
+
+</details>
+
+<details>
+<summary><strong>Repository structure</strong></summary>
+
+```text
+.
+├── resources/
+│   ├── README.md
+│   ├── communication-and-presentation-skills/
+│   ├── data-structures-and-algorithms/
+│   │   └── roadmaps/
+│   │       └── The-DSA-Blueprint-Roadmap.pdf
+│   ├── digital-logic-design/
+│   ├── linear-algebra/
+│   ├── software-requirement-engineering/
+│   └── urdu/
+├── assets/
+│   └── readme/
+├── docs/
+├── CONTRIBUTING.md
+├── LICENSE
+└── README.md
+```
+
+This is a folder overview. Open the [subject directory](./resources/) or a subject’s README for its complete file list. New subjects belong inside `resources/`, keeping the repository root compact.
+
+</details>
 
 ## The DSA Blueprint
 
@@ -58,15 +96,15 @@ I wrote **The DSA Blueprint** to give students a clear order to follow after lea
 
 The **31-page roadmap** includes six phases, linked practice problems, resource recommendations, and a **16-week printable tracker**.
 
-**[Read the roadmap →](./data-structures-and-algorithms/roadmaps/The-DSA-Blueprint-Roadmap.pdf)** &nbsp;·&nbsp; [See the study guide](./data-structures-and-algorithms/)
+**[Read the roadmap →](./resources/data-structures-and-algorithms/roadmaps/The-DSA-Blueprint-Roadmap.pdf)** &nbsp;·&nbsp; [See the study guide](./resources/data-structures-and-algorithms/)
 
 ## UBIT Results Portal
 
-**Another project I’m building for our university community.**
+**A results and GPA website I’m building for UBIT students.**
 
-Alongside this library, I built **UBIT Results** for students to check available results, view their GPA, and use a GPA calculator. It is part of the same effort behind The UBIT Hub: making useful resources and tools easier for our students to access.
+I built **UBIT Results** so students can check available results, view their GPA, and use a GPA calculator in one place.
 
-**Still in development.** I’m continuing to work on the portal and improve it alongside this library.
+**Still in development.** I’m continuing to improve the portal and the experience for students.
 
 <p>
   <a href="https://ubit-results.vercel.app/"><img src="assets/readme/ubit-results-button.svg" width="210" height="44" alt="UBIT Results — open the results and GPA website"></a>
@@ -100,7 +138,9 @@ Keep additions clearly named, credited, and free of duplicates. A new course sho
 
 <h2 id="the-ubit-hub"><img src="assets/readme/ubit-emblem.webp" align="right" width="12%" alt="Department of Computer Science, UBIT, University of Karachi emblem.">The UBIT Hub</h2>
 
-**The UBIT Hub** is the WhatsApp community I founded for course updates, academic discussions, shared resources, and peer support. The community, this library, and the results portal are connected parts of my work for UBIT students.
+**The UBIT Hub** is the WhatsApp community I founded for course updates, academic discussions, shared resources, and peer support. This library and the results portal grew out of that work.
+
+If this library saves you time, **[give it a star](https://github.com/codewithmahad/the-ubit-hub-resources)** and share the subject link with a classmate. **[Follow my work](https://github.com/codewithmahad)** for more resources and student projects.
 
 ## Credits & contact
 

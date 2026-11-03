@@ -133,5 +133,5 @@ Step 5 → Review the Handwritten Notes before your exam for quick reinforcement
 ---
 
 <div align="center">
-  <sub>Part of <a href="../README.md">The UBIT Hub Resources</a> — maintained by <a href="https://github.com/codewithmahad">Shaikh Mahad</a></sub>
+  <sub>Part of <a href="../../README.md">The UBIT Hub Resources</a> — maintained by <a href="https://github.com/codewithmahad">Shaikh Mahad</a></sub>
 </div>

@@ -73,5 +73,5 @@ Step 3 → For presentations and verbal topics, focus on the Guffey textbook —
 ---
 
 <div align="center">
-  <sub>Part of <a href="../README.md">The UBIT Hub Resources</a> — maintained by <a href="https://github.com/codewithmahad">Shaikh Mahad</a></sub>
+  <sub>Part of <a href="../../README.md">The UBIT Hub Resources</a> — maintained by <a href="https://github.com/codewithmahad">Shaikh Mahad</a></sub>
 </div>

@@ -28,4 +28,4 @@ This is the original Part 1 PDF from **The DSA Blueprint**, now organized with T
 
 The original 2025 copyright notice is preserved in [LICENSE](./LICENSE). External tutorials and problem platforms are credited in the document.
 
-[Back to The UBIT Hub Resources](../README.md)
+[Back to The UBIT Hub Resources](../../README.md)

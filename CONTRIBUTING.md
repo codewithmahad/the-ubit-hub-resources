@@ -37,7 +37,7 @@ No spaces. No special characters. No vague names like `notes.pdf` or `final.pdf`
 
 1. **Fork** this repository.
 2. **Create a branch** named after what you're adding: `add/dld-assignment-solutions`.
-3. **Place your files** in the correct course directory. If the course doesn't exist yet, create a folder following the existing naming pattern (e.g., `object-oriented-programming/`).
+3. **Place your files** in the correct subject directory under `resources/`. If the subject doesn't exist yet, use a lowercase, hyphen-separated name such as `resources/object-oriented-programming/`.
 4. **Update the course `README.md`** to include your new file with a clear description. Refresh the main README's resource totals if the file count changes.
 5. **Open a Pull Request** with a title like: `feat: add DLD assignment solutions`.
 
@@ -47,10 +47,24 @@ No spaces. No special characters. No vague names like `notes.pdf` or `final.pdf`
 
 If you are adding resources for a course that doesn't have a folder yet:
 
-1. Create a folder at the root with a lowercase, hyphen-separated name: `data-structures/`
+1. Create a folder inside `resources/` with a lowercase, hyphen-separated name, such as `resources/object-oriented-programming/`. Keep new subjects out of the repository root.
 2. Inside, create sub-folders as needed: `handwritten-notes/`, `reference-books/`, `reference-books/extracted-chapters/`
 3. Create a `README.md` for the course following the same format as the existing course READMEs (SRE or DLD are good references).
-4. Add the course and a recommended starting document to the main `README.md` course index, and refresh the subject and PDF counts.
+4. Add the subject to the main `README.md` course index and `resources/README.md`, including a recommended starting document. Refresh the root README's subject and PDF counts.
+
+---
+
+## Check Your Changes
+
+Before submitting, open your links to confirm they reach the intended files. Keep author credits and source notices with the material.
+
+If you are working locally with Node.js, you can also run:
+
+```sh
+node docs/maintenance/check-resources.mjs
+```
+
+This checks local Markdown links, subject and PDF counts, and that study PDFs stay under `resources/`. You can contribute through GitHub without installing Node.js.
 
 ---
 

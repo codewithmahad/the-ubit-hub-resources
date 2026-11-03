@@ -149,5 +149,5 @@ Step 6 → Cross-check your diagrams against the Logic Gates Cheatsheet before t
 ---
 
 <div align="center">
-  <sub>Part of <a href="../README.md">The UBIT Hub Resources</a> — maintained by <a href="https://github.com/codewithmahad">Shaikh Mahad</a></sub>
+  <sub>Part of <a href="../../README.md">The UBIT Hub Resources</a> — maintained by <a href="https://github.com/codewithmahad">Shaikh Mahad</a></sub>
 </div>
