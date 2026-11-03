@@ -1,10 +1,10 @@
 <h1 id="top">
-  <img src="assets/readme/department-building.webp" align="right" width="30%" alt="Illustration of the UBIT department building, with its dome, columned entrance, and cream facade.">
+  <img src="assets/readme/department-building.webp" align="right" width="36%" alt="Illustration of the UBIT department building, with its dome, columned entrance, and cream facade.">
   <picture>
     <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/readme/intro-title-compact-dark.svg">
     <source media="(max-width: 600px)" srcset="assets/readme/intro-title-compact-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/readme/intro-title-dark.svg">
-    <img src="assets/readme/intro-title-light.svg" width="62%" height="42" align="texttop" alt="The UBIT Hub Resources">
+    <img src="assets/readme/intro-title-light.svg" width="56%" height="42" align="texttop" alt="The UBIT Hub Resources">
   </picture>
 </h1>
 
@@ -16,6 +16,7 @@ As part of **The UBIT Hub**, I maintain this library for students across batches
 
 <p>
   <a href="#find-your-course">Courses</a>&nbsp;·
+  <a href="#the-dsa-blueprint">DSA&nbsp;Blueprint</a>&nbsp;·
   <a href="#ubit-results-portal">Results&nbsp;&amp;&nbsp;GPA</a>&nbsp;·
   <a href="#how-to-use-the-material">Study&nbsp;guide</a>&nbsp;·
   <a href="#help-improve-the-library">Contribute</a>&nbsp;·
@@ -24,15 +25,40 @@ As part of **The UBIT Hub**, I maintain this library for students across batches
 
 ## Find your course
 
-**5 courses · 31 PDFs · 1 logic-gates reference sheet.** Choose a course for its full guide, or open the suggested starting document.
+**6 subjects · 32 PDFs · 1 logic-gates reference sheet.** Choose a subject for its full guide, or open a starting document below.
 
-| Course & available material | Start here |
-| :--- | :--- |
-| **[Software Requirement Engineering](./software-requirement-engineering/)**<br><sub>Typed & handwritten notes · outlines · reference chapters</sub> | [Course outline](./software-requirement-engineering/SE453_SRE_Course_Outline.pdf), then [comprehensive notes](./software-requirement-engineering/SE453_SRE_Comprehensive_Notes_ShaikhMahad.pdf) |
-| **[Digital Logic Design](./digital-logic-design/)**<br><sub>Exam guide · handwritten notes · MCQs · Floyd chapters</sub> | [Final Exam Target Guide](./digital-logic-design/DLD_Final_Exam_Target_Guide.pdf) |
-| **[Linear Algebra](./linear-algebra/)**<br><sub>Complete semester lecture notes</sub> | [Miss Fozia Hanif’s notes](./linear-algebra/linear-algebra-complete-notes-Miss-Fozia-Hanif.pdf) |
-| **[Communication & Presentation Skills](./communication-and-presentation-skills/)**<br><sub>Course notes · Murphy & Guffey references</sub> | [Complete course notes](./communication-and-presentation-skills/notes/CPS_Complete_Notes.pdf) |
-| **[Urdu](./urdu/)**<br><sub>Comprehensive notes · ghazals · selected prose</sub> | [Comprehensive notes](./urdu/notes/Urdu_Comprehensive_Notes_ShaikhMahad.pdf) |
+**[Software Requirement Engineering](./software-requirement-engineering/)** &nbsp;·&nbsp; [Course outline](./software-requirement-engineering/SE453_SRE_Course_Outline.pdf) → [Comprehensive notes](./software-requirement-engineering/SE453_SRE_Comprehensive_Notes_ShaikhMahad.pdf)<br>
+Typed & handwritten notes · outlines · reference chapters
+
+**[Digital Logic Design](./digital-logic-design/)** &nbsp;·&nbsp; [Final Exam Target Guide](./digital-logic-design/DLD_Final_Exam_Target_Guide.pdf)<br>
+Exam guide · handwritten notes · MCQs · Floyd chapters
+
+**[Linear Algebra](./linear-algebra/)** &nbsp;·&nbsp; [Miss Fozia Hanif’s notes](./linear-algebra/linear-algebra-complete-notes-Miss-Fozia-Hanif.pdf)<br>
+Complete semester lecture notes
+
+**[Communication & Presentation Skills](./communication-and-presentation-skills/)** &nbsp;·&nbsp; [Complete course notes](./communication-and-presentation-skills/notes/CPS_Complete_Notes.pdf)<br>
+Course notes · Murphy & Guffey references
+
+**[Urdu](./urdu/)** &nbsp;·&nbsp; [Comprehensive notes](./urdu/notes/Urdu_Comprehensive_Notes_ShaikhMahad.pdf)<br>
+Comprehensive notes · ghazals · selected prose
+
+**[Data Structures & Algorithms](./data-structures-and-algorithms/)** &nbsp;·&nbsp; [The DSA Blueprint](./data-structures-and-algorithms/roadmaps/The-DSA-Blueprint-Roadmap.pdf)<br>
+Learning roadmap · practice links · printable study tracker
+
+## The DSA Blueprint
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/dsa-tree-dark.svg">
+  <img src="assets/readme/dsa-tree-light.svg" align="right" width="18%" alt="A binary search tree with the path from 8 to 4 to 6 highlighted.">
+</picture>
+
+**A starting point for students learning Data Structures & Algorithms.**
+
+I wrote **The DSA Blueprint** to give students a clear order to follow after learning programming basics. It moves through problem-solving patterns and data structures, from arrays and linked lists to trees, graphs, and dynamic programming.
+
+The **31-page roadmap** includes six phases, linked practice problems, resource recommendations, and a **16-week printable tracker**.
+
+**[Read the roadmap →](./data-structures-and-algorithms/roadmaps/The-DSA-Blueprint-Roadmap.pdf)** &nbsp;·&nbsp; [See the study guide](./data-structures-and-algorithms/)
 
 ## UBIT Results Portal
 

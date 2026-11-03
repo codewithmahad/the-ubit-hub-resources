@@ -10,7 +10,7 @@ The user confirmed the long-term direction: a shared resource library across UBI
 
 ## Current coverage
 
-Verified from tracked files on 3 November 2026:
+Verified from the repository files on 4 November 2026:
 
 | Course | PDFs | Existing starting resource |
 | :--- | ---: | :--- |
@@ -19,20 +19,28 @@ Verified from tracked files on 3 November 2026:
 | Linear Algebra | 1 | Complete semester notes |
 | Communication & Presentation Skills | 3 | Complete notes |
 | Urdu | 3 | Comprehensive notes |
+| Data Structures & Algorithms | 1 | The DSA Blueprint roadmap |
 
-There is also a DLD logic-gates reference image. Do not describe the library as covering the whole curriculum or imply university endorsement.
+There are 32 PDFs across six subject folders, plus a DLD logic-gates reference image. The DSA subject currently contains a roadmap and its study guide, rather than a full set of course notes. Do not describe the library as covering the whole curriculum or imply university endorsement.
 
 ## Implemented reading order
 
 1. **Introduction.** Identify the audience, useful material, course guides, and purpose in three short paragraphs. The user's department-building photograph is now represented by a compact transparent architectural illustration at the right. Use the two-line phone title to preserve readable lettering.
-2. **Find your course.** A compact course table: course link, recommended starting resource, and a short description of available material. Put navigation before background.
-3. **UBIT Results Portal.** Give the user's companion project its own prominent section directly after the course index. Explain results and GPA, its purpose for the university community, and that it is still in development. Link through the branded emblem-and-wordmark button.
-4. **How to use the material.** A brief sequence from primary notes to practice and deeper references. Include a collapsed PDF-download tip if needed.
-5. **Help improve the library.** Invite useful additions, corrections, and missing-resource reports. Link to `CONTRIBUTING.md` for the full process rather than repeating it.
-6. **About The UBIT Hub.** Explain the community connection and the relationship between the WhatsApp community, resource library, and results portal. The introduction carries the longer-term vision; avoid repeating it here. Include only user-confirmed community links or figures.
-7. **Credits & contact.** A quiet footer for maintenance, source attribution, and correction/contact links. Keep source permissions distinct from the repository's license.
+2. **Find your course.** Borderless entries with a course link, direct starting documents, and a normal-size description. Put navigation before background.
+3. **The DSA Blueprint.** Introduce the user's community roadmap, its six phases, practice links, and printable tracker. Link to the local PDF and the DSA study guide, beside a binary-search-tree visual.
+4. **UBIT Results Portal.** Give the user's companion project a prominent section after the study resources. Explain results and GPA, its purpose for the university community, and that it is still in development. Link through the branded emblem-and-wordmark button.
+5. **How to use the material.** A brief sequence from primary notes to practice and deeper references. Include a collapsed PDF-download tip if needed.
+6. **Help improve the library.** Invite useful additions, corrections, and missing-resource reports. Link to `CONTRIBUTING.md` for the full process rather than repeating it.
+7. **About The UBIT Hub.** Explain the community connection and the relationship between the WhatsApp community, resource library, and results portal. The introduction carries the longer-term vision; avoid repeating it here. Include only user-confirmed community links or figures.
+8. **Credits & contact.** A quiet footer for maintenance, source attribution, and correction/contact links. Keep source permissions distinct from the repository's license.
 
-The course index has two columns to keep the starting document close to its course on narrow screens. Its resource descriptions are drawn from the actual course guides and tracked files. Community details are drawn from the user's profile; omit changing membership counts and unprovided WhatsApp invite links.
+The course index uses native text and links, with a line break before each description. This removes GitHub's forced table grid, striped rows, and small subtext, while allowing natural wrapping on phones. GitHub sanitizes inline CSS, so the custom borderless table in the design reference cannot be recreated by adding styles to a Markdown table. Course descriptions are drawn from the actual course guides and files. Community details are drawn from the user's profile; omit changing membership counts and unprovided WhatsApp invite links.
+
+## DSA migration
+
+The user supplied `The-DSA-Blueprint-Roadmap.pdf` at the repository root and requested consolidation of the former standalone DSA project into this library. The file was moved unchanged to `data-structures-and-algorithms/roadmaps/`, with a folder README and the original 2025 MIT notice. SHA-256: `D1A99E9ED48EC080F0FF27F664DBA8A6E4B0F7563095F285D6CDE494602C2B4B`.
+
+The old repository README claimed 29 pages; the actual supplied PDF contains 31 physical pages. Use 31 in new descriptions. Part 2 is mentioned inside the source PDF but is not included here; do not carry over an unconfirmed release promise. The new navigation and download links use this repository, so they do not depend on the old repository remaining available.
 
 ## Visual direction
 
@@ -41,11 +49,11 @@ The course index has two columns to keep the starting document close to its cour
 - Use a small transparent title with light/dark and compact phone variants. Place the department-building illustration in the right-hand opening space.
 - Keep body copy as real Markdown. Use visuals for identity or useful context, and keep tables short enough to scan.
 - Avoid large banners, decorative cards, badge rows, generic gradients, and repeated explanations.
-- Preserve course files, course READMEs, and the contribution guide during the redesign.
+- Preserve existing course files and course READMEs. Keep the contribution guide's index references and resource-count instructions consistent with the redesigned root README.
 - Use a small original book illustration beside the workflow and a compact export of the existing university emblem beside the community section.
 
 ## Verification
 
-Local rendering uses GitHub Markdown CSS with automatic heading anchors, at 1200, 768, 390, and 320 pixels in both light and dark themes. Check image loading, page overflow, heading selection, navigation targets, and the expanded PDF-download help panel. Also reconcile the displayed course/PDF totals with the tracked files, check local links and SVG XML, and run `git diff --check`.
+Local rendering uses GitHub Markdown CSS with automatic heading anchors, at 1200, 768, 390, and 320 pixels in both light and dark themes. Check image loading, page overflow, heading selection, navigation targets, and the expanded PDF-download help panel. Also reconcile the displayed subject/PDF totals with the repository files, check local links and SVG XML, and run `git diff --check`. Verify that the migrated PDF's SHA-256 and the original license's Git blob hash are unchanged.
 
 The results-portal URL and ongoing-development status are confirmed by the user. The web reader could not load that site during this pass. The neighboring Results project was inspected read-only to verify its red, branding, results/GPA purpose, and calculator implementation; no student data or source files in that project were changed.
