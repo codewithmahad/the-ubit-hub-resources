@@ -1,12 +1,18 @@
 # Share useful course material
 
-Readable notes, worked assignments, lab solutions, practice questions, and revision guides can help the next student. Share your own work or material you have permission to redistribute. Clearly label partial coverage.
+You do not need a whole course ready to help. A readable set of notes, a worked explanation, or a few good practice questions can save another student hours. Share what you made, say what it covers, and leave a clear credit for whoever wrote it.
+
+## What belongs here
+
+Notes, original practice sheets, worked assignments, and lab reports are welcome. Another student’s notes are welcome with their permission too. Mention missing topics or unfinished sections so nobody mistakes a partial set for the whole course.
+
+Do not add teacher-issued question sheets, slides, or classroom handouts as routine uploads. If their creator has allowed public sharing, explain that permission in the pull request for review. Leave out textbooks, scanned book chapters, publisher solution manuals, and material you are not allowed to distribute. Reference the source of an exercise without uploading the source book.
 
 ## Where files go
 
-Start with `resources/<course>/<teacher>/`. For a few files, keep them directly in the teacher’s folder. When a course has several kinds of material, group them into `notes/`, `assignments/`, and `labs/` so students can find what they need. Use `outlines/`, `practice/`, or `references/` when needed. Keep assignment questions and solutions together, with their number in each filename. Reuse existing folders; do not add author folders, folders for individual assignments, or extra READMEs.
+Start with `resources/<course>/<teacher>/` and reuse the folders already there. A small set can stay directly in the teacher’s folder. Larger collections use `notes/`, `assignments/`, `labs/`, or `practice/`. Put worked assignment answers in `assignments/`, with the assignment number and topic in the filename.
 
-Use respectful teacher names such as `sir-hussain-saleem`, `miss-fozia-hanif`, and `sir-dr-m-sajid-khan`. Ask if the teacher is unknown. `general/` is only for an independent resource that is not tied to a particular teacher.
+Keep respectful teacher names such as `sir-hussain-saleem` and `miss-fozia-hanif`. Use `general/` for material deliberately shared across classes, such as the English topic references. The PF practice sheets have their own named collection. Ask if the teaching context is unclear; do not guess.
 
 ## File names
 
@@ -16,23 +22,23 @@ Mahad’s course notes end with `_Shaikh_Mahad.pdf`. The general PF collection u
 
 - `SRE_Typed_Study_Notes_Shaikh_Mahad.pdf`
 - `DLD_Handwritten_Lecture_Notes_Shaikh_Mahad.pdf`
-- `DBMS_Assignment_01_Relational_Model_Shaikh_Mahad.pdf`
-- `DSA_Java_Trees_Lab_Solutions_Author.pdf`
 
-The DBMS and Java examples show the naming pattern; they are not currently available files. Preserve another creator’s credit instead of adding Mahad’s name. An outline or reference sheet does not need an author suffix when authorship is unknown.
+Keep another creator’s credit instead of adding Mahad’s name. If no public author credit is requested, simply name the contents and leave the author out of the filename.
 
 ## Add your material
 
 1. Check the [main README](./README.md) for the course and teacher.
 2. Fork the repository and upload the file into the matching teacher folder, using its material-type subfolder when present.
-3. Add a short, descriptive PDF link under that course in the main README’s dropdown. No other index or README is needed.
+3. Add a descriptive PDF link to the existing course guide, or to the main README if the course has no guide. Say what the file helps someone study.
 4. Open a pull request with the course, teacher, coverage, author or source, and sharing permission. Include the program, term, or programming language when relevant.
 
-Before submitting, check page order, readability, and links. Remove accidental blank scans and private information. A focused topic is welcome; say what is missing.
+Before submitting a new file, check page order, readability, and private information. Use worked answers to explain a method; do not share restricted or unreleased assessments. When moving or renaming a PDF already here, preserve its exact contents. Do not re-export or recompress it just to change its location.
 
-An author may choose a name, alias, or no public credit. Confirm authorship and permission with a maintainer even when credit is private. GitHub accounts and commit history may still identify the uploader.
+Keep guides at course level only, and only where they help students choose material. Do not create a README in every teacher or topic folder.
 
-Do not upload book scans, extracted chapters, or another person’s notes without redistribution permission. Keep required credits and notices. The repository’s license does not grant rights to someone else’s material.
+An author may choose a name, alias, or no public credit. Confirm authorship and permission with a maintainer even when the credit stays private.
+
+Keep required credits and notices. The repository’s license does not grant rights to someone else’s material.
 
 For a missing resource, correction, or study question, [open an issue](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new/choose). Include the course and teacher, and keep private information out of public threads.
 

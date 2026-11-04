@@ -12,4 +12,4 @@
 - [ ] I made this material or have permission to redistribute it.
 - [ ] The files are under the correct course and teacher, using the material-type folders where present.
 - [ ] Filenames describe the contents and preserve the right author credit.
-- [ ] I added or updated the file links in the main README.
+- [ ] I added or updated the file links in the course guide, or the main README if there is no course guide.
