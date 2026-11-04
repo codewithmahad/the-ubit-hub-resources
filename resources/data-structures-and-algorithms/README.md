@@ -1,8 +1,12 @@
 # Data Structures & Algorithms
 
-Start with **The DSA Blueprint, Part 1: The Strategy & Roadmap**. I wrote it for students who know programming basics and want a plan for learning DSA.
+Teacher-specific lecture notes have not been added yet. The resource here is an independent learning roadmap by Shaikh Mahad Ud Din.
 
-**[Open the roadmap PDF →](./roadmaps/The-DSA-Blueprint-Roadmap.pdf)**<br>
+## General study guide
+
+Start with **The DSA Blueprint, Part 1: The Strategy & Roadmap** if you know programming basics and want an order to follow. [See the set details](./general/the-dsa-blueprint/).
+
+**[Open the roadmap PDF →](./general/the-dsa-blueprint/The-DSA-Blueprint-Roadmap.pdf)**<br>
 31 pages · Version 1.0 · Includes a 16-week printable tracker
 
 ## What the roadmap covers
@@ -28,4 +32,6 @@ This is the original Part 1 PDF from **The DSA Blueprint**, now organized with T
 
 The original 2025 copyright notice is preserved in [LICENSE](./LICENSE). External tutorials and problem platforms are credited in the document.
 
-[Back to The UBIT Hub Resources](../../README.md)
+Have lecture notes from a DSA course? [Share a set](../../CONTRIBUTING.md) with its teacher, program, and programming language so someone studying in C++ or Java can choose appropriately.
+
+[All courses](../README.md) · [Back to The UBIT Hub Resources](../../README.md)

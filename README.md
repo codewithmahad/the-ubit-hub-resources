@@ -8,11 +8,11 @@
   </picture>
 </h1>
 
-**Notes and study guides for UBIT students at the University of Karachi.**
+**A notes bank by UBIT students, for this batch and the next.**
 
-Useful notes get buried in class chats. I keep them here, sorted by subject, so you can find a file without asking around for it. There are **lecture notes, revision guides, MCQ practice, and my DSA roadmap**.
+When I study a difficult course, I make notes and share them in **The UBIT Hub**, the WhatsApp community I run for students at the University of Karachi. My friends share theirs too. But PDFs get lost in chats, and someone has to ask for the same file again. Here, you can find those notes even when we’re offline.
 
-This is part of **The UBIT Hub**. Students from any UBIT batch or degree program can use it and contribute.
+Keep up with a course, revise before an exam, or start learning during the semester break. Students from **any UBIT batch or program** are welcome to use the notes and share their own.
 
 <p>
   <a href="#find-your-course">Courses</a>&nbsp;·
@@ -25,19 +25,19 @@ This is part of **The UBIT Hub**. Students from any UBIT batch or degree program
 
 ## Find your course
 
-**6 subjects · 12 PDFs · 1 logic-gates reference sheet.** Open the list below to find your course and a PDF to start with. You can also [browse the subject folders](./resources/).
+**6 subjects · 12 PDFs · 1 logic-gates reference sheet.** Choose a course, then look for your teacher and a set that matches your outline. You can also [browse all subjects](./resources/).
 
 <details>
 <summary><strong>Browse courses and notes</strong></summary>
 
-- **[Communication & Presentation Skills](./resources/communication-and-presentation-skills/)**: [Complete course notes](./resources/communication-and-presentation-skills/notes/CPS_Complete_Notes.pdf).
-- **[Data Structures & Algorithms](./resources/data-structures-and-algorithms/)**: [The DSA Blueprint](./resources/data-structures-and-algorithms/roadmaps/The-DSA-Blueprint-Roadmap.pdf).
-- **[Digital Logic Design](./resources/digital-logic-design/)**: [Final Exam Target Guide](./resources/digital-logic-design/DLD_Final_Exam_Target_Guide.pdf).
-- **[Linear Algebra](./resources/linear-algebra/)**: [Miss Fozia Hanif’s notes](./resources/linear-algebra/linear-algebra-complete-notes-Miss-Fozia-Hanif.pdf).
-- **[Software Requirement Engineering](./resources/software-requirement-engineering/)**: [Course outline](./resources/software-requirement-engineering/SE453_SRE_Course_Outline.pdf), then [comprehensive notes](./resources/software-requirement-engineering/SE453_SRE_Comprehensive_Notes_ShaikhMahad.pdf).
-- **[Urdu](./resources/urdu/)**: [Comprehensive notes](./resources/urdu/notes/Urdu_Comprehensive_Notes_ShaikhMahad.pdf).
+- **[Communication & Presentation Skills](./resources/communication-and-presentation-skills/)**: [Complete course notes](./resources/communication-and-presentation-skills/sir-fazal-ur-rehman/course-notes/CPS_Complete_Notes.pdf).
+- **[Data Structures & Algorithms](./resources/data-structures-and-algorithms/)**: [The DSA Blueprint](./resources/data-structures-and-algorithms/general/the-dsa-blueprint/The-DSA-Blueprint-Roadmap.pdf).
+- **[Digital Logic Design](./resources/digital-logic-design/)**: [Final Exam Target Guide](./resources/digital-logic-design/sir-bari/exam-guide/DLD_Final_Exam_Target_Guide.pdf).
+- **[Linear Algebra](./resources/linear-algebra/)**: [Notes from Miss Fozia Hanif’s course](./resources/linear-algebra/miss-fozia-hanif/semester-notes/linear-algebra-complete-notes-Miss-Fozia-Hanif.pdf).
+- **[Software Requirement Engineering](./resources/software-requirement-engineering/)**: [Course outline](./resources/software-requirement-engineering/sir-hussain-saleem/course-outline/SE453_SRE_Course_Outline.pdf), then [comprehensive notes](./resources/software-requirement-engineering/sir-hussain-saleem/shaikh-mahad-notes/SE453_SRE_Comprehensive_Notes_ShaikhMahad.pdf).
+- **[Urdu](./resources/urdu/)**: [Comprehensive notes](./resources/urdu/sir-dr-m-sajid-khan/shaikh-mahad-notes/Urdu_Comprehensive_Notes_ShaikhMahad.pdf).
 
-The **course name** opens its guide and full file list. The link beside it opens the suggested PDF. If your course is missing, it hasn’t been added yet. You can [request it here](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new).
+The **course name** opens the notes grouped by teacher. The link beside it opens one available PDF. Each set records its author or chosen credit, coverage, and any known program, term, or programming language. If the notes you need are missing, [request them](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new?template=notes-request.yml).
 
 </details>
 
@@ -45,15 +45,15 @@ The **course name** opens its guide and full file list. The link beside it opens
 
 <img src="assets/readme/study-notes.svg" align="right" width="16%" alt="">
 
-1. **Pick your course.** Open its guide for the file list, or use a PDF link above to start reading.
+1. **Find a matching set.** Open your course guide and check the teacher, topics, and language where relevant. CS and SE notes may cover the same course differently; missing details are marked.
 2. **Read or download.** Read the PDF on GitHub, or use the file viewer’s download button to save it. You don’t need to clone the repo or install anything.
 
-Check the notes against your current outline and your teacher’s instructions. A course can change between batches.
+Compare the notes with your current outline, even if the teacher is the same. A course can change between batches.
 
 <details>
 <summary>PDF not opening?</summary>
 
-Try the download button in the file viewer and open the saved file. If it still fails, [report the filename](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new) so I can check it.
+Try the download button in the file viewer and open the saved file. If it still fails, [report the filename](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new?template=resource-problem.yml) so we can check it.
 
 </details>
 
@@ -68,7 +68,7 @@ I wrote **The DSA Blueprint** for students who know programming basics but aren�
 
 **31 pages · 6 phases · practice links · 16-week printable tracker**
 
-**[Read the roadmap →](./resources/data-structures-and-algorithms/roadmaps/The-DSA-Blueprint-Roadmap.pdf)** &nbsp;·&nbsp; [See the study guide](./resources/data-structures-and-algorithms/)
+**[Read the roadmap →](./resources/data-structures-and-algorithms/general/the-dsa-blueprint/The-DSA-Blueprint-Roadmap.pdf)** &nbsp;·&nbsp; [See the study guide](./resources/data-structures-and-algorithms/)
 
 ## UBIT Results Portal
 
@@ -80,43 +80,41 @@ I built **UBIT Results** with the same idea behind this library: students should
 
 ## Help improve the library
 
-Have notes that helped you, or spotted a mistake in a file? I’d like to hear from you.
+If you made notes that helped you understand a course, someone else could use them too. Scan the pages while you still know which notebook they’re in. A clear set on one difficult topic is welcome; say what it covers and what’s missing.
 
-- **Add notes:** follow the [contributing guide](./CONTRIBUTING.md). Include the course, author, and what the file covers. Share only work you own or have permission to redistribute.
-- **Request or fix something:** [open an issue](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new). Tell me the course, filename if there is one, and what’s missing or wrong.
+- **Share your notes:** [follow the contribution guide](./CONTRIBUTING.md) and open a pull request, a proposed addition we review before it joins the collection. You can choose a name, alias, or no public author credit.
+- **Ask for notes or a correction:** [request a set](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new?template=notes-request.yml) or [report a problem](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new?template=resource-problem.yml). Include the course and teacher so others can help.
 
 <details>
-<summary><strong>Repository structure</strong></summary>
+<summary><strong>How the notes are organized</strong></summary>
 
 ```text
-.
-├── resources/
-│   ├── README.md
-│   ├── communication-and-presentation-skills/
-│   ├── data-structures-and-algorithms/
-│   ├── digital-logic-design/
-│   ├── linear-algebra/
-│   ├── software-requirement-engineering/
-│   └── urdu/
-├── assets/
-│   └── readme/
-├── docs/
-├── CONTRIBUTING.md
-├── LICENSE
-└── README.md
+resources/
+└── course/
+    ├── README.md
+    ├── teacher/
+    │   ├── README.md
+    │   ├── one-notes-set/
+    │   │   ├── README.md
+    │   │   └── notes.pdf
+    │   └── another-notes-set/
+    └── general/
+        └── shared-study-guide/
 ```
 
-Put new subjects inside `resources/` and include a guide with each one. The [subject directory](./resources/) links to all the course folders.
+Each student’s set stays separate, even when the course and teacher match. Program, term, language, and coverage help you choose between them. Shared guides go in `general/`; material whose teacher is not yet known goes in `teacher-not-recorded/`.
+
+See the [folder and naming guide](./CONTRIBUTING.md#where-your-notes-go) before adding a set.
 
 </details>
 
 <h2 id="the-ubit-hub"><img src="assets/readme/ubit-emblem.webp" align="right" width="12%" alt="Department of Computer Science, UBIT, University of Karachi emblem.">From our batch to yours</h2>
 
-I’m **Shaikh Mahad Ud Din**. We spent a lot of time finding notes and working through these courses. I keep that work here so juniors, especially those studying with the same teachers, have something to start with.
+I’m **Shaikh Mahad Ud Din**. I don’t want the work we put into these courses to disappear with our old notebooks. A junior studying with the same teacher could use it next semester, and later leave their own notes for someone else. I want this to keep going after I graduate, with students adding material and trusted maintainers looking after it.
 
-**The UBIT Hub** is the WhatsApp community I founded for course updates, questions, and student support. This repo and the Results Portal are part of that work.
+Have a study question or want to compare how a course is taught? [Start a conversation](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new?template=study-question.yml). Include the course and what you’ve tried, and help another student when you can.
 
-If this helped, **[star the repo](https://github.com/codewithmahad/the-ubit-hub-resources)** and pass the course link on. Follow me for more notes, guides, and projects I’m building for students.
+If these notes helped, **[star the repo](https://github.com/codewithmahad/the-ubit-hub-resources)** so you can find it again, and pass the course link on. Follow me for more notes and projects I’m building for students.
 
 <p>
   <a href="https://github.com/codewithmahad"><img src="assets/readme/follow-github.svg" width="184" height="40" alt="Follow Shaikh Mahad on GitHub"></a>

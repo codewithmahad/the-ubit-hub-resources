@@ -1,0 +1,26 @@
+name: Report a resource problem
+description: Report a broken link, missing page, incorrect explanation, or wrong credit.
+title: "[Resource problem] "
+body:
+  - type: markdown
+    attributes:
+      value: For private permission evidence or a removal request, email codewithmahad@gmail.com. Do not post personal information here.
+  - type: input
+    id: resource
+    attributes:
+      label: Course and file link
+      description: Paste the repository link to the file or guide.
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Page or topic
+      placeholder: Page 12, binary search example
+  - type: textarea
+    id: problem
+    attributes:
+      label: What needs checking?
+      description: Explain the problem and the correction or source if you have one.
+    validations:
+      required: true

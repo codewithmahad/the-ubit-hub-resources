@@ -1,0 +1,34 @@
+name: Request notes
+description: Tell students which course, teacher, or topic you need notes for.
+title: "[Notes request] "
+body:
+  - type: markdown
+    attributes:
+      value: Search the course guides and existing issues first. Someone may have a matching set, but a request does not guarantee that it is available.
+  - type: input
+    id: course
+    attributes:
+      label: Course and code
+      placeholder: Data Structures and Algorithms, code if known
+    validations:
+      required: true
+  - type: input
+    id: teacher
+    attributes:
+      label: Teacher
+      description: Include Sir or Miss as appropriate, retaining Dr where applicable. Write Not known if unsure.
+    validations:
+      required: true
+  - type: input
+    id: context
+    attributes:
+      label: Program, term, and programming language
+      description: Include what helps match the notes. Do not include your roll number.
+      placeholder: SE, semester 3, Fall 2026, C++
+  - type: textarea
+    id: coverage
+    attributes:
+      label: Which notes would help?
+      description: Name the topics, type of notes, and any existing set you checked.
+    validations:
+      required: true

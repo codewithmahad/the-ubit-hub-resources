@@ -1,0 +1,21 @@
+name: Ask a study question
+description: Discuss a topic, compare course coverage, or ask how to use a set of notes.
+title: "[Study question] "
+body:
+  - type: markdown
+    attributes:
+      value: Help others understand the question. Keep it respectful and do not share private information or restricted assessment material.
+  - type: input
+    id: course
+    attributes:
+      label: Course or university topic
+      description: Add the teacher, program, or language if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: What would you like to discuss?
+      description: For a study problem, include what you tried and where you got stuck. Link the notes and page if relevant.
+    validations:
+      required: true

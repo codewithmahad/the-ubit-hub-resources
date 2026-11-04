@@ -1,76 +1,76 @@
-# README redesign direction
+# README and notes-bank direction
 
-Design notes for the completed README redesign. The user expanded the scope from the opening section to the full README on 3 November 2026.
+The collection is maintained by Shaikh Mahad Ud Din as part of The UBIT Hub. This direction reflects the purpose clarified by Mahad on 4 November 2026.
 
-## Purpose and audience
+## Purpose
 
-The repository preserves useful course material for UBIT students at the University of Karachi. It is maintained by Shaikh Mahad Ud Din as part of The UBIT Hub community. Course READMEs provide the context: what each file contains, a starting resource, and how notes relate to practice and references.
+Mahad and friends from different sections make notes while studying and share them through the WhatsApp community. Files get buried, people ask for them again, and the author may be offline. This repository gives those notes a place students can return to without waiting for a reply.
 
-The user confirmed the long-term direction: a shared resource library across UBIT batches and degree programs, growing course by course. Keep that ambition distinct from the current coverage.
+The longer-term purpose is to preserve that work for juniors studying the same courses, often with the same teachers. Students can prepare during semester breaks, share their own explanations later, and maintain the bank after the founding contributors graduate.
 
-## Current coverage
+Keep the voice personal, concrete, and welcoming. Good notes matter more than class rank. Do not turn this into a showcase limited to toppers or claim coverage of the whole curriculum.
 
-Verified from the repository files on 4 November 2026:
+## Reader path
 
-| Course | PDFs | Existing starting resource |
+1. **Opening:** explain the real WhatsApp-to-notes-bank story. Keep the building illustration and compact title.
+2. **Find your course:** show current counts and a closed course dropdown. Course links open guides grouped by teacher; adjacent links offer one available PDF.
+3. **How to use:** choose by teacher and context, then read or download. Compare the current outline. Keep failed-preview help in a disclosure.
+4. **The DSA Blueprint:** preserve its separate general-study role, compact facts, tree illustration, and direct PDF link.
+5. **UBIT Results Portal:** one natural paragraph and the branded button. Do not expand this into feature documentation.
+6. **Help improve the library:** invite student-made notes, explain pull requests briefly, and offer request/correction links. Keep the folder explanation in a disclosure.
+7. **From our batch to yours:** connect saved notebooks with future juniors, ongoing student contribution, and trusted maintenance after graduation. Offer study conversations and the existing follow/contact buttons.
+8. **Credits & permissions:** keep source terms and contact information visible without crowding the introduction.
+
+## Organization
+
+Use `resources/<course>/<teacher>/<notes-set>/`, with a guide at each level. The course guide links directly to the available PDFs and to each set's context. Different authors' notes stay separate. Program, term, language, coverage, and credit belong with the set.
+
+Use `general/` for independent resources and `teacher-not-recorded/` for missing context. Never treat unknown context as evidence of general applicability. A teacher is not necessarily the note author. Include Sir or Miss as appropriate in teacher headings and folder names, retaining Dr where applicable. Use the known form of address; do not guess it.
+
+Known teachers are Sir Hussain Saleem for SRE, Sir Fazal Ur Rehman for CPS, and Sir Dr M Sajid Khan for Urdu, confirmed by Mahad. Existing guides identify Miss Fozia Hanif for Linear Algebra and Sir Bari for the DLD revision guide. Other DLD teaching context remains unrecorded.
+
+The core folders remain under `resources/`. Adding a teacher or author does not add a repository-root directory. `.github/` holds issue and pull request templates, `assets/` holds README artwork, and `docs/` holds contribution support and maintenance instructions.
+
+## Current inventory
+
+| Course | PDFs | Current context |
 | :--- | ---: | :--- |
-| Software Requirement Engineering | 4 | Course outline, then comprehensive notes |
-| Digital Logic Design | 4 | Final Exam Target Guide |
-| Linear Algebra | 1 | Complete semester notes |
-| Communication & Presentation Skills | 1 | Complete notes |
-| Urdu | 1 | Comprehensive notes |
-| Data Structures & Algorithms | 1 | The DSA Blueprint roadmap |
+| Communication & Presentation Skills | 1 | Sir Fazal Ur Rehman |
+| Data Structures & Algorithms | 1 | General roadmap |
+| Digital Logic Design | 4 | Sir Bari's guide; other sets await teacher details |
+| Linear Algebra | 1 | Miss Fozia Hanif |
+| Software Requirement Engineering | 4 | Sir Hussain Saleem, SE453 |
+| Urdu | 1 | Sir Dr M Sajid Khan |
 
-There are 12 PDFs across six subject folders inside `resources/`, plus a DLD logic-gates reference image. The DSA subject currently contains a roadmap and its study guide, rather than a full set of course notes. Do not describe the library as covering the whole curriculum or imply university endorsement.
+Six subjects, 12 PDFs, and one DLD logic-gates reference image. Student authors, credit preferences, program/term details, and permission records still need confirmation for some existing sets. Do not invent them.
 
-## Implemented reading order
+## Contribution and continuity
 
-1. **Introduction.** Identify the audience, useful material, course guides, and purpose in three short paragraphs. The user's department-building photograph is now represented by a compact transparent architectural illustration at the right. Use the two-line phone title to preserve readable lettering.
-2. **Find your course.** Keep current counts and a short instruction visible. Put the six course links and their starting PDFs inside one clearly labeled, closed-by-default "Browse courses and notes" disclosure, sorted alphabetically to match the subject directory. Include an always-visible link to `resources/` as another way to browse. Explain inside the list that missing courses have not been added yet, with a request link.
-3. **How to use this repo.** Put opening and downloading instructions immediately after the course list. Remind students to compare the material with their current outline. Keep failed-preview help in a short disclosure, without an oversized historical screenshot.
-4. **The DSA Blueprint.** Explain who the roadmap helps, followed by a compact facts line and PDF/study-guide links. Keep the binary-search-tree visual.
-5. **UBIT Results Portal.** Give the companion project a full, visible section, but keep its story to one natural paragraph rather than turning this README into documentation for the portal. Connect it to the same student problem behind the library, mention the main value in the flow of the paragraph, and close with the development/feedback note. Keep the branded emblem-and-wordmark button. Feature descriptions were checked against the neighboring project’s source; the web reader could not load the live site.
-6. **Help improve the library.** Invite notes, corrections, and missing-resource reports. Link to `CONTRIBUTING.md` for the full process. Put the repository tree in a disclosure here, alongside the contributor instructions.
-7. **From our batch to yours.** Explain why the maintainer keeps the material: juniors studying the same courses and teachers can start with the work already done. Keep The UBIT Hub context and a short star/share invitation, followed by GitHub, portfolio, and email buttons. Use the existing community anchor.
-8. **Credits & permissions.** A quiet footer for source terms and correction/contact links. Keep source permissions distinct from the repository's license.
+The root links to `CONTRIBUTING.md` for scanning, placement, credit, source permission, and the pull request process. A copyable set-guide template is in `docs/templates/notes-set.md`. Review and handover guidance is in `docs/maintaining.md`.
 
-The course list uses a compact native Markdown list inside `details`, so it can grow without extending the closed README. GitHub sanitizes inline CSS; use supported Markdown and HTML rather than custom table styles. Course links come from the actual files and guides. Community details come from the user’s profile; omit changing membership counts and unprovided WhatsApp invite links.
+Issues were verified enabled and Discussions disabled on 4 November 2026. The repository has forms for requesting notes, reporting a problem, and asking a study question. Do not link to Discussions as an active feature until it is enabled; switch the conversation links and form together when that happens.
 
-## DSA migration
+Anyone can propose a contribution. Trusted maintainers may be invited to review and manage the collection, but do not invent contributors, invite unnamed accounts, or grant access simply for attribution. Public credit is optional; provenance and sharing permission are still required.
 
-The user supplied `The-DSA-Blueprint-Roadmap.pdf` at the repository root and requested consolidation of the former standalone DSA project into this library. The file was moved unchanged to `resources/data-structures-and-algorithms/roadmaps/`, with a folder README and the original 2025 MIT notice. SHA-256: `D1A99E9ED48EC080F0FF27F664DBA8A6E4B0F7563095F285D6CDE494602C2B4B`.
+## Visual and writing direction
 
-The old repository README claimed 29 pages; the actual supplied PDF contains 31 physical pages. Use 31 in new descriptions. Part 2 is mentioned inside the source PDF but is not included here; do not carry over an unconfirmed release promise. The new navigation and download links use this repository, so they do not depend on the old repository remaining available.
-
-## Visual direction
-
-- Use the Results project's actual red, `#8F141B`, with charcoal and warm ivory. Use `#C72B34` for dark-mode lettering, keeping the hue red rather than pink. The button retains the exact site red on its light surface in both themes.
-- Match the profile reference's compact opening, typography, natural writing, and selective bold emphasis.
-- Use a small transparent title with light/dark and compact phone variants. Place the department-building illustration in the right-hand opening space.
-- Keep body copy as real Markdown. Use visuals for identity or useful context, and keep tables short enough to scan.
-- Avoid large banners, decorative cards, badge rows, generic gradients, and repeated explanations.
-- Write in the maintainer’s first person, as a student helping another student. Use short, direct sentences and ordinary words. Do not use Unicode dash punctuation in repository prose. Preserve supplied PDFs and third-party license notices unchanged.
-- Preserve course notes and guides while applying the distribution cleanup below. Keep the contribution guide's index references and resource-count instructions consistent with the redesigned root README.
-- Use a small original book illustration beside the workflow and a compact export of the existing university emblem beside the community section.
+- Use the portal's red, `#8F141B`, and `#C72B34` for dark-mode title lettering, with charcoal and warm ivory.
+- Keep the transparent building, compact theme-aware title, book illustration, DSA tree, emblem, and local SVG buttons.
+- Keep body copy as Markdown. Avoid banners, decorative cards, repeated explanations, and badges.
+- Write as a student helping another student. Do not use Unicode dash punctuation in repository prose. Preserve supplied PDFs and third-party license notices unchanged.
+- Preserve the Results paragraph and button as a compact companion-project section.
+- Avoid implying university endorsement, guaranteed grades, universal course coverage, or guaranteed responses to requests.
 
 ## Verification
 
-Local rendering uses GitHub Markdown CSS with automatic heading anchors, at 1200, 768, 390, and 320 pixels in both light and dark themes. Check image loading, page overflow, heading selection, navigation targets, and the expanded PDF-download help panel. Also reconcile the displayed subject/PDF totals with the repository files, check local links and SVG XML, and run `git diff --check`. Verify that the migrated PDF's SHA-256 and the original license's Git blob hash are unchanged.
+Run `node docs/maintenance/check-resources.mjs` for local links, anchors, counts, course indexes, teacher/set guides, resource placement, and set metadata. Compare hashes before and after moving any supplied file.
 
-The results-portal URL and ongoing-development status are confirmed by the user. The web reader could not load that site during this pass. The neighboring Results project was inspected read-only to verify its red, branding, results/GPA purpose, and calculator implementation; no student data or source files in that project were changed.
+Preview both themes at 1200, 768, 390, and 320 pixels, including expanded disclosures. Check image loading, navigation, horizontal overflow, and the course-to-PDF route. Local preview is not proof of live GitHub rendering. New issue forms take effect when these files reach the default branch.
 
-## Scalable structure and final editorial review
+## Preserved source material
 
-All six subject folders are now grouped under `resources/`. The three tracked root directories are `resources/`, `assets/`, and `docs/`; adding a subject adds no root-level directory. `resources/README.md` is the directory guide. Subject footer links continue back to the root README, and contribution instructions use the new paths.
+The DSA roadmap remains the original 31-page Part 1 PDF, SHA-256 `D1A99E9ED48EC080F0FF27F664DBA8A6E4B0F7563095F285D6CDE494602C2B4B`. Its original 2025 license remains in the DSA course folder. The Part 2 notes referenced inside it are not present.
 
-The root README puts course finding and PDF instructions before the DSA and Results projects. Courses, failed-preview help, and the contributor folder tree use native `details` disclosures. Course counts, the folder-directory link, roadmap link, and Results button stay visible. The closing explains the benefit for future juniors and offers three 40-pixel-high contact buttons. Buttons wrap naturally on phones and use the repository’s university red. Removed obsolete artwork from earlier redesign iterations. The Linear Algebra guide now follows the other single-file guides and no longer promises future textbook uploads or predicts exam frequency.
+The Results Portal's purpose and ongoing development were confirmed by Mahad. Its earlier feature descriptions were checked against the neighboring project's source. The web reader could not verify the live site; no student data or project source was changed.
 
-Run `node docs/maintenance/check-resources.mjs` to check all local Markdown references, inventory totals, subject-guide presence, and PDF placement. For this migration, compare every non-Markdown resource against the pre-move SHA-256 manifest. Visual QA should cover both themes, narrow screens, and expanded disclosures.
-
-## Distribution cleanup
-
-On 4 November 2026, the user instructed removal of books they do not have permission to redistribute. Removed 20 PDFs: two CPS textbooks, one DLD textbook and eight extracted chapters, three SRE reference books and four extracted chapters, and two Urdu book-scan collections. Updated all affected course guides, catalogs, study instructions, and counts.
-
-Retained notes, guides, the course outline, and the original DSA roadmap unchanged. This cleanup does not establish redistribution permission for the remaining teacher, classmate, or compiled materials. New contributions must document authorship or redistribution permission; attribution alone is insufficient. The repository license does not relicense third-party content.
-
-These deletions remove the files from the current working tree. Copies in earlier Git commits remain until a separately authorized history cleanup is performed.
+On 4 November 2026, 20 unlicensed publisher book PDFs, scans, and extracted chapters were removed at Mahad's request. Remaining notes and guides were preserved. This does not establish redistribution permission for every remaining set, and copies of removed files remain in earlier Git commits until a separately authorized history cleanup occurs.
