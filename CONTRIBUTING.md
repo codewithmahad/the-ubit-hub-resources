@@ -27,12 +27,14 @@ Keep another creator’s credit instead of adding Mahad’s name. If no public a
 
 ## Add your material
 
-1. Check the [main README](./README.md) for the course and teacher.
+1. Check the [main README](./README.md) for the course and teacher or general collection. Do not upload another copy of a PDF already here; a different student’s own notes are welcome.
 2. Fork the repository and upload the file into the matching teacher folder, using its material-type subfolder when present.
 3. Add a descriptive PDF link to the existing course guide, or to the main README if the course has no guide. Say what the file helps someone study.
 4. Open a pull request with the course, teacher, coverage, author or source, and sharing permission. Include the program, term, or programming language when relevant.
 
-Before submitting a new file, check page order, readability, and private information. Use worked answers to explain a method; do not share restricted or unreleased assessments. When moving or renaming a PDF already here, preserve its exact contents. Do not re-export or recompress it just to change its location.
+Before submitting a new file, check page order, readability, and private information. For a new scan, choose a readable PDF export size before its first upload and keep the original in your own storage. Use worked answers to explain a method; do not share restricted or unreleased assessments.
+
+When moving or renaming a PDF already here, preserve its exact contents and update its links. Do not re-export or recompress it just to change its location. A new filename should not mean storing another version of the same notes.
 
 Keep guides at course level only, and only where they help students choose material. Do not create a README in every teacher or topic folder.
 

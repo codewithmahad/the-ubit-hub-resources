@@ -110,7 +110,7 @@ Studying with a different teacher? You can still use the material, but compare i
 <details>
 <summary>PDF not opening?</summary>
 
-Try the download button in the file viewer and open the saved file. If it still fails, [report the filename](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new?template=resource-problem.yml) so we can check it.
+If a large scan does not preview, use the download button in the file viewer and open the saved file. If it still fails, [report the filename](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new?template=resource-problem.yml) so we can check it.
 
 </details>
 
@@ -178,6 +178,6 @@ If this saved you some time, **[star the repo](https://github.com/codewithmahad/
 
 ## Credits & permissions
 
-Keep the author’s credit and check the terms before reusing a file. This repo’s [MIT license](./LICENSE) doesn’t give permission to redistribute someone else’s work. For a missing credit or a removal request, [email me](mailto:codewithmahad@gmail.com).
+Keep the author’s credit and check the terms before reusing a file. This repo’s [MIT license](./LICENSE) doesn’t give permission to redistribute someone else’s work. See the [artwork credits and notices](./assets/readme/CREDITS.md) for the README visuals. For a missing credit or a removal request, [email me](mailto:codewithmahad@gmail.com).
 
 <p><sub>Maintained by <a href="https://github.com/codewithmahad">Shaikh Mahad Ud Din</a> &nbsp;·&nbsp; <a href="./LICENSE">Repository license</a> &nbsp;·&nbsp; <a href="#top">Back to top ↑</a></sub></p>

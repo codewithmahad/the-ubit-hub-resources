@@ -1,10 +1,10 @@
 name: Request notes
-description: Tell students which course, teacher, or topic you need notes for.
+description: Ask for notes or practice material for a course or topic.
 title: "[Notes request] "
 body:
   - type: markdown
     attributes:
-      value: Search the main README and existing issues first. Someone may have the material, but a request does not guarantee that it is available.
+      value: Check the course list, its guide if available, and existing requests first. If a topic is missing, tell us what would help. Another student may have notes they can share.
   - type: input
     id: course
     attributes:
@@ -15,10 +15,10 @@ body:
   - type: input
     id: teacher
     attributes:
-      label: Teacher
-      description: Include Sir or Miss as appropriate, retaining Dr where applicable. Write Not known if unsure.
+      label: Teacher, if relevant
+      description: Use Sir or Miss where appropriate and retain Prof. or Dr. Leave this blank for general practice material or if you are unsure.
     validations:
-      required: true
+      required: false
   - type: input
     id: context
     attributes:
