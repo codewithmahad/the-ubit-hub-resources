@@ -30,6 +30,9 @@ Choose your course and check the teacher before opening a file. Each teacher’s
 <details>
 <summary><strong>Browse courses and notes</strong></summary>
 
+- **[Applied Physics](./resources/applied-physics/)** · Sir Zeeshan Abbas<br>
+  [My handwritten notes](./resources/applied-physics/sir-zeeshan-abbas/Applied_Physics_Handwritten_Notes_Shaikh_Mahad.pdf)
+
 - **[Communication & Presentation Skills](./resources/communication-and-presentation-skills/)** · Sir Fazal Ur Rehman<br>
   [Typed exam preparation notes](./resources/communication-and-presentation-skills/sir-fazal-ur-rehman/CPS_Typed_Exam_Preparation_Notes_Shaikh_Mahad.pdf)
 
