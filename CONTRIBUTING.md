@@ -36,6 +36,4 @@ Do not upload book scans, extracted chapters, or another person’s notes withou
 
 For a missing resource, correction, or study question, [open an issue](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new/choose). Include the course and teacher, and keep private information out of public threads.
 
-Local maintainers can use the [drop-off workflow](./docs/maintaining.md). If Node.js is available, run `node docs/maintenance/check-resources.mjs` before publishing.
-
 [Back to the notes bank](./README.md)

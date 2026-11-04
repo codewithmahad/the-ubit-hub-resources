@@ -3,3 +3,6 @@
 
 # Local inspection and preview files.
 /tmp/
+
+# Local maintenance tools and generation records.
+/scripts/
