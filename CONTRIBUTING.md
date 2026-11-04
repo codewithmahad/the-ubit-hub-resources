@@ -12,7 +12,7 @@ Use respectful teacher names such as `sir-hussain-saleem`, `miss-fozia-hanif`, a
 
 Use `Course_Content_Format_Author.pdf`, with underscores between words. Include a topic, assignment number, language, or year when it helps identify the contents. Avoid vague names such as `final.pdf`, and do not call partial notes complete.
 
-Mahad’s own material always ends with `_Shaikh_Mahad.pdf`. Examples:
+Mahad’s course notes end with `_Shaikh_Mahad.pdf`. The general PF collection uses `programming-fundamentals/practice-sheets-by-shaikh-mahad/` instead, with no repeated author suffix in its filenames. Keep language labels only where the topic needs them, such as C++ pointers. Examples of course-note filenames:
 
 - `SRE_Typed_Study_Notes_Shaikh_Mahad.pdf`
 - `DLD_Handwritten_Lecture_Notes_Shaikh_Mahad.pdf`

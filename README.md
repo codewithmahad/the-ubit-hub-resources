@@ -25,7 +25,7 @@ Keep up with a course, revise before an exam, or start learning during the semes
 
 ## Find your course
 
-Choose your course and check the teacher before opening a file. Each teacher’s folder keeps the material used for that course together. You can also [browse the course folders](./resources/).
+Choose your course and check the teacher where listed. Each teacher’s folder keeps the material used for that course together. You can also [browse the course folders](./resources/).
 
 <details>
 <summary><strong>Browse courses and notes</strong></summary>
@@ -37,6 +37,9 @@ Choose your course and check the teacher before opening a file. Each teacher’s
   My handwritten notes: [Chapter 2 · Intelligent agents](./resources/artificial-intelligence/prof-dr-s-m-aqil-burney/notes/AI_Chapter_02_Intelligent_Agents_Handwritten_Notes_Shaikh_Mahad.pdf) · [Chapter 3 · Solving problems by searching](./resources/artificial-intelligence/prof-dr-s-m-aqil-burney/notes/AI_Chapter_03_Solving_Problems_by_Searching_Handwritten_Notes_Shaikh_Mahad.pdf)<br>
   My handwritten assignment solutions: [Chapter 1](./resources/artificial-intelligence/prof-dr-s-m-aqil-burney/assignments/AI_Chapter_01_Handwritten_Assignment_Solutions_Shaikh_Mahad.pdf) · [Chapter 2](./resources/artificial-intelligence/prof-dr-s-m-aqil-burney/assignments/AI_Chapter_02_Handwritten_Assignment_Solutions_Shaikh_Mahad.pdf) · [Chapters 3 to 4](./resources/artificial-intelligence/prof-dr-s-m-aqil-burney/assignments/AI_Chapters_03_to_04_Handwritten_Assignment_Solutions_Shaikh_Mahad.pdf)
 
+- **[Calculus & Analytical Geometry](./resources/calculus-and-analytical-geometry/)** · Miss Khudaija Junaid<br>
+  [My handwritten notes](./resources/calculus-and-analytical-geometry/miss-khudaija-junaid/notes/CAG_Handwritten_Notes_Shaikh_Mahad.pdf) · [Lavizah Zeeshan’s handwritten notes](./resources/calculus-and-analytical-geometry/miss-khudaija-junaid/notes/CAG_Handwritten_Notes_Lavizah_Zeeshan.pdf) · [Common function graphs](./resources/calculus-and-analytical-geometry/miss-khudaija-junaid/references/CAG_Common_Function_Graphs_Handwritten_Reference.pdf)
+
 - **[Communication & Presentation Skills](./resources/communication-and-presentation-skills/)** · Sir Fazal Ur Rehman<br>
   [Typed exam preparation notes](./resources/communication-and-presentation-skills/sir-fazal-ur-rehman/CPS_Typed_Exam_Preparation_Notes_Shaikh_Mahad.pdf)
 
@@ -46,8 +49,57 @@ Choose your course and check the teacher before opening a file. Each teacher’s
 - **[Digital Logic Design](./resources/digital-logic-design/)** · Sir Bari<br>
   [My handwritten notes](./resources/digital-logic-design/sir-bari/DLD_Handwritten_Lecture_Notes_Shaikh_Mahad.pdf) · [Classmate’s handwritten notes](./resources/digital-logic-design/sir-bari/DLD_Handwritten_Lecture_Notes_Classmate.pdf) · [Solved MCQ practice](./resources/digital-logic-design/sir-bari/DLD_Solved_MCQ_Practice_Shaikh_Mahad.pdf) · [Exam preparation guide](./resources/digital-logic-design/sir-bari/DLD_Final_Exam_Preparation_Guide_Shaikh_Mahad.pdf) · [Logic-gates reference](./resources/digital-logic-design/sir-bari/DLD_Logic_Gates_and_Truth_Tables_Reference.png)
 
+- **[Discrete Structures](./resources/discrete-structures/)** · Sir Mukesh Kumar Rathi<br>
+  My handwritten notes: [Sections 1.1 to 1.6 · Logic](./resources/discrete-structures/sir-mukesh-kumar-rathi/notes/DS_Sections_01_01_to_01_06_Logic_Handwritten_Notes_Shaikh_Mahad.pdf) · [Chapter 6 · Counting](./resources/discrete-structures/sir-mukesh-kumar-rathi/notes/DS_Chapter_06_Counting_Handwritten_Notes_Shaikh_Mahad.pdf) · [Chapter 9 · Relations](./resources/discrete-structures/sir-mukesh-kumar-rathi/notes/DS_Chapter_09_Relations_Handwritten_Notes_Shaikh_Mahad.pdf)
+
+  <details>
+  <summary>Browse exercise solutions</summary>
+
+  - [Exercise 1.3 · Typed solutions](./resources/discrete-structures/sir-mukesh-kumar-rathi/practice/DS_Exercise_01_03_Typed_Solutions.pdf)
+  - [Exercise 1.4 · Handwritten solutions](./resources/discrete-structures/sir-mukesh-kumar-rathi/practice/DS_Exercise_01_04_Handwritten_Solutions.pdf)
+  - [Chapter 2 · Handwritten solutions](./resources/discrete-structures/sir-mukesh-kumar-rathi/practice/DS_Chapter_02_Handwritten_Exercise_Solutions.pdf)
+  - [Chapter 6 · Counting](./resources/discrete-structures/sir-mukesh-kumar-rathi/practice/DS_Chapter_06_Counting_Handwritten_Exercise_Solutions.pdf)
+  - [Chapter 9 · Relations](./resources/discrete-structures/sir-mukesh-kumar-rathi/practice/DS_Chapter_09_Relations_Handwritten_Exercise_Solutions.pdf)
+  - [Chapter 10 · Graphs](./resources/discrete-structures/sir-mukesh-kumar-rathi/practice/DS_Chapter_10_Graphs_Handwritten_Exercise_Solutions.pdf)
+
+  </details>
+
+- **[Functional English](./resources/functional-english/)**<br>
+  Grammar and writing material organized by topic.
+
+  <details>
+  <summary>Browse the outline, notes, and slides</summary>
+
+  - [Course outline](./resources/functional-english/general/outlines/FE_Course_Outline.pdf)
+  - **Sentence errors:** [Notes](./resources/functional-english/general/notes/FE_Sentence_Errors_Notes.pdf) · [Slides](./resources/functional-english/general/notes/FE_Sentence_Errors_Slides.pdf)
+  - [Paragraph writing](./resources/functional-english/general/notes/FE_Paragraph_Writing_Slides.pdf)
+  - [Descriptive essay writing](./resources/functional-english/general/notes/FE_Descriptive_Essay_Writing_Slides.pdf)
+  - [Figurative language](./resources/functional-english/general/notes/FE_Figurative_Language_Notes.pdf)
+  - [Formal letter format](./resources/functional-english/general/references/FE_Formal_Letter_Writing_Format.pdf)
+
+  </details>
+
+- **[Ideology & Constitution of Pakistan](./resources/ideology-and-constitution-of-pakistan/)** · Miss Samina Ghaffar<br>
+  [Typed exam notes and answers](./resources/ideology-and-constitution-of-pakistan/miss-samina-ghaffar/notes/ICP_Typed_Exam_Notes_and_Question_Answers.pdf) · [Simplified history questions and answers](./resources/ideology-and-constitution-of-pakistan/miss-samina-ghaffar/notes/ICP_Historical_Background_Simplified_Question_Answers.pdf)
+
 - **[Linear Algebra](./resources/linear-algebra/)** · Miss Fozia Hanif<br>
   [Typed exam notes and worked solutions](./resources/linear-algebra/miss-fozia-hanif/Linear_Algebra_Typed_Exam_Notes_and_Worked_Solutions_Shaikh_Mahad.pdf)
+
+- **[Multivariable Calculus](./resources/multivariable-calculus/)** · Sir Dr. Najeeb Alam Khan<br>
+  My handwritten exercise solutions for partial derivatives and multiple integrals.
+
+  <details>
+  <summary>Browse by exercise and chapter</summary>
+
+  Exercise numbers follow *Calculus: Early Transcendentals*, 10th edition, by Howard Anton, Irl Bivens, and Stephen Davis. These PDFs contain my worked solutions to selected questions.
+
+  - [Exercises 13.1 to 13.3](./resources/multivariable-calculus/sir-dr-najeeb-alam-khan/practice/MVC_Exercises_13_01_to_13_03_Handwritten_Solutions_Shaikh_Mahad.pdf)
+  - [Exercise 13.4](./resources/multivariable-calculus/sir-dr-najeeb-alam-khan/practice/MVC_Exercise_13_04_Handwritten_Solutions_Shaikh_Mahad.pdf)
+  - [Exercises 13.5 to 13.6](./resources/multivariable-calculus/sir-dr-najeeb-alam-khan/practice/MVC_Exercises_13_05_to_13_06_Handwritten_Solutions_Shaikh_Mahad.pdf)
+  - [Exercises 13.7 to 13.9](./resources/multivariable-calculus/sir-dr-najeeb-alam-khan/practice/MVC_Exercises_13_07_to_13_09_Handwritten_Solutions_Shaikh_Mahad.pdf)
+  - [Chapter 14 · Multiple integrals](./resources/multivariable-calculus/sir-dr-najeeb-alam-khan/practice/MVC_Chapter_14_Multiple_Integrals_Handwritten_Solutions_Shaikh_Mahad.pdf)
+
+  </details>
 
 - **[Operating Systems](./resources/operating-systems/)** · Miss Nazish Imran<br>
   [My handwritten process management notes](./resources/operating-systems/miss-nazish-imran/notes/OS_Process_Management_Handwritten_Notes_Shaikh_Mahad.pdf)
@@ -69,6 +121,31 @@ Choose your course and check the teacher before opening a file. Each teacher’s
   - [04 · File permissions and ownership](./resources/operating-systems/miss-nazish-imran/labs/OS_Lab_04_File_Permissions_and_Ownership_Solutions_Shaikh_Mahad.pdf)
   - [05 · Shell scripting](./resources/operating-systems/miss-nazish-imran/labs/OS_Lab_05_Shell_Scripting_Solutions_Shaikh_Mahad.pdf)
   - [06 · Bash conditions and loops](./resources/operating-systems/miss-nazish-imran/labs/OS_Lab_06_Bash_Conditions_and_Loops_Solutions_Shaikh_Mahad.pdf)
+
+  </details>
+
+- **[Probability & Statistics](./resources/probability-and-statistics/)** · Sir Dr. Mudassir Uddin<br>
+  My handwritten notes: [Part A · Statistics](./resources/probability-and-statistics/sir-dr-mudassir-uddin/notes/PS_Part_A_Statistics_Handwritten_Notes_Shaikh_Mahad.pdf) · [Part B · Probability](./resources/probability-and-statistics/sir-dr-mudassir-uddin/notes/PS_Part_B_Probability_Handwritten_Notes_Shaikh_Mahad.pdf)<br>
+  [Handwritten probability assignment solutions](./resources/probability-and-statistics/sir-dr-mudassir-uddin/assignments/PS_Probability_Handwritten_Assignment_Solutions.pdf)
+
+- **[Programming Fundamentals](./resources/programming-fundamentals/)**<br>
+  Practice sheets by Shaikh Mahad to build your basics and problem-solving skills. Use your preferred language; the pointers sheet is for C++.
+
+  <details>
+  <summary>Browse practice sheets by topic</summary>
+
+  **Exam practice**
+
+  - [Final exam practice](./resources/programming-fundamentals/practice-sheets-by-shaikh-mahad/Final_Exam_Practice.pdf) · [Extended practice](./resources/programming-fundamentals/practice-sheets-by-shaikh-mahad/Final_Exam_Extended_Practice.pdf)
+  - [Number and logic challenges](./resources/programming-fundamentals/practice-sheets-by-shaikh-mahad/Number_and_Logic_Challenges.pdf)
+
+  **Practice by topic**
+
+  - [1D arrays](./resources/programming-fundamentals/practice-sheets-by-shaikh-mahad/1D_Arrays_Practice.pdf)
+  - [2D arrays](./resources/programming-fundamentals/practice-sheets-by-shaikh-mahad/2D_Arrays_Practice.pdf) · [Extended problems with sample input and output](./resources/programming-fundamentals/practice-sheets-by-shaikh-mahad/2D_Arrays_Extended_Practice.pdf)
+  - [Strings](./resources/programming-fundamentals/practice-sheets-by-shaikh-mahad/Strings_Practice.pdf)
+  - [Functions and recursion](./resources/programming-fundamentals/practice-sheets-by-shaikh-mahad/Functions_and_Recursion_Practice.pdf) · [Extended recursion practice](./resources/programming-fundamentals/practice-sheets-by-shaikh-mahad/Recursion_Extended_Practice.pdf)
+  - [Pointers · C++](./resources/programming-fundamentals/practice-sheets-by-shaikh-mahad/Cpp_Pointers_Practice.pdf)
 
   </details>
 
@@ -143,9 +220,9 @@ resources/
         └── labs/
 ```
 
-Courses with only a few files keep them directly in the teacher’s folder. For larger collections, choose the material type, then the file. Assignment questions and solutions stay together, with matching numbers in their names. There are no author folders or extra README files to open. Independent resources, such as the DSA roadmap, use `general/`.
+Courses with only a few files keep them directly in the teacher’s folder. For larger collections, choose the material type, then the file. Assignment questions and solutions stay together, with matching numbers in their names. There are no extra README files to open. The DSA roadmap and Functional English topic resources use `general/`. Programming Fundamentals has a `practice-sheets-by-shaikh-mahad/` collection for students studying with any teacher.
 
-My own files end with `_Shaikh_Mahad.pdf` so the credit stays with them when they’re shared. Other authors keep their own credit. See the [file-naming guide](./CONTRIBUTING.md#file-names) before adding material.
+My course notes end with `_Shaikh_Mahad.pdf` so the credit stays with them when they’re shared. The PF practice collection carries my name in its folder instead of repeating it in every filename. Other authors keep their own credit. See the [file-naming guide](./CONTRIBUTING.md#file-names) before adding material.
 
 </details>
 
