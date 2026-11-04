@@ -1,5 +1,5 @@
 <h1 id="top">
-  <img src="assets/readme/department-building.webp" align="right" width="36%" alt="Illustration of the UBIT department building, with its dome, columned entrance, and cream facade.">
+  <img src="assets/readme/department-building.webp" align="right" width="40%" alt="Illustration of the UBIT department building, with its dome, columned entrance, and cream facade.">
   <picture>
     <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/readme/intro-title-compact-dark.svg">
     <source media="(max-width: 600px)" srcset="assets/readme/intro-title-compact-light.svg">
@@ -168,9 +168,14 @@ I’m **Shaikh Mahad**. We put hours into understanding a course, fill a noteboo
 
 Have a study question or want to compare how a course is taught? [Start a conversation](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new?template=study-question.yml). Include the course and what you’ve tried, and help another student when you can.
 
-If this saved you some time, **[star the repo](https://github.com/codewithmahad/the-ubit-hub-resources)** so you can find it again, and pass the course link to someone who needs it. You can follow me for new notes and the other things I’m building for our students.
+## If these notes helped, pass it on
+
+If a PDF here made a topic clearer or saved you time before an exam, I’m glad it helped. **A star lets me know this work is useful** and encourages me to keep adding material. You can follow me for new notes and other things I’m building for our students.
+
+Made useful notes or worked solutions of your own? [Share them with the next batch](./CONTRIBUTING.md). Something that helped you through a course could help someone else get through it too.
 
 <p>
+  <a href="https://github.com/codewithmahad/the-ubit-hub-resources"><img src="assets/readme/star-repo.svg" width="148" height="40" alt="Star this repo on GitHub"></a>
   <a href="https://github.com/codewithmahad"><img src="assets/readme/follow-github.svg" width="184" height="40" alt="Follow Shaikh Mahad on GitHub"></a>
   <a href="https://shaikhmahad.vercel.app/"><img src="assets/readme/portfolio-button.svg" width="146" height="40" alt="mahad.dev: visit my portfolio"></a>
   <a href="mailto:codewithmahad@gmail.com"><img src="assets/readme/email-button.svg" width="96" height="40" alt="Email Shaikh Mahad"></a>
