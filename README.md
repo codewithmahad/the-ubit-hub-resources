@@ -4,7 +4,7 @@
     <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/readme/intro-title-compact-dark.svg">
     <source media="(max-width: 600px)" srcset="assets/readme/intro-title-compact-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/readme/intro-title-dark.svg">
-    <img src="assets/readme/intro-title-light.svg" width="56%" height="42" align="texttop" alt="The UBIT Hub Resources">
+    <img src="assets/readme/intro-title-light.svg" width="52%" height="42" align="texttop" alt="The UBIT Hub Resources">
   </picture>
 </h1>
 
