@@ -12,11 +12,11 @@ Use respectful teacher names such as `sir-hussain-saleem`, `miss-fozia-hanif`, a
 
 Use `Course_Content_Format_Author.pdf`, with underscores between words. Include a topic, assignment number, language, or year when it helps identify the contents. Avoid vague names such as `final.pdf`, and do not call partial notes complete.
 
-Mahad’s own material always ends with `_Shaikh_Mahad_Ud_Din.pdf`. Examples:
+Mahad’s own material always ends with `_Shaikh_Mahad.pdf`. Examples:
 
-- `SRE_Typed_Study_Notes_Shaikh_Mahad_Ud_Din.pdf`
-- `DLD_Handwritten_Lecture_Notes_Shaikh_Mahad_Ud_Din.pdf`
-- `DBMS_Assignment_01_Relational_Model_Shaikh_Mahad_Ud_Din.pdf`
+- `SRE_Typed_Study_Notes_Shaikh_Mahad.pdf`
+- `DLD_Handwritten_Lecture_Notes_Shaikh_Mahad.pdf`
+- `DBMS_Assignment_01_Relational_Model_Shaikh_Mahad.pdf`
 - `DSA_Java_Trees_Lab_Solutions_Author.pdf`
 
 The DBMS and Java examples show the naming pattern; they are not currently available files. Preserve another creator’s credit instead of adding Mahad’s name. An outline or reference sheet does not need an author suffix when authorship is unknown.

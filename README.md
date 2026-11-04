@@ -31,22 +31,22 @@ Choose your course and check the teacher before opening a file. Each teacher’s
 <summary><strong>Browse courses and notes</strong></summary>
 
 - **[Communication & Presentation Skills](./resources/communication-and-presentation-skills/)** · Sir Fazal Ur Rehman<br>
-  [Typed exam preparation notes](./resources/communication-and-presentation-skills/sir-fazal-ur-rehman/CPS_Typed_Exam_Preparation_Notes_Shaikh_Mahad_Ud_Din.pdf)
+  [Typed exam preparation notes](./resources/communication-and-presentation-skills/sir-fazal-ur-rehman/CPS_Typed_Exam_Preparation_Notes_Shaikh_Mahad.pdf)
 
 - **[Data Structures & Algorithms](./resources/data-structures-and-algorithms/)** · Independent study resource<br>
-  [The DSA Blueprint, Part 1: strategy and roadmap](./resources/data-structures-and-algorithms/general/DSA_Blueprint_Part_1_Strategy_and_Roadmap_Shaikh_Mahad_Ud_Din.pdf)
+  [The DSA Blueprint, Part 1: strategy and roadmap](./resources/data-structures-and-algorithms/general/DSA_Blueprint_Part_1_Strategy_and_Roadmap_Shaikh_Mahad.pdf)
 
 - **[Digital Logic Design](./resources/digital-logic-design/)** · Sir Bari<br>
-  [My handwritten notes](./resources/digital-logic-design/sir-bari/DLD_Handwritten_Lecture_Notes_Shaikh_Mahad_Ud_Din.pdf) · [Classmate’s handwritten notes](./resources/digital-logic-design/sir-bari/DLD_Handwritten_Lecture_Notes_Classmate.pdf) · [Solved MCQ practice](./resources/digital-logic-design/sir-bari/DLD_Solved_MCQ_Practice_Shaikh_Mahad_Ud_Din.pdf) · [Exam preparation guide](./resources/digital-logic-design/sir-bari/DLD_Final_Exam_Preparation_Guide_Shaikh_Mahad_Ud_Din.pdf) · [Logic-gates reference](./resources/digital-logic-design/sir-bari/DLD_Logic_Gates_and_Truth_Tables_Reference.png)
+  [My handwritten notes](./resources/digital-logic-design/sir-bari/DLD_Handwritten_Lecture_Notes_Shaikh_Mahad.pdf) · [Classmate’s handwritten notes](./resources/digital-logic-design/sir-bari/DLD_Handwritten_Lecture_Notes_Classmate.pdf) · [Solved MCQ practice](./resources/digital-logic-design/sir-bari/DLD_Solved_MCQ_Practice_Shaikh_Mahad.pdf) · [Exam preparation guide](./resources/digital-logic-design/sir-bari/DLD_Final_Exam_Preparation_Guide_Shaikh_Mahad.pdf) · [Logic-gates reference](./resources/digital-logic-design/sir-bari/DLD_Logic_Gates_and_Truth_Tables_Reference.png)
 
 - **[Linear Algebra](./resources/linear-algebra/)** · Miss Fozia Hanif<br>
-  [Typed exam notes and worked solutions](./resources/linear-algebra/miss-fozia-hanif/Linear_Algebra_Typed_Exam_Notes_and_Worked_Solutions_Shaikh_Mahad_Ud_Din.pdf)
+  [Typed exam notes and worked solutions](./resources/linear-algebra/miss-fozia-hanif/Linear_Algebra_Typed_Exam_Notes_and_Worked_Solutions_Shaikh_Mahad.pdf)
 
 - **[Software Requirement Engineering](./resources/software-requirement-engineering/)** · Sir Hussain Saleem<br>
-  [My typed study notes](./resources/software-requirement-engineering/sir-hussain-saleem/SRE_Typed_Study_Notes_Shaikh_Mahad_Ud_Din.pdf) · [My handwritten notes](./resources/software-requirement-engineering/sir-hussain-saleem/SRE_Handwritten_Lecture_Notes_Shaikh_Mahad_Ud_Din.pdf) · [Course outline](./resources/software-requirement-engineering/sir-hussain-saleem/SRE_Course_Outline_2026.pdf) · [Lecture notes (Technistry Lab)](./resources/software-requirement-engineering/sir-hussain-saleem/SRE_Typed_Lecture_Notes_Technistry_Lab.pdf)
+  [My typed study notes](./resources/software-requirement-engineering/sir-hussain-saleem/SRE_Typed_Study_Notes_Shaikh_Mahad.pdf) · [My handwritten notes](./resources/software-requirement-engineering/sir-hussain-saleem/SRE_Handwritten_Lecture_Notes_Shaikh_Mahad.pdf) · [Course outline](./resources/software-requirement-engineering/sir-hussain-saleem/SRE_Course_Outline_2026.pdf) · [Lecture notes (Technistry Lab)](./resources/software-requirement-engineering/sir-hussain-saleem/SRE_Typed_Lecture_Notes_Technistry_Lab.pdf)
 
 - **[Urdu](./resources/urdu/)** · Sir Dr M Sajid Khan<br>
-  [Typed exam preparation notes](./resources/urdu/sir-dr-m-sajid-khan/Urdu_Typed_Exam_Preparation_Notes_Shaikh_Mahad_Ud_Din.pdf)
+  [Typed exam preparation notes](./resources/urdu/sir-dr-m-sajid-khan/Urdu_Typed_Exam_Preparation_Notes_Shaikh_Mahad.pdf)
 
 The **course name** opens its folder; the links beneath it open the files directly. If the material you need is missing, [request it](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new?template=notes-request.yml) with the course and teacher.
 
@@ -79,7 +79,7 @@ I wrote **The DSA Blueprint** for students who know programming basics but aren�
 
 **31 pages · 6 phases · practice links · 16-week printable tracker**
 
-**[Read the roadmap →](./resources/data-structures-and-algorithms/general/DSA_Blueprint_Part_1_Strategy_and_Roadmap_Shaikh_Mahad_Ud_Din.pdf)** &nbsp;·&nbsp; [Browse DSA resources](./resources/data-structures-and-algorithms/)
+**[Read the roadmap →](./resources/data-structures-and-algorithms/general/DSA_Blueprint_Part_1_Strategy_and_Roadmap_Shaikh_Mahad.pdf)** &nbsp;·&nbsp; [Browse DSA resources](./resources/data-structures-and-algorithms/)
 
 ## UBIT Results Portal
 
@@ -113,7 +113,7 @@ resources/
 
 Notes, assignments, lab work, revision guides, and outlines used for the same course stay directly inside that teacher’s folder. There are no author folders or extra README files to open. Independent resources, such as the DSA roadmap, use `general/`.
 
-My own files end with `_Shaikh_Mahad_Ud_Din.pdf` so the credit stays with them when they’re shared. Other authors keep their own credit. See the [file-naming guide](./CONTRIBUTING.md#file-names) before adding material.
+My own files end with `_Shaikh_Mahad.pdf` so the credit stays with them when they’re shared. Other authors keep their own credit. See the [file-naming guide](./CONTRIBUTING.md#file-names) before adding material.
 
 </details>
 

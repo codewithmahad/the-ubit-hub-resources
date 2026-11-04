@@ -12,7 +12,7 @@ All material used for one course and teacher belongs directly in that teacher’
 
 Use `general/` for genuinely independent resources such as the DSA roadmap. Do not put material there just because its author is someone else. The folder records the teaching context; the filename records the material and its creator.
 
-Mahad’s own PDFs use the suffix `_Shaikh_Mahad_Ud_Din.pdf`. Preserve other creators’ names and notices. Confirm uncertain authorship or teaching context before assigning it. The [contribution guide](../CONTRIBUTING.md#file-names) defines the naming pattern.
+Mahad’s own PDFs use the suffix `_Shaikh_Mahad.pdf`. Preserve other creators’ names and notices. Confirm uncertain authorship or teaching context before assigning it. The [contribution guide](../CONTRIBUTING.md#file-names) defines the naming pattern.
 
 For files outside your own work, verify sharing permission before adding them. Keep private permission evidence out of public commits.
 
