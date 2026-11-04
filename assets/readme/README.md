@@ -23,7 +23,7 @@ Inter is by The Inter Project Authors, licensed under the SIL Open Font License 
 
 The emblem is reused from the [profile's existing emblem asset](https://github.com/codewithmahad/codewithmahad/blob/main/assets/profile/ubit-emblem.png). The display export preserves transparency and uses a 256-pixel width for a sharp, lightweight image at the README's small display size. The book illustration is native SVG with no fonts, scripts, filters, or external dependencies.
 
-The DSA tree is native SVG, with theme-specific node and edge colors, accessible text, and no external dependencies. The course index is a native Markdown list inside a clearly labeled `details` disclosure. The counts and subject-directory link stay visible when the list is closed.
+The DSA tree is native SVG, with theme-specific node and edge colors, accessible text, and no external dependencies. The course index is a native Markdown list inside a clearly labeled `details` disclosure. The course-folder link stays visible when the list is closed. The main README is the only study-material index.
 
 The three contact buttons share a 40-pixel height and outlined Inter lettering. The README provides real links and accessible image labels; the SVGs require no font downloads, scripts, external images, or statistics services. The primary button uses `#8F141B`; the secondary buttons use the same light surface as the Results button. The M and envelope are original geometry and lettering.
 

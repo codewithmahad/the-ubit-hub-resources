@@ -4,7 +4,7 @@ title: "[Notes request] "
 body:
   - type: markdown
     attributes:
-      value: Search the course guides and existing issues first. Someone may have a matching set, but a request does not guarantee that it is available.
+      value: Search the main README and existing issues first. Someone may have the material, but a request does not guarantee that it is available.
   - type: input
     id: course
     attributes:

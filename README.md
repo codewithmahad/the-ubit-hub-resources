@@ -25,19 +25,30 @@ Keep up with a course, revise before an exam, or start learning during the semes
 
 ## Find your course
 
-**6 subjects · 12 PDFs · 1 logic-gates reference sheet.** Choose a course, then look for your teacher and a set that matches your outline. You can also [browse all subjects](./resources/).
+Choose your course and check the teacher before opening a file. Each teacher’s folder keeps the material used for that course together. You can also [browse the course folders](./resources/).
 
 <details>
 <summary><strong>Browse courses and notes</strong></summary>
 
-- **[Communication & Presentation Skills](./resources/communication-and-presentation-skills/)**: [Complete course notes](./resources/communication-and-presentation-skills/sir-fazal-ur-rehman/course-notes/CPS_Complete_Notes.pdf).
-- **[Data Structures & Algorithms](./resources/data-structures-and-algorithms/)**: [The DSA Blueprint](./resources/data-structures-and-algorithms/general/the-dsa-blueprint/The-DSA-Blueprint-Roadmap.pdf).
-- **[Digital Logic Design](./resources/digital-logic-design/)**: [Final Exam Target Guide](./resources/digital-logic-design/sir-bari/exam-guide/DLD_Final_Exam_Target_Guide.pdf).
-- **[Linear Algebra](./resources/linear-algebra/)**: [Notes from Miss Fozia Hanif’s course](./resources/linear-algebra/miss-fozia-hanif/semester-notes/linear-algebra-complete-notes-Miss-Fozia-Hanif.pdf).
-- **[Software Requirement Engineering](./resources/software-requirement-engineering/)**: [Course outline](./resources/software-requirement-engineering/sir-hussain-saleem/course-outline/SE453_SRE_Course_Outline.pdf), then [comprehensive notes](./resources/software-requirement-engineering/sir-hussain-saleem/shaikh-mahad-notes/SE453_SRE_Comprehensive_Notes_ShaikhMahad.pdf).
-- **[Urdu](./resources/urdu/)**: [Comprehensive notes](./resources/urdu/sir-dr-m-sajid-khan/shaikh-mahad-notes/Urdu_Comprehensive_Notes_ShaikhMahad.pdf).
+- **[Communication & Presentation Skills](./resources/communication-and-presentation-skills/)** · Sir Fazal Ur Rehman<br>
+  [Typed exam preparation notes](./resources/communication-and-presentation-skills/sir-fazal-ur-rehman/CPS_Typed_Exam_Preparation_Notes_Shaikh_Mahad_Ud_Din.pdf)
 
-The **course name** opens the notes grouped by teacher. The link beside it opens one available PDF. Each set records its author or chosen credit, coverage, and any known program, term, or programming language. If the notes you need are missing, [request them](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new?template=notes-request.yml).
+- **[Data Structures & Algorithms](./resources/data-structures-and-algorithms/)** · Independent study resource<br>
+  [The DSA Blueprint, Part 1: strategy and roadmap](./resources/data-structures-and-algorithms/general/DSA_Blueprint_Part_1_Strategy_and_Roadmap_Shaikh_Mahad_Ud_Din.pdf)
+
+- **[Digital Logic Design](./resources/digital-logic-design/)** · Sir Bari<br>
+  [My handwritten notes](./resources/digital-logic-design/sir-bari/DLD_Handwritten_Lecture_Notes_Shaikh_Mahad_Ud_Din.pdf) · [Classmate’s handwritten notes](./resources/digital-logic-design/sir-bari/DLD_Handwritten_Lecture_Notes_Classmate.pdf) · [Solved MCQ practice](./resources/digital-logic-design/sir-bari/DLD_Solved_MCQ_Practice_Shaikh_Mahad_Ud_Din.pdf) · [Exam preparation guide](./resources/digital-logic-design/sir-bari/DLD_Final_Exam_Preparation_Guide_Shaikh_Mahad_Ud_Din.pdf) · [Logic-gates reference](./resources/digital-logic-design/sir-bari/DLD_Logic_Gates_and_Truth_Tables_Reference.png)
+
+- **[Linear Algebra](./resources/linear-algebra/)** · Miss Fozia Hanif<br>
+  [Typed exam notes and worked solutions](./resources/linear-algebra/miss-fozia-hanif/Linear_Algebra_Typed_Exam_Notes_and_Worked_Solutions_Shaikh_Mahad_Ud_Din.pdf)
+
+- **[Software Requirement Engineering](./resources/software-requirement-engineering/)** · Sir Hussain Saleem<br>
+  [My typed study notes](./resources/software-requirement-engineering/sir-hussain-saleem/SRE_Typed_Study_Notes_Shaikh_Mahad_Ud_Din.pdf) · [My handwritten notes](./resources/software-requirement-engineering/sir-hussain-saleem/SRE_Handwritten_Lecture_Notes_Shaikh_Mahad_Ud_Din.pdf) · [Course outline](./resources/software-requirement-engineering/sir-hussain-saleem/SRE_Course_Outline_2026.pdf) · [Lecture notes (Technistry Lab)](./resources/software-requirement-engineering/sir-hussain-saleem/SRE_Typed_Lecture_Notes_Technistry_Lab.pdf)
+
+- **[Urdu](./resources/urdu/)** · Sir Dr M Sajid Khan<br>
+  [Typed exam preparation notes](./resources/urdu/sir-dr-m-sajid-khan/Urdu_Typed_Exam_Preparation_Notes_Shaikh_Mahad_Ud_Din.pdf)
+
+The **course name** opens its folder; the links beneath it open the files directly. If the material you need is missing, [request it](https://github.com/codewithmahad/the-ubit-hub-resources/issues/new?template=notes-request.yml) with the course and teacher.
 
 </details>
 
@@ -45,10 +56,10 @@ The **course name** opens the notes grouped by teacher. The link beside it opens
 
 <img src="assets/readme/study-notes.svg" align="right" width="16%" alt="">
 
-1. **Find a matching set.** Open your course guide and check the teacher, topics, and language where relevant. CS and SE notes may cover the same course differently; missing details are marked.
+1. **Check the teacher and material.** Choose handwritten notes, typed notes, practice, or an outline from the list above. For programming courses, check the language too.
 2. **Read or download.** Read the PDF on GitHub, or use the file viewer’s download button to save it. You don’t need to clone the repo or install anything.
 
-Compare the notes with your current outline, even if the teacher is the same. A course can change between batches.
+Studying with a different teacher? You can still use the material, but compare it with your own outline and exam guidance. Even the same teacher may change the course between batches.
 
 <details>
 <summary>PDF not opening?</summary>
@@ -68,7 +79,7 @@ I wrote **The DSA Blueprint** for students who know programming basics but aren�
 
 **31 pages · 6 phases · practice links · 16-week printable tracker**
 
-**[Read the roadmap →](./resources/data-structures-and-algorithms/general/the-dsa-blueprint/The-DSA-Blueprint-Roadmap.pdf)** &nbsp;·&nbsp; [See the study guide](./resources/data-structures-and-algorithms/)
+**[Read the roadmap →](./resources/data-structures-and-algorithms/general/DSA_Blueprint_Part_1_Strategy_and_Roadmap_Shaikh_Mahad_Ud_Din.pdf)** &nbsp;·&nbsp; [Browse DSA resources](./resources/data-structures-and-algorithms/)
 
 ## UBIT Results Portal
 
@@ -88,23 +99,21 @@ If you made notes that helped you understand a course, someone else could use th
 <details>
 <summary><strong>How the notes are organized</strong></summary>
 
+There are just two folder levels inside `resources/`:
+
 ```text
 resources/
-└── course/
-    ├── README.md
-    ├── teacher/
-    │   ├── README.md
-    │   ├── one-notes-set/
-    │   │   ├── README.md
-    │   │   └── notes.pdf
-    │   └── another-notes-set/
-    └── general/
-        └── shared-study-guide/
+└── course-name/
+    └── sir-or-miss-teacher-name/
+        ├── Course_Typed_Notes_Author.pdf
+        ├── Course_Handwritten_Notes_Author.pdf
+        ├── Course_Assignment_01_Author.pdf
+        └── Course_Outline.pdf
 ```
 
-Each student’s set stays separate, even when the course and teacher match. Program, term, language, and coverage help you choose between them. Shared guides go in `general/`; material whose teacher is not yet known goes in `teacher-not-recorded/`.
+Notes, assignments, lab work, revision guides, and outlines used for the same course stay directly inside that teacher’s folder. There are no author folders or extra README files to open. Independent resources, such as the DSA roadmap, use `general/`.
 
-See the [folder and naming guide](./CONTRIBUTING.md#where-your-notes-go) before adding a set.
+My own files end with `_Shaikh_Mahad_Ud_Din.pdf` so the credit stays with them when they’re shared. Other authors keep their own credit. See the [file-naming guide](./CONTRIBUTING.md#file-names) before adding material.
 
 </details>
 

@@ -1,52 +1,27 @@
-# Keeping the notes bank useful
+# Adding new material locally
 
-The collection should remain useful when a contributor changes sections, finishes a semester, or graduates. Keep the information a future maintainer needs in the repository and its review threads.
+1. Drop the PDFs into `incoming-notes/` in your local repository. Tell the assistant the course, teacher, and who made the files.
+2. Have the assistant inspect the contents, choose descriptive filenames, copy the approved files into `resources/<course>/<teacher>/`, and update the main README’s course list.
+3. Review the prepared files and diff, then stage those specific PDFs and the README, commit, and push.
 
-## Review a new set
+`incoming-notes/` is ignored by Git. Keep the original drop-off files there until you choose to remove them. The folder is for local intake, not a published part of the notes bank. Never force-add it. Local previews in `tmp/` are ignored too.
 
-1. **Check the source.** Confirm authorship or redistribution permission, requested public credit, and any reuse terms. An author may choose an alias or no public credit; that does not remove the need to verify the source.
-2. **Read the uploaded PDF.** Check readability, page order, missing sections, personal information, and whether the description matches the material. Do not promise complete coverage or error-free notes.
-3. **Check the context.** Course, teacher, author, program, term, language, and coverage should be recorded or explicitly marked as missing. The teacher and note author are separate roles. Use the teacher’s respectful title in both headings and folder names, following the contribution guide.
-4. **Compare existing sets.** Keep a distinct student's set separate. Avoid duplicate uploads, duplicate teacher spellings, or copies of the same PDF for different programs. Ask before replacing or renaming another contributor's work.
-5. **Check the route to the file.** Every set needs a guide, a teacher/group index entry, and links from its course guide. Every course belongs in both main indexes. Update totals and run `node docs/maintenance/check-resources.mjs`.
-6. **Merge after review.** Explain requested changes plainly. Record the source and agreed credit with the set, keeping private permission evidence out of public issues.
+## Keep the structure simple
 
-A useful partial set is welcome if its boundaries are clear. A newer set does not automatically make an older one obsolete; students may still need its teacher, language, or outline.
+All material used for one course and teacher belongs directly in that teacher’s folder: notes, assignments, lab work, outlines, and revision material. Use respectful teacher titles in folder names. Do not create author or material-type subfolders or nested READMEs.
 
-## Requests and corrections
+Use `general/` for genuinely independent resources such as the DSA roadmap. Do not put material there just because its author is someone else. The folder records the teaching context; the filename records the material and its creator.
 
-Search for duplicates before opening a new request. Ask for the course, teacher, topic, and program where relevant. Keep a request open while material is missing; do not imply that a maintainer can supply every set.
+Mahad’s own PDFs use the suffix `_Shaikh_Mahad_Ud_Din.pdf`. Preserve other creators’ names and notices. Confirm uncertain authorship or teaching context before assigning it. The [contribution guide](../CONTRIBUTING.md#file-names) defines the naming pattern.
 
-For a correction, record the affected filename and page or topic. When updating a PDF, describe the change in the pull request and check the replacement before removing the old working copy. Contact the author when the correction changes their explanation or credit.
+For files outside your own work, verify sharing permission before adding them. Keep private permission evidence out of public commits.
 
-## Conversations
+## Check before publishing
 
-Issues currently provide forms for notes requests, resource problems, and study questions. GitHub Discussions was confirmed disabled on 4 November 2026. The README therefore uses a working issue form for study conversations.
+Run `node docs/maintenance/check-resources.mjs`. It checks the flat layout, names, main README links, and whether the local intake folder is excluded from Git.
 
-When maintainers enable Discussions, use Q&A for study help and General for course or university conversations. Update the README, contribution guide, and issue chooser together, and retire the temporary study-question issue form. Do not advertise Discussions as active before checking it.
+Review `git status --short` and the exact files being staged. For an ordinary upload, stage only the new PDFs and the updated main README. A course folder appears automatically when its first file is committed; no placeholder README is needed.
 
-The official [GitHub Discussions setup guide](https://docs.github.com/en/discussions/quickstart) covers enabling the feature and categories. Keep discussions respectful, focused on learning, and free of private student information or restricted assessment material.
+Issue forms handle requests, corrections, and study questions. Do not advertise Discussions as active until it has been enabled and checked.
 
-## Growing the maintainer team
-
-Anyone can contribute through a pull request. Credit accepted work using the author's chosen name or label. Trusted contributors may later be invited to help review or maintain the repository; do not grant write access merely to display someone as a contributor.
-
-Maintainers should use pull requests for content changes too, and seek another maintainer's review when one is available. Before handing over a course or graduating, leave the current coverage, open requests, correction needs, and permission status in its guides or issues. Agree who will look after the queue, rather than relying on a private chat that future maintainers cannot see.
-
-## Existing material and missing details
-
-The reorganization preserves the existing PDFs and reference image unchanged. It does not certify their contents or grant new permissions. Where a separate permission record is missing, the set guide says so. Confirm these records with the authors; do not invent approval or silently assign a new license.
-
-Confirmed teacher names: Sir Hussain Saleem for SRE, Sir Fazal Ur Rehman for CPS, and Sir Dr M Sajid Khan for Urdu, supplied by Mahad. The earlier guides identify Miss Fozia Hanif for Linear Algebra and Sir Bari for the DLD revision guide. The teacher for the separate DLD handwritten sets and MCQ bank remains unrecorded.
-
-Some student authors, terms, programs, and credit preferences are still missing. Record them as they are confirmed. Do not treat a teacher's name in a filename as proof that the teacher wrote the notes.
-
-## Repository presentation
-
-Keep the root focused on finding notes and contributing. Put detailed procedures in the linked guides. A suitable GitHub About description is:
-
-> Student-made course notes and study guides for UBIT, organized by course, teacher, and notes set. Part of The UBIT Hub.
-
-Use topics that describe the actual collection. Check external links and the README in both themes when changing navigation or artwork.
-
-[Contribution guide](../CONTRIBUTING.md) · [Back to the notes bank](../README.md)
+[Main README](../README.md)

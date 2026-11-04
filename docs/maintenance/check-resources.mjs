@@ -3,10 +3,11 @@
 import { readdir, readFile, stat } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { execFileSync } from 'node:child_process';
 
 const root = fileURLToPath(new URL('../../', import.meta.url));
 const resourceRoot = path.join(root, 'resources');
-const ignored = new Set(['.git', 'node_modules', '.preview']);
+const ignored = new Set(['.git', 'node_modules', '.preview', 'incoming-notes', 'tmp']);
 const files = [];
 const errors = [];
 
@@ -67,17 +68,26 @@ for (const [file, source] of markdown) {
   }
 }
 
-const subjects = (await readdir(resourceRoot, { withFileTypes: true })).filter(entry => entry.isDirectory() && !entry.name.startsWith('.'));
+const subjects = (await readdir(resourceRoot, { withFileTypes: true }))
+  .filter(entry => entry.isDirectory() && !entry.name.startsWith('.'));
+const mainTargets = linkedTargets.get(path.join(root, 'README.md')) || new Set();
 for (const subject of subjects) {
-  const subjectPath = path.join(resourceRoot, subject.name);
-  try { await stat(path.join(subjectPath, 'README.md')); }
-  catch { errors.push(`Missing subject guide: resources/${subject.name}/README.md`); }
-  for (const index of [path.join(root, 'README.md'), path.join(resourceRoot, 'README.md')]) {
-    const targets = linkedTargets.get(index);
-    if (!targets?.has(subjectPath) && !targets?.has(path.join(subjectPath, 'README.md'))) {
-      errors.push(`Subject missing from ${path.relative(root, index)}: ${subject.name}`);
-    }
+  if (!mainTargets.has(path.join(resourceRoot, subject.name))) {
+    errors.push(`Course missing from main README: ${subject.name}`);
   }
+}
+
+const material = files.filter(file => {
+  const relative = path.relative(resourceRoot, file);
+  return !relative.startsWith('..') && !path.isAbsolute(relative) && /\.(pdf|png|jpe?g|webp|svg)$/i.test(file);
+});
+for (const file of material) {
+  const parts = path.relative(resourceRoot, file).split(path.sep);
+  if (parts.length !== 3) errors.push(`Use course/teacher/file placement: ${path.relative(root, file)}`);
+  if (!/^[A-Za-z0-9]+(?:_[A-Za-z0-9]+)*\.[a-z]+$/.test(path.basename(file))) {
+    errors.push(`Use descriptive words separated by underscores: ${path.relative(root, file)}`);
+  }
+  if (!mainTargets.has(file)) errors.push(`File missing from main README: ${path.relative(root, file)}`);
 }
 const pdfs = files.filter(file => /\.pdf$/i.test(file));
 for (const pdf of pdfs) {
@@ -85,60 +95,23 @@ for (const pdf of pdfs) {
   if (relative.startsWith('..') || path.isAbsolute(relative)) errors.push(`Study PDF outside resources/: ${path.relative(root, pdf)}`);
 }
 
-const material = files.filter(file => {
-  const relative = path.relative(resourceRoot, file);
-  return !relative.startsWith('..') && !path.isAbsolute(relative) && /\.(pdf|png|jpe?g|webp|svg)$/i.test(file);
-});
-const sets = new Map();
-for (const file of material) {
-  const parts = path.relative(resourceRoot, file).split(path.sep);
-  if (parts.length < 4) {
-    errors.push(`Resource needs course/teacher/set placement: ${path.relative(root, file)}`);
-    continue;
-  }
-  const setPath = path.join(resourceRoot, ...parts.slice(0, 3));
-  const setFiles = sets.get(setPath) || [];
-  setFiles.push(file);
-  sets.set(setPath, setFiles);
-}
-const requiredFields = ['Teacher', 'Notes by', 'Course code', 'Program, section, term/year', 'Programming language', 'Coverage'];
-for (const [setPath, setFiles] of sets) {
-  const teacherPath = path.dirname(setPath);
-  const coursePath = path.dirname(teacherPath);
-  const setGuide = path.join(setPath, 'README.md');
-  const text = markdown.get(setGuide);
-  if (!text) {
-    errors.push(`Missing notes-set guide: ${path.relative(root, setGuide)}`);
-    continue;
-  }
-  for (const field of requiredFields) {
-    if (!text.includes(`**${field}:**`)) errors.push(`Missing ${field} in ${path.relative(root, setGuide)}`);
-  }
-  for (const guide of [path.join(teacherPath, 'README.md'), path.join(coursePath, 'README.md')]) {
-    if (!markdown.has(guide)) errors.push(`Missing guide: ${path.relative(root, guide)}`);
-    const targets = linkedTargets.get(guide);
-    if (!targets?.has(setPath) && !targets?.has(setGuide)) {
-      errors.push(`Set missing from ${path.relative(root, guide)}: ${path.basename(setPath)}`);
-    }
-  }
-  for (const file of setFiles) {
-    if (!linkedTargets.get(setGuide)?.has(file)) errors.push(`Unlisted file in notes-set guide: ${path.relative(root, file)}`);
-    if (!linkedTargets.get(path.join(coursePath, 'README.md'))?.has(file)) {
-      errors.push(`Course guide needs a direct resource link: ${path.relative(root, file)}`);
-    }
-  }
-}
-
-const inventory = markdown.get(path.join(root, 'README.md'))?.match(/\*\*(\d+) subjects · (\d+) PDFs/);
-if (!inventory || Number(inventory[1]) !== subjects.length || Number(inventory[2]) !== pdfs.length) {
-  errors.push(`README inventory disagrees with files: found ${subjects.length} subjects and ${pdfs.length} PDFs.`);
+// Confirm that a normal git add cannot collect the local inbox or previews.
+try {
+  const gitArgs = ['-c', `safe.directory=${root.replaceAll('\\', '/').replace(/\/$/, '')}`];
+  const localPaths = ['incoming-notes/check.pdf', 'tmp/check.png'];
+  const excluded = execFileSync('git', [...gitArgs, 'check-ignore', '--no-index', ...localPaths], { cwd: root, encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] }).trim().split(/\r?\n/);
+  for (const file of localPaths) if (!excluded.includes(file)) errors.push(`Local path is not ignored: ${file}`);
+  const tracked = execFileSync('git', [...gitArgs, 'ls-files', '--', 'incoming-notes', 'tmp'], { cwd: root, encoding: 'utf8' }).trim();
+  if (tracked) errors.push('Local-only files are tracked by Git: ' + tracked);
+} catch {
+  errors.push('Could not confirm Git ignores incoming-notes/ and tmp/. Run this check inside the Git checkout.');
 }
 
 console.log(`Checked ${markdownFiles.length} Markdown files and ${references} local references.`);
-console.log(`Resources: ${subjects.length} subjects, ${pdfs.length} PDFs, ${sets.size} notes/resource sets.`);
+console.log(`Resources: ${subjects.length} subjects, ${pdfs.length} PDFs, ${material.length} material files.`);
 if (errors.length) {
   console.error(errors.join('\n'));
   process.exitCode = 1;
 } else {
-  console.log('All local references, course/teacher/set guides, index entries, metadata fields, inventory counts, and resource locations are valid.');
+  console.log('Main README links, filenames, flat course/teacher layout, and local-folder exclusions are valid.');
 }

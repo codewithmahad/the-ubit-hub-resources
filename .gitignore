@@ -1,0 +1,5 @@
+# Local drop-off folder for new notes and their original scans.
+/incoming-notes/
+
+# Local inspection and preview files.
+/tmp/

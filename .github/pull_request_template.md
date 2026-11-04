@@ -1,27 +1,15 @@
-## What are you sharing or changing?
+## What are you adding or correcting?
 
-Describe the notes, their coverage, or the correction. Mention partial coverage and missing pages.
-
-## Course context
-
-- Course and code:
+- Course:
 - Teacher (Sir or Miss with the name; retain Dr where applicable):
-- Notes by (name, alias, or no public author credit):
-- Program, section, term/year:
-- Programming language, if relevant:
-- New set, update, or correction:
+- Author or source and preferred credit:
+- Topics covered, missing material, and programming language if relevant:
+- Sharing permission:
 
-Write Not recorded for unknown details and Not applicable where appropriate.
+## Check before submitting
 
-## Source and permission
-
-Who made this material, and what permits this repository to host and share it? Record the requested public credit and reuse terms. If permission was verified privately, refer to that review without posting private messages.
-
-## Ready for review
-
-- [ ] I created this material or have permission to share it, including any third-party content.
-- [ ] I checked the PDF for readable pages, correct order, and private information.
-- [ ] The notes-set guide describes the coverage, context, source, and credit.
-- [ ] The teacher and course guides link to the set and its files.
-- [ ] I updated the root counts and course indexes if needed.
-- [ ] I checked the links, or explained where I need a maintainer's help.
+- [ ] The files are readable, ordered correctly, and free of private information.
+- [ ] I made this material or have permission to redistribute it.
+- [ ] The files are directly inside the correct course/teacher folder.
+- [ ] Filenames describe the contents and preserve the right author credit.
+- [ ] I added or updated the file links in the main README.
