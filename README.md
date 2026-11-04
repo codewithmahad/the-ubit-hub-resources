@@ -33,6 +33,10 @@ Choose your course and check the teacher before opening a file. Each teacher’s
 - **[Applied Physics](./resources/applied-physics/)** · Sir Zeeshan Abbas<br>
   [My handwritten notes](./resources/applied-physics/sir-zeeshan-abbas/Applied_Physics_Handwritten_Notes_Shaikh_Mahad.pdf)
 
+- **[Artificial Intelligence](./resources/artificial-intelligence/)** · Prof. Dr. S. M. Aqil Burney<br>
+  My handwritten notes: [Chapter 2 · Intelligent agents](./resources/artificial-intelligence/prof-dr-s-m-aqil-burney/notes/AI_Chapter_02_Intelligent_Agents_Handwritten_Notes_Shaikh_Mahad.pdf) · [Chapter 3 · Solving problems by searching](./resources/artificial-intelligence/prof-dr-s-m-aqil-burney/notes/AI_Chapter_03_Solving_Problems_by_Searching_Handwritten_Notes_Shaikh_Mahad.pdf)<br>
+  My handwritten assignment solutions: [Chapter 1](./resources/artificial-intelligence/prof-dr-s-m-aqil-burney/assignments/AI_Chapter_01_Handwritten_Assignment_Solutions_Shaikh_Mahad.pdf) · [Chapter 2](./resources/artificial-intelligence/prof-dr-s-m-aqil-burney/assignments/AI_Chapter_02_Handwritten_Assignment_Solutions_Shaikh_Mahad.pdf) · [Chapters 3 to 4](./resources/artificial-intelligence/prof-dr-s-m-aqil-burney/assignments/AI_Chapters_03_to_04_Handwritten_Assignment_Solutions_Shaikh_Mahad.pdf)
+
 - **[Communication & Presentation Skills](./resources/communication-and-presentation-skills/)** · Sir Fazal Ur Rehman<br>
   [Typed exam preparation notes](./resources/communication-and-presentation-skills/sir-fazal-ur-rehman/CPS_Typed_Exam_Preparation_Notes_Shaikh_Mahad.pdf)
 
@@ -53,7 +57,7 @@ Choose your course and check the teacher before opening a file. Each teacher’s
 
   **Assignments**
 
-  - **01 · OS structure:** [Questions](./resources/operating-systems/miss-nazish-imran/assignments/OS_Assignment_01_OS_Structure_Questions.pdf) · [My solutions](./resources/operating-systems/miss-nazish-imran/assignments/OS_Assignment_01_OS_Structure_Solutions_Shaikh_Mahad.pdf)
+  - **01 · OS structure:** [My solutions](./resources/operating-systems/miss-nazish-imran/assignments/OS_Assignment_01_OS_Structure_Solutions_Shaikh_Mahad.pdf)
   - **02 · CPU scheduling:** [Questions](./resources/operating-systems/miss-nazish-imran/assignments/OS_Assignment_02_CPU_Scheduling_Questions.pdf) · [My solutions](./resources/operating-systems/miss-nazish-imran/assignments/OS_Assignment_02_CPU_Scheduling_Solutions_Shaikh_Mahad.pdf)
   - **03 · Process synchronization:** [My handwritten solutions](./resources/operating-systems/miss-nazish-imran/assignments/OS_Assignment_03_Process_Synchronization_Handwritten_Solutions_Shaikh_Mahad.pdf)
 
