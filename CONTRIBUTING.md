@@ -4,7 +4,7 @@ Readable notes, worked assignments, lab solutions, practice questions, and revis
 
 ## Where files go
 
-Use `resources/<course>/<teacher>/<file>.pdf`. Put all material used for the same course and teacher directly in that folder. Reuse existing folders; do not add author, notes-set, or material-type subfolders, and do not create extra READMEs.
+Start with `resources/<course>/<teacher>/`. For a few files, keep them directly in the teacher’s folder. When a course has several kinds of material, group them into `notes/`, `assignments/`, and `labs/` so students can find what they need. Use `outlines/`, `practice/`, or `references/` when needed. Keep assignment questions and solutions together, with their number in each filename. Reuse existing folders; do not add author folders, folders for individual assignments, or extra READMEs.
 
 Use respectful teacher names such as `sir-hussain-saleem`, `miss-fozia-hanif`, and `sir-dr-m-sajid-khan`. Ask if the teacher is unknown. `general/` is only for an independent resource that is not tied to a particular teacher.
 
@@ -24,7 +24,7 @@ The DBMS and Java examples show the naming pattern; they are not currently avail
 ## Add your material
 
 1. Check the [main README](./README.md) for the course and teacher.
-2. Fork the repository and upload the file directly into the matching teacher folder.
+2. Fork the repository and upload the file into the matching teacher folder, using its material-type subfolder when present.
 3. Add a short, descriptive PDF link under that course in the main README’s dropdown. No other index or README is needed.
 4. Open a pull request with the course, teacher, coverage, author or source, and sharing permission. Include the program, term, or programming language when relevant.
 

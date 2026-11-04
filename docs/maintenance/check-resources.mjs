@@ -83,7 +83,10 @@ const material = files.filter(file => {
 });
 for (const file of material) {
   const parts = path.relative(resourceRoot, file).split(path.sep);
-  if (parts.length !== 3) errors.push(`Use course/teacher/file placement: ${path.relative(root, file)}`);
+  const categories = new Set(['notes', 'assignments', 'labs', 'outlines', 'practice', 'references']);
+  if (!(parts.length === 3 || (parts.length === 4 && categories.has(parts[2])))) {
+    errors.push(`Use course/teacher/file or course/teacher/material-type/file placement: ${path.relative(root, file)}`);
+  }
   if (!/^[A-Za-z0-9]+(?:_[A-Za-z0-9]+)*\.[a-z]+$/.test(path.basename(file))) {
     errors.push(`Use descriptive words separated by underscores: ${path.relative(root, file)}`);
   }
@@ -113,5 +116,5 @@ if (errors.length) {
   console.error(errors.join('\n'));
   process.exitCode = 1;
 } else {
-  console.log('Main README links, filenames, flat course/teacher layout, and local-folder exclusions are valid.');
+  console.log('Main README links, filenames, course/teacher organization, and local-folder exclusions are valid.');
 }

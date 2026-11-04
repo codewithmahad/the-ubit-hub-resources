@@ -45,6 +45,32 @@ Choose your course and check the teacher before opening a file. Each teacher’s
 - **[Linear Algebra](./resources/linear-algebra/)** · Miss Fozia Hanif<br>
   [Typed exam notes and worked solutions](./resources/linear-algebra/miss-fozia-hanif/Linear_Algebra_Typed_Exam_Notes_and_Worked_Solutions_Shaikh_Mahad.pdf)
 
+- **[Operating Systems](./resources/operating-systems/)** · Miss Nazish Imran<br>
+  [My handwritten process management notes](./resources/operating-systems/miss-nazish-imran/notes/OS_Process_Management_Handwritten_Notes_Shaikh_Mahad.pdf)
+
+  <details>
+  <summary>Assignment questions, my solutions, and Labs 01 to 06</summary>
+
+  **Assignments**
+
+  - **01 · OS structure:** [Questions](./resources/operating-systems/miss-nazish-imran/assignments/OS_Assignment_01_OS_Structure_Questions.pdf) · [My solutions](./resources/operating-systems/miss-nazish-imran/assignments/OS_Assignment_01_OS_Structure_Solutions_Shaikh_Mahad.pdf)
+  - **02 · CPU scheduling:** [Questions](./resources/operating-systems/miss-nazish-imran/assignments/OS_Assignment_02_CPU_Scheduling_Questions.pdf) · [My solutions](./resources/operating-systems/miss-nazish-imran/assignments/OS_Assignment_02_CPU_Scheduling_Solutions_Shaikh_Mahad.pdf)
+  - **03 · Process synchronization:** [My handwritten solutions](./resources/operating-systems/miss-nazish-imran/assignments/OS_Assignment_03_Process_Synchronization_Handwritten_Solutions_Shaikh_Mahad.pdf)
+
+  **Lab solutions**
+
+  - [01 · Introduction to operating systems](./resources/operating-systems/miss-nazish-imran/labs/OS_Lab_01_Introduction_to_Operating_Systems_Solutions_Shaikh_Mahad.pdf)
+  - [02 · Linux installation](./resources/operating-systems/miss-nazish-imran/labs/OS_Lab_02_Linux_Installation_Solutions_Shaikh_Mahad.pdf)
+  - [03 · File and directory operations](./resources/operating-systems/miss-nazish-imran/labs/OS_Lab_03_File_and_Directory_Operations_Solutions_Shaikh_Mahad.pdf)
+  - [04 · File permissions and ownership](./resources/operating-systems/miss-nazish-imran/labs/OS_Lab_04_File_Permissions_and_Ownership_Solutions_Shaikh_Mahad.pdf)
+  - [05 · Shell scripting](./resources/operating-systems/miss-nazish-imran/labs/OS_Lab_05_Shell_Scripting_Solutions_Shaikh_Mahad.pdf)
+  - [06 · Bash conditions and loops](./resources/operating-systems/miss-nazish-imran/labs/OS_Lab_06_Bash_Conditions_and_Loops_Solutions_Shaikh_Mahad.pdf)
+
+  </details>
+
+- **[Software Design & Architecture](./resources/software-design-and-architecture/)** · Sir Hussain Saleem<br>
+  My handwritten portfolio: [Weeks 1 to 4](./resources/software-design-and-architecture/sir-hussain-saleem/SDA_Handwritten_Portfolio_Weeks_01_to_04_Shaikh_Mahad.pdf) · [Weeks 10 to 14](./resources/software-design-and-architecture/sir-hussain-saleem/SDA_Handwritten_Portfolio_Weeks_10_to_14_Shaikh_Mahad.pdf)
+
 - **[Software Requirement Engineering](./resources/software-requirement-engineering/)** · Sir Hussain Saleem<br>
   [My typed study notes](./resources/software-requirement-engineering/sir-hussain-saleem/SRE_Typed_Study_Notes_Shaikh_Mahad.pdf) · [My handwritten notes](./resources/software-requirement-engineering/sir-hussain-saleem/SRE_Handwritten_Lecture_Notes_Shaikh_Mahad.pdf) · [Course outline](./resources/software-requirement-engineering/sir-hussain-saleem/SRE_Course_Outline_2026.pdf) · [Lecture notes (Technistry Lab)](./resources/software-requirement-engineering/sir-hussain-saleem/SRE_Typed_Lecture_Notes_Technistry_Lab.pdf)
 
@@ -102,19 +128,18 @@ If you made notes that helped you understand a course, someone else could use th
 <details>
 <summary><strong>How the notes are organized</strong></summary>
 
-There are just two folder levels inside `resources/`:
+Start with the course, then the teacher. Larger collections separate notes, assignments, and labs:
 
 ```text
 resources/
-└── course-name/
-    └── sir-or-miss-teacher-name/
-        ├── Course_Typed_Notes_Author.pdf
-        ├── Course_Handwritten_Notes_Author.pdf
-        ├── Course_Assignment_01_Author.pdf
-        └── Course_Outline.pdf
+└── operating-systems/
+    └── miss-nazish-imran/
+        ├── notes/
+        ├── assignments/
+        └── labs/
 ```
 
-Notes, assignments, lab work, revision guides, and outlines used for the same course stay directly inside that teacher’s folder. There are no author folders or extra README files to open. Independent resources, such as the DSA roadmap, use `general/`.
+Courses with only a few files keep them directly in the teacher’s folder. For larger collections, choose the material type, then the file. Assignment questions and solutions stay together, with matching numbers in their names. There are no author folders or extra README files to open. Independent resources, such as the DSA roadmap, use `general/`.
 
 My own files end with `_Shaikh_Mahad.pdf` so the credit stays with them when they’re shared. Other authors keep their own credit. See the [file-naming guide](./CONTRIBUTING.md#file-names) before adding material.
 
